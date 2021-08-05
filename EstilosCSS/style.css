@@ -1,6 +1,75 @@
-h1{
-    color: black;
+*{
+    margin: 0;
+}
+.hero h1{
+    color: white;
+    font-size: 2rem;
 }
 body{
-    background-color: wheat;
+    background-color: #bfb7ac;
+}
+header{
+    position: fixed;
+    z-index: 10;
+    height: 120px;
+    width: 100%;
+    top: 0;
+    left:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    padding-left: 5px;
+}
+.logo{
+    width: 100px;
+    height: auto;
+    border-radius: 100px;
+    border: 2px solid #ecebe0;
+    object-fit: contain;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 50px;
+    flex-direction: row;
+}
+ul li {
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+    background-color: #bfb7ac;
+    border-radius: 15px 0px 15px 0px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+a:hover{
+    background-color: #7514ca94;
+}
+.hero{
+    height: 70vh;
+    background-color: #ff9d00;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23ff9d00' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23fb8d17' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23f47d24' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23ed6e2d' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23e35f34' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23d85239' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23cc453e' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23be3941' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23b02f43' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23a02644' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23901e44' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23801843' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%236f1341' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%235e0f3d' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%234e0c38' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%233e0933' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%232e062c' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23210024' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+}
+.catalogo{
+    height: 100vh;
+}
+.hero-content{
+    margin-right: 3rem
+}
+.hero-image img{
+    width: 30rem;
+    height: auto;
 }
