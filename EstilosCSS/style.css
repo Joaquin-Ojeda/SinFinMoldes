@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     margin: 0;
 }
@@ -129,4 +130,45 @@ main{
 footer{
     padding: 20px;
     background-color: pink;
+}
+.categoria{
+    margin: 0px 15px;
+    padding: 10px;
+    background-color: #f8c0e5;
+    border-radius: 30px;
+}
+.main-categoria{
+    text-align: center;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.sub{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+.categoria2{
+    margin: 0px 15px;
+    padding: 10px;
+    background-color: #ffd3f5;
+    border-radius: 30px;
+}
+.articulo{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.descripcion{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    
+}
+.par{
+    background-color: #bdd9ff;
+}
+.impar{
+    background-color: #dadbff;
 }
