@@ -14,7 +14,7 @@ body{
     font-size: 2rem;
 }
 body{
-    background-color: #bfb7ac;
+    background-color: #fafafa;
 }
 header{
     position: fixed;
@@ -27,7 +27,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: pink;
+    background-color: rgb(253, 224, 229);
     padding-left: 5px;
     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
     min-height: 50px;
@@ -65,9 +65,9 @@ a:hover{
 }
 .hero{
     width: 100%;
-    height: 70vh;
+    height: 140vh;
     background-color: #cdb4db;
-    background-image: url(/SinFinMoldes/Images/hero-fondo2.jpg);
+    background-image: url(/Images/hero-fondo.jpg);
     background-size: cover;
     display: flex;
     flex-direction: row;
@@ -76,6 +76,19 @@ a:hover{
     flex-wrap: wrap;
     padding-top: 10rem;
 }
+
+.hero-description1{
+    color: #ffffff;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #001d3d;
+}
+.hero-description2{
+    color: #ffffff;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 main{
     flex: 1;
     display: flex;
@@ -87,6 +100,8 @@ main{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
 }
 .hero-content{
     margin-right: 3rem
@@ -94,7 +109,7 @@ main{
 .hero-image{
     width: 30%;
     height: auto;
-    min-width: 200px;
+    min-width: 300px;
 }
 .hero-image img{
     width: 100%;
@@ -109,6 +124,7 @@ main{
     flex-direction: column;
     background-color: #ffc8dd;
     margin: 50px;
+    margin-top: 100px;
     border: 2px solid black;
     min-width: 200px;
 }
@@ -132,10 +148,10 @@ footer{
     background-color: pink;
 }
 .categoria{
-    margin: 0px 15px;
     padding: 10px;
     background-color: #f8c0e5;
     border-radius: 30px;
+    width: 100%;
 }
 .main-categoria{
     text-align: center;
@@ -153,10 +169,10 @@ footer{
     
 }
 .categoria2{
-    margin: 0px 15px;
     padding: 10px;
     background-color: #ffd3f5;
     border-radius: 30px;
+    width: 100%;
 }
 .articulo{
     display:flex;
@@ -179,4 +195,16 @@ footer{
 .cajas{
     visibility: hidden;
     display: none;
+}
+
+.articulo img{
+    min-width: 100px;
+}
+
+.contenido{
+    padding-left: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

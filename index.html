@@ -13,16 +13,16 @@
             <img src="Images/Logo.jpg" alt="Sin Fin Logo" class="logo"/>
         <nav>
             <ul>
-                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#hero">Inicio</a></li>
                 <li><a href="#catalogo">Catálogo</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="hero">
+        <section class="hero" id="hero">
             <div class="hero-content">
-                <h1>Bienvenidos a Moldes Sin Fin</h1>
-                <h3>Vendemos moldes e impresiones en 3d</h2>
+                <h2 class="hero-description1">Bienvenidos a Moldes Sin Fin</h2>
+                <h3 class="hero-description2">Vendemos moldes e impresiones en 3d</h2>
             </div>
             <div class="hero-image">
                 <img src="Images/hero-image.jpg" alt="hero-image"/>
@@ -31,7 +31,7 @@
         <section class="catalogo" id="catalogo">
                 <div class="catalogo-card">
                     <img src="Images/Logo.jpg"/>
-                    <a href="plantilla.html">Moldes de Silicona</a>
+                    <a href="#moldesDeSilicona">Moldes de Silicona</a>
                 </div>
                 <div class="catalogo-card">
                     <img src="Images/Logo.jpg"/>
@@ -45,13 +45,16 @@
     </main>
     <div>
         <div class="categoria">
-            <p class="main-categoria">Moldes de Silicona</p>
+            <p class="main-categoria" id="moldesDeSilicona">Moldes de Silicona</p>
             <div class="categoria2">
                 <button onclick="divLogin('1')" class="sub">Pajaritos</button>
                 <div id="caja1" class="cajas">
                     <div class="articulo impar">
                         <img src="Images/Logo.jpg" class="hero-image">
-                        <p class="descripcion">Molde 01 : $1000</p>
+                        <div class="contenido">
+                            <p class="descripcion">Molde 01</p>
+                            <p class="descripcion">$1000</p>
+                        </div>
                     </div>
                     <div class="articulo par">
                         <p class="descripcion">Molde 02 : $1000</p>
