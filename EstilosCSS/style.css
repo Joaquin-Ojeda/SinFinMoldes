@@ -65,7 +65,7 @@ a:hover{
 }
 .hero{
     width: 100%;
-    height: 140vh;
+    height: 160vh;
     background-color: #cdb4db;
     background-image: url(/Images/hero-fondo.jpg);
     background-size: cover;
