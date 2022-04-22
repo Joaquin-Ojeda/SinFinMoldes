@@ -9,7 +9,7 @@ function cargarProductos(tipo){
             par=!par;
         } 
     }
-    document.getElementById("pajaritos").innerHTML=productosHTML;
+    document.getElementById(tipo).innerHTML=productosHTML;
 }
 
 function crearProductoHTML(producto,par){
@@ -40,3 +40,4 @@ function crearProductoHTML(producto,par){
     return productoHTML;
 }
 cargarProductos("pajarito");
+cargarProductos("mariposa");
