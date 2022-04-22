@@ -50,20 +50,8 @@
                 <div class="categoria2">
                     <button onclick="divLogin('1')" class="sub">Pajaritos</button>
                     <div id="caja1" class="cajas">
-                        <div class="articulo impar">
-                            <img src="Images/Logo.jpg" class="hero-image">
-                            <div class="contenido">
-                                <p class="descripcion">Molde 01</p>
-                                <p class="descripcion">$1000</p>
-                            </div>
-                        </div>
-                        <div class="articulo par">
-                            <p class="descripcion">Molde 02 : $1000</p>
-                            <img src="Images/Logo.jpg" class="hero-image">
-                        </div>
-                        <div class="articulo impar">
-                            <img src="Images/Logo.jpg" class="hero-image">
-                            <p class="descripcion">Molde 03 : $1000</p>
+                        <div id="pajaritos">
+                            
                         </div>
                         <button onclick="divLogin('1')" class="sub">W</button>
                     </div>
@@ -74,15 +62,27 @@
                     <div id="caja2" class="cajas">
                         <div class="articulo impar">
                             <img src="Images/Logo.jpg" class="hero-image">
-                            <p class="descripcion">Molde 01 : $1000</p>
+                            <div class="contenido">
+                                <p class="descripcion">Molde 01</p>
+                                <p class="descripcion">Medidas:<p>10x10cm</p></p>
+                                <p class="descripcion">Precio:<p>$1000</p></p>
+                            </div>
                         </div>
                         <div class="articulo par">
-                            <p class="descripcion">Molde 02 : $1000</p>
+                            <div class="contenido">
+                                <p class="descripcion">Molde 01</p>
+                                <p class="descripcion">Medidas: <p>10x10cm</p></p>
+                                <p class="descripcion">Precio:<p>$1000</p></p>
+                            </div>
                             <img src="Images/Logo.jpg" class="hero-image">
                         </div>
                         <div class="articulo impar">
                             <img src="Images/Logo.jpg" class="hero-image">
-                            <p class="descripcion">Molde 03 : $1000</p>
+                            <div class="contenido">
+                                <p class="descripcion">Molde 01</p>
+                                <p class="descripcion">Medidas: <p>10x10cm</p></p>
+                                <p class="descripcion">Precio:<p>$1000</p></p>
+                            </div>
                         </div>
                         <button onclick="divLogin('2')" class="sub">W</button>
                     </div>
@@ -293,5 +293,8 @@
     </footer>
 
     <script src="JavaScript/app.js"></script>
+    <script src="JavaScript/Producto.js"></script>
+    <script src="JavaScript/Productos.js"></script>
+    <script type="module" src="JavaScript/Carga.js"></script>
 </body>
 </html>
