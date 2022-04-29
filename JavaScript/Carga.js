@@ -1,5 +1,3 @@
-console.log(productos);
-
 function cargarProductos(tipo){
     let productosHTML="";
     let par=false;
@@ -21,18 +19,22 @@ function crearProductoHTML(producto,par){
                 <p class="descripcion">${producto.descripcion}</p>
                 <p class="descripcion">Medidas: <p>${producto.medidas}</p></p>
                 <p class="descripcion">Precio:<p>${producto.valor}</p></p>
+                <br/>
+                <button class="agregarCarrito">Agregar al carrito <ion-icon name="cart-outline"></ion-icon></button>
         </div>
-        <img src="Images/Logo.jpg" class="hero-image">
+        <img src="${producto.imagen}" class="hero-image">
         </div>
         ` 
     }else{
         productoHTML=`
         <div class="articulo impar">
-        <img src="Images/Logo.jpg" class="hero-image">
+        <img src="${producto.imagen}">
         <div class="contenido">
             <p class="descripcion">${producto.descripcion}</p>
             <p class="descripcion">Medidas:<p>${producto.medidas}</p></p>
             <p class="descripcion">Precio:<p>${producto.valor}</p></p>
+            <br/>
+            <button class="agregarCarrito">Agregar al carrito <ion-icon name="cart-outline"></ion-icon></button>
         </div>
         </div>
         `
@@ -40,4 +42,21 @@ function crearProductoHTML(producto,par){
     return productoHTML;
 }
 cargarProductos("pajarito");
+cargarProductos("flor");
+cargarProductos("esquinero");
+cargarProductos("decoracion");
 cargarProductos("mariposa");
+cargarProductos("patita");
+cargarProductos("maceta");
+cargarProductos("medallon");
+cargarProductos("cerradura");
+cargarProductos("llave");
+cargarProductos("navidad");
+cargarProductos("pascua");
+cargarProductos("tapa");
+cargarProductos("pl");
+cargarProductos("plp");
+cargarProductos("mayolica");
+cargarProductos("rodillo");
+cargarProductos("manija");
+cargarProductos("tapaF");
