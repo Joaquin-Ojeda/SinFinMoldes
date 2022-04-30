@@ -6,6 +6,5 @@ function divLogin(num){
     else{
         document.getElementById("caja"+num).style.visibility="visible";
         document.getElementById("caja"+num).style.display="block";
-
     }
 }

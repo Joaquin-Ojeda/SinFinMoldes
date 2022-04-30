@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moldes Sin Fin</title>
-    <link href="EstilosCSS/style.css" rel="stylesheet"/>
+    <link href="EstilosCSS/style.css" rel="stylesheet" />
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
-            <img src="Images/Logo.jpg" alt="Sin Fin Logo" class="logo"/>
+        <img src="Images/Logo.jpg" alt="Sin Fin Logo" class="logo" />
         <nav>
             <ul>
                 <li><a href="#hero">Inicio</a></li>
-                <li><a>Trabajos</a></li>
+                <li><a href="#trabajos">Trabajos</a></li>
                 <li><a href="#moldesDeSilicona">Catálogo</a></li>
                 <li><a>Lugares de venta</a></li>
-                <li><a ><ion-icon name="cart-outline"></ion-icon></a></li>
+                <li><a>
+                        <ion-icon name="cart-outline"></ion-icon>
+                    </a></li>
             </ul>
         </nav>
     </header>
@@ -28,163 +32,250 @@
                 <h3 class="hero-description2">Vendemos moldes e impresiones en 3d</h2>
             </div>
             <div class="hero-image">
-                <img src="Images/hero-image.jpg" alt="hero-image"/>
+                <img src="Images/hero-image.jpg" alt="hero-image" />
             </div>
         </section>
-        <section class="catalogo" id="catalogo">
-                <div class="catalogo-card">
-                    <img src="Images/Logo.jpg"/>
-                    <a href="#moldesDeSilicona" onclick="divLogin('moldes-silicona')">Moldes de Silicona</a>
-                </div>
-                <div class="catalogo-card">
-                    <img src="Images/Logo.jpg"/>
-                    <a>Placas</a>
-                </div>
-                <div class="catalogo-card">
-                    <img src="Images/Logo.jpg"/>
-                    <a>Accesorios 3D</a>
-                </div>
+        <h2 class="titulo"><ion-icon name="rose-outline"></ion-icon>Galeria de trabajos<ion-icon name="rose-outline"></ion-icon></h2>
+        <span class="linea"></span>
+        <section class="galeria" id="trabajos">
+            
+            <a href="#image1">
+                <img class="img1"  class="img1" src="Images/Trabajos/trabajo1.jpg" alt=""/>
+            </a>
+            <a href="#image2">
+                <img class="img2"  src="Images/Trabajos/trabajo2.jpg" alt=""/>
+            </a>
+            <a href="#image3">
+                <img class="img3"  src="Images/Trabajos/trabajo3.jpg" alt=""/>
+            </a>
+            <a href="#image4">
+                <img class="img4"  src="Images/Trabajos/trabajo4.jpg" alt=""/>
+            </a>
+            <a href="#image5">
+                <img class="img5"  src="Images/Trabajos/trabajo5.jpg" alt=""/>
+            </a>
+            <a href="#image6">
+                <img class="img6"  src="Images/Trabajos/trabajo6.jpg" alt=""/>
+            </a>
+
         </section>
+
+        <article class="light-box" id="image1">
+            <a href="#image6" class="next"><ion-icon name="arrow-undo-outline"></ion-icon></a>
+            <img src="Images/Trabajos/trabajo1.jpg" alt="">
+            <a href="#image2" class="next"><ion-icon name="arrow-redo-outline"></ion-icon></a>
+            <a href="#img1" class="close">X</a>
+        </article>
+
+        <article class="light-box" id="image2">
+            <a href="#image1" class="next"><ion-icon name="arrow-undo-outline"></ion-icon></a>
+            <img src="Images/Trabajos/trabajo2.jpg" alt="">
+            <a href="#image3" class="next"><ion-icon name="arrow-redo-outline"></ion-icon></a>
+            <a href="#img1" class="close">X</a>
+        </article>
+
+        <article class="light-box" id="image3">
+            <a href="#image2" class="next"><ion-icon name="arrow-undo-outline"></ion-icon></a>
+            <img src="Images/Trabajos/trabajo3.jpg" alt="">
+            <a href="#image4" class="next"><ion-icon name="arrow-redo-outline"></ion-icon></a>
+            <a href="#img1" class="close">X</a>
+        </article>
+
+        <article class="light-box" id="image4">
+            <a href="#image3" class="next"><ion-icon name="arrow-undo-outline"></ion-icon></a>
+            <img src="Images/Trabajos/trabajo4.jpg" alt="">
+            <a href="#image5" class="next"><ion-icon name="arrow-redo-outline"></ion-icon></a>
+            <a href="#img1" class="close">X</a>
+        </article>
+
+        <article class="light-box" id="image5">
+            <a href="#image4" class="next"><ion-icon name="arrow-undo-outline"></ion-icon></a>
+            <img src="Images/Trabajos/trabajo5.jpg" alt="">
+            <a href="#image6" class="next"><ion-icon name="arrow-redo-outline"></ion-icon></a>
+            <a href="#img1" class="close">X</a>
+        </article>
+
+        <article class="light-box" id="image6">
+            <a href="#image5" class="next"><ion-icon name="arrow-undo-outline"></ion-icon></a>
+            <img src="Images/Trabajos/trabajo6.jpg" alt="">
+            <a href="#image1" class="next"><ion-icon name="arrow-redo-outline"></ion-icon></a>
+            <a href="#img1" class="close">X</a>
+        </article>
+
     </main>
     <div>
         <div class="categoria">
-            <button onclick="divLogin('moldes-silicona')" class="sub">   <p class="main-categoria" id="moldesDeSilicona">Moldes de Silicona</p> </button>
+            <button onclick="divLogin('moldes-silicona')" class="sub">
+                <p class="main-categoria" id="moldesDeSilicona">Moldes de Silicona</p>
+            </button>
             <div id="cajamoldes-silicona" class="cajas">
-                <div class="categoria2">
+                <div class="subCategoria2">
                     <button onclick="divLogin('1')" class="sub">Pajaritos</button>
                     <div id="caja1" class="cajas">
                         <div id="pajarito">
 
                         </div>
-                        <button onclick="divLogin('1')" class="sub"><ion-icon name="arrow-up-outline"></ion-icon></button>
+                        <button onclick="divLogin('1')" class="sub">
+                            <ion-icon name="arrow-up-outline"></ion-icon>
+                        </button>
                     </div>
-                    
+
                 </div>
-                <div class="categoria">
+                <div class="subCategoria">
                     <button onclick="divLogin('2')" class="sub">Flores</button>
                     <div id="caja2" class="cajas">
                         <div id="flor">
-                        
+
                         </div>
-                        <button onclick="divLogin('2')" class="sub"><ion-icon name="arrow-up-outline"></ion-icon></button>
+                        <button onclick="divLogin('2')" class="sub">
+                            <ion-icon name="arrow-up-outline"></ion-icon>
+                        </button>
                     </div>
-                    
+
                 </div>
-                <div class="categoria2">
+                <div class="subCategoria2">
                     <button onclick="divLogin('3')" class="sub">Esquineros</button>
                     <div id="caja3" class="cajas">
                         <div id="esquinero">
 
-                        </div>   
-                        <button onclick="divLogin('3')" class="sub"><ion-icon name="arrow-up-outline"></ion-icon></button>
+                        </div>
+                        <button onclick="divLogin('3')" class="sub">
+                            <ion-icon name="arrow-up-outline"></ion-icon>
+                        </button>
                     </div>
-                    
+
                 </div>
-                <div class="categoria">
+                <div class="subCategoria">
                     <button onclick="divLogin('4')" class="sub">Decoracion</button>
                     <div id="caja4" class="cajas">
                         <div id="decoracion">
 
                         </div>
-                            <button onclick="divLogin('4')" class="sub"><ion-icon name="arrow-up-outline"></ion-icon></button>
-                        </div>
-                    
+                        <button onclick="divLogin('4')" class="sub">
+                            <ion-icon name="arrow-up-outline"></ion-icon>
+                        </button>
+                    </div>
+
                 </div>
-                <div class="categoria2">
+                <div class="subCategoria2">
                     <button onclick="divLogin('5')" class="sub">Mariposas</button>
                     <div id="caja5" class="cajas">
                         <div id="mariposa">
 
                         </div>
-                        <button onclick="divLogin('5')" class="sub"><ion-icon name="arrow-up-outline"></ion-icon></button>
+                        <button onclick="divLogin('5')" class="sub">
+                            <ion-icon name="arrow-up-outline"></ion-icon>
+                        </button>
                     </div>
-                
+
                 </div>
-                <div class="categoria">
+                <div class="subCategoria">
                     <button onclick="divLogin('6')" class="sub">Patitas</button>
                     <div id="caja6" class="cajas">
                         <div id="patita">
 
                         </div>
-                        <button onclick="divLogin('6')" class="sub"><ion-icon name="arrow-up-outline"></ion-icon></button>
+                        <button onclick="divLogin('6')" class="sub">
+                            <ion-icon name="arrow-up-outline"></ion-icon>
+                        </button>
                     </div>
                 </div>
 
-                <div class="categoria2">
+                <div class="subCategoria2">
                     <button onclick="divLogin('7')" class="sub">Macetas</button>
                     <div id="caja7" class="cajas">
                         <div id="maceta">
 
                         </div>
-                    <button onclick="divLogin('7')" class="sub"><ion-icon name="arrow-up-outline"></ion-icon></button>
+                        <button onclick="divLogin('7')" class="sub">
+                            <ion-icon name="arrow-up-outline"></ion-icon>
+                        </button>
                     </div>
                 </div>
 
-                <div class="categoria">
+                <div class="subCategoria">
                     <button onclick="divLogin('8')" class="sub">Medallones</button>
                     <div id="caja8" class="cajas">
                         <div id="medallon">
 
                         </div>
-                        <button onclick="divLogin('8')" class="sub"><ion-icon name="arrow-up-outline"></ion-icon></button>
+                        <button onclick="divLogin('8')" class="sub">
+                            <ion-icon name="arrow-up-outline"></ion-icon>
+                        </button>
                     </div>
                 </div>
-                    <div class="categoria2">
-                        <button onclick="divLogin('9')" class="sub">Cerraduras</button>
-                        <div id="caja9" class="cajas">
-                            <div id="cerradura">
-    
-                            </div>
-                        <button onclick="divLogin('9')" class="sub"><ion-icon name="arrow-up-outline"></ion-icon></button>
-                        </div>
-                    </div>
+                <div class="subCategoria2">
+                    <button onclick="divLogin('9')" class="sub">Cerraduras</button>
+                    <div id="caja9" class="cajas">
+                        <div id="cerradura">
 
-                    <div class="categoria">
-                        <button onclick="divLogin('10')" class="sub">Llaves</button>
-                        <div id="caja10" class="cajas">
-                            <div id="llave">
-    
-                            </div>
-                            <button onclick="divLogin('10')" class="sub"><ion-icon name="arrow-up-outline"></ion-icon></button>
                         </div>
+                        <button onclick="divLogin('9')" class="sub">
+                            <ion-icon name="arrow-up-outline"></ion-icon>
+                        </button>
                     </div>
+                </div>
 
-                    <div class="categoria2">
-                        <button onclick="divLogin('11')" class="sub">Navidad</button>
-                        <div id="caja11" class="cajas">
-                            <div id="navidad">
-    
-                            </div>
-                        <button onclick="divLogin('11')" class="sub"><ion-icon name="arrow-up-outline"></ion-icon></button>
-                        </div>
-                    </div>
+                <div class="subCategoria">
+                    <button onclick="divLogin('10')" class="sub">Llaves</button>
+                    <div id="caja10" class="cajas">
+                        <div id="llave">
 
-                    <div class="categoria">
-                        <button onclick="divLogin('12')" class="sub">Pascua</button>
-                        <div id="caja12" class="cajas">
-                            <div id="pascua">
-    
-                            </div>
-                            <button onclick="divLogin('12')" class="sub"><ion-icon name="arrow-up-outline"></ion-icon></button>
                         </div>
+                        <button onclick="divLogin('10')" class="sub">
+                            <ion-icon name="arrow-up-outline"></ion-icon>
+                        </button>
                     </div>
+                </div>
 
-                    <div class="categoria2">
-                        <button onclick="divLogin('13')" class="sub">Tapas</button>
-                        <div id="caja13" class="cajas">
-                            <div id="tapa">
-    
-                            </div>
-                        <button onclick="divLogin('13')" class="sub"><ion-icon name="arrow-up-outline"></ion-icon></button>
+                <div class="subCategoria2">
+                    <button onclick="divLogin('11')" class="sub">Navidad</button>
+                    <div id="caja11" class="cajas">
+                        <div id="navidad">
+
                         </div>
+                        <button onclick="divLogin('11')" class="sub">
+                            <ion-icon name="arrow-up-outline"></ion-icon>
+                        </button>
                     </div>
-                    <button onclick="divLogin('moldes-silicona')" class="sub">   <p class="main-categoria" id="moldesDeSilicona"><ion-icon name="arrow-up-outline"></ion-icon></p> </button>
+                </div>
+
+                <div class="subCategoria">
+                    <button onclick="divLogin('12')" class="sub">Pascua</button>
+                    <div id="caja12" class="cajas">
+                        <div id="pascua">
+
+                        </div>
+                        <button onclick="divLogin('12')" class="sub">
+                            <ion-icon name="arrow-up-outline"></ion-icon>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="subCategoria2">
+                    <button onclick="divLogin('13')" class="sub">Tapas</button>
+                    <div id="caja13" class="cajas">
+                        <div id="tapa">
+
+                        </div>
+                        <button onclick="divLogin('13')" class="sub">
+                            <ion-icon name="arrow-up-outline"></ion-icon>
+                        </button>
+                    </div>
+                </div>
+                <button onclick="divLogin('moldes-silicona')" class="sub">
+                    <p class="main-categoria" id="moldesDeSilicona">
+                        <ion-icon name="arrow-up-outline"></ion-icon>
+                    </p>
+                </button>
             </div>
-            
-        </div> 
+
+        </div>
 
         <div class="categoria2">
-            <button onclick="divLogin('articulos3D')" class="sub">   <p class="main-categoria" id="articulos3D">Articulos 3D</p> </button>
+            <button onclick="divLogin('articulos3D')" class="sub">
+                <p class="main-categoria" id="articulos3D">Articulos 3D</p>
+            </button>
             <div id="cajaarticulos3D" class="cajas">
                 <div class="categoria">
                     <button onclick="divLogin('14')" class="sub">Placas</button>
@@ -192,7 +283,9 @@
                         <div id="pl">
 
                         </div>
-                        <button onclick="divLogin('14')" class="sub"><ion-icon name="arrow-up-outline"></ion-icon></button>
+                        <button onclick="divLogin('14')" class="sub">
+                            <ion-icon name="arrow-up-outline"></ion-icon>
+                        </button>
                     </div>
                 </div>
 
@@ -202,17 +295,21 @@
                         <div id="plp">
 
                         </div>
-                    <button onclick="divLogin('15')" class="sub"><ion-icon name="arrow-up-outline"></ion-icon></button>
+                        <button onclick="divLogin('15')" class="sub">
+                            <ion-icon name="arrow-up-outline"></ion-icon>
+                        </button>
                     </div>
                 </div>
-                    
+
                 <div class="categoria">
                     <button onclick="divLogin('16')" class="sub">Mayolicas</button>
                     <div id="caja16" class="cajas">
                         <div id="mayolica">
 
                         </div>
-                        <button onclick="divLogin('16')" class="sub"><ion-icon name="arrow-up-outline"></ion-icon></button>
+                        <button onclick="divLogin('16')" class="sub">
+                            <ion-icon name="arrow-up-outline"></ion-icon>
+                        </button>
                     </div>
                 </div>
 
@@ -222,7 +319,9 @@
                         <div id="rodillo">
 
                         </div>
-                    <button onclick="divLogin('17')" class="sub"><ion-icon name="arrow-up-outline"></ion-icon></button>
+                        <button onclick="divLogin('17')" class="sub">
+                            <ion-icon name="arrow-up-outline"></ion-icon>
+                        </button>
                     </div>
                 </div>
 
@@ -232,7 +331,9 @@
                         <div id="manija">
 
                         </div>
-                        <button onclick="divLogin('18')" class="sub"><ion-icon name="arrow-up-outline"></ion-icon></button>
+                        <button onclick="divLogin('18')" class="sub">
+                            <ion-icon name="arrow-up-outline"></ion-icon>
+                        </button>
                     </div>
                 </div>
 
@@ -242,7 +343,9 @@
                         <div id="tapaF">
 
                         </div>
-                    <button onclick="divLogin('19')" class="sub"><ion-icon name="arrow-up-outline"></ion-icon></button>
+                        <button onclick="divLogin('19')" class="sub">
+                            <ion-icon name="arrow-up-outline"></ion-icon>
+                        </button>
                     </div>
                 </div>
 
@@ -266,4 +369,5 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>

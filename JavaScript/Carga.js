@@ -21,14 +21,14 @@ function crearProductoHTML(producto,par){
                 <p class="descripcion">Precio:<p>${producto.valor}</p></p>
                 <br/>
                 <button class="agregarCarrito">Agregar al carrito <ion-icon name="cart-outline"></ion-icon></button>
-        </div>
-        <img src="${producto.imagen}" class="hero-image">
+            </div>
+            <img src="${producto.imagen}" class="hero-image">
         </div>
         ` 
     }else{
         productoHTML=`
         <div class="articulo impar">
-        <img src="${producto.imagen}">
+        <img src="${producto.imagen}" class="hero-image">
         <div class="contenido">
             <p class="descripcion">${producto.descripcion}</p>
             <p class="descripcion">Medidas:<p>${producto.medidas}</p></p>
