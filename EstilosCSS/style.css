@@ -43,7 +43,7 @@ header{
     border-radius: 100px;
     border: 2px solid #ecebe0;
     object-fit: contain;
-    min-width: 40px;
+    min-width: 0%;
 }
 header nav ul{
     display: flex;
@@ -54,16 +54,20 @@ header nav ul{
 }
 ul li {
     list-style: none;
+    min-width: 10px;
+    min-height: 10px;
 }
 ul li a{
     text-decoration: none;
     color:#001d3d;
-    background-color: #DAC292;
+    background-color: #ebd8b2;
     border-radius: 15px 0px 15px 0px;
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
     border: 1px solid black;
-    min-width: 40px;
+    min-width: 10px;
+    min-height: 10px;
+    font-size: 100%;
 }
 a:hover{
     background-color: #7514ca94;
@@ -115,6 +119,7 @@ main{
     width: 30%;
     height: auto;
     min-width: 300px;
+    min-height: 100px;
 }
 .hero-image img{
     width: 100%;
@@ -151,34 +156,58 @@ main{
 footer{
     padding: 20px;
     background-color: pink;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    padding: 50px;
+    flex-direction: row;
+}
+.footer{
+    width: 50%;
+}
+.contacto{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    flex-direction: row;
 }
 .categoria{
     padding: 10px;
     background-color: #B9936C;
     border-radius: 30px;
-    width: 100%;
-    background-image: url("/Images/hero-fondo2.jpg");
+    width: 95vw;
+    background-image: url("/Images/fondoMadera1.png");
     overflow: hidden;
     object-fit: contain;
     background-size: 100%;
-    margin: 10px 5px;
+    margin: auto;
+    object-fit: cover;
+    margin-top: 30px;
+    
 }
 .categoria2{
     padding: 10px;
     background-color: #B9936C;
     border-radius: 30px;
-    width: 100%;
-    background-image: url("/Images/hero-fondo2.jpg");
+    width: 95vw;
     overflow: hidden;
     object-fit: contain;
     background-size: 100%;
-    margin: 10px 5px;
+    margin: auto;
+    object-fit: cover;
+    margin-top: 30px;
+    background-image: url("/Images/fondoMadera2.png");
 }
 .subCategoria{
     padding: 10px;
     background-color: #B9936C;
     border-radius: 30px;
     width: 100%;
+    background-image: url("/Images/fondoMadera2.png");
+    overflow: hidden;
+    object-fit: contain;
+    background-size: 100%;
+    margin: auto;
 }
 .main-categoria{
     text-align: center;
@@ -197,9 +226,15 @@ footer{
 }
 .subCategoria2{
     padding: 10px;
-    background-color: #DAC292;
+    background-color: #B9936C;
     border-radius: 30px;
     width: 100%;
+    background-image: url("/Images/fondoMadera1.png");
+    overflow: hidden;
+    object-fit: contain;
+    background-size: 100%;
+    margin: auto;
+    object-fit: cover;
 }
 .articulo{
     display:flex;
@@ -207,17 +242,20 @@ footer{
     justify-content: space-between;
     align-items: center;
     margin: 10px;
+    min-height: 500px;
 }
 .descripcion{
     font-family: 'Kurale', serif;
-    font-size: 20px;
+    font-size: 30px;
     
 }
 .par{
     background-color: #E6E2D3;
+    border-radius: 1% 0 0 1%
 }
 .impar{
     background-color: #C4B7A6;
+    border-radius: 0 1% 1% 0;
 }
 .cajas{
     visibility: hidden;
@@ -225,7 +263,12 @@ footer{
 }
 
 .articulo img{
-    min-width: 100px;
+    vertical-align: top;
+    margin-left: 10px;
+    border-radius: 10%;
+    height: 400px;
+    min-height: 50px;
+    min-width: 50px;
 }
 
 .contenido{
@@ -249,7 +292,7 @@ footer{
 
 .titulo{
     margin: auto;
-    font-size: 40px;
+    font-size: 200%;
 }
 
 .linea{
@@ -347,4 +390,9 @@ footer{
         top: 20px;
         right: 20px;
     }
+}
+
+#catalogo{
+    margin: 10px 50px;
+    font-size: 40px;
 }

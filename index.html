@@ -17,8 +17,7 @@
             <ul>
                 <li><a href="#hero">Inicio</a></li>
                 <li><a href="#trabajos">Trabajos</a></li>
-                <li><a href="#moldesDeSilicona">Catálogo</a></li>
-                <li><a>Lugares de venta</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
                 <li><a>
                         <ion-icon name="cart-outline"></ion-icon>
                     </a></li>
@@ -103,7 +102,9 @@
         </article>
 
     </main>
+    <h2 id="catalogo">Catálogo</h2>
     <div>
+        
         <div class="categoria">
             <button onclick="divLogin('moldes-silicona')" class="sub">
                 <p class="main-categoria" id="moldesDeSilicona">Moldes de Silicona</p>
@@ -277,7 +278,7 @@
                 <p class="main-categoria" id="articulos3D">Articulos 3D</p>
             </button>
             <div id="cajaarticulos3D" class="cajas">
-                <div class="categoria">
+                <div class="subCategoria">
                     <button onclick="divLogin('14')" class="sub">Placas</button>
                     <div id="caja14" class="cajas">
                         <div id="pl">
@@ -289,7 +290,7 @@
                     </div>
                 </div>
 
-                <div class="categoria2">
+                <div class="subCategoria2">
                     <button onclick="divLogin('15')" class="sub">Placas pequeñas</button>
                     <div id="caja15" class="cajas">
                         <div id="plp">
@@ -301,7 +302,7 @@
                     </div>
                 </div>
 
-                <div class="categoria">
+                <div class="subCategoria">
                     <button onclick="divLogin('16')" class="sub">Mayolicas</button>
                     <div id="caja16" class="cajas">
                         <div id="mayolica">
@@ -313,7 +314,7 @@
                     </div>
                 </div>
 
-                <div class="categoria2">
+                <div class="subCategoria2">
                     <button onclick="divLogin('17')" class="sub">Rodillos</button>
                     <div id="caja17" class="cajas">
                         <div id="rodillo">
@@ -325,7 +326,7 @@
                     </div>
                 </div>
 
-                <div class="categoria">
+                <div class="subCategoria">
                     <button onclick="divLogin('18')" class="sub">Manijas</button>
                     <div id="caja18" class="cajas">
                         <div id="manija">
@@ -337,18 +338,21 @@
                     </div>
                 </div>
 
-                <div class="categoria2">
+                <div class="subCategoria2">
                     <button onclick="divLogin('19')" class="sub">Tapa para frascos</button>
                     <div id="caja19" class="cajas">
                         <div id="tapaF">
 
                         </div>
-                        <button onclick="divLogin('19')" class="sub">
-                            <ion-icon name="arrow-up-outline"></ion-icon>
-                        </button>
+                        
                     </div>
+                    
                 </div>
-
+                <button onclick="divLogin('articulos3D')" class="sub">
+                    <p class="main-categoria" id="articulos3D">
+                        <ion-icon name="arrow-up-outline"></ion-icon>
+                    </p>
+                </button>
             </div>
         </div>
     </div>
@@ -359,7 +363,12 @@
 
 
     <footer>
-        <p>Moldes Sin Fin</p>
+        <div class="footer">Moldes Sin Fin</div>
+        <div class="footer">
+            <div class="contacto">
+                <p><ion-icon name="logo-whatsapp"></ion-icon>12345</p>
+            </div>
+        </div>
     </footer>
 
     <script src="JavaScript/app.js"></script>
