@@ -8,3 +8,6 @@ function divLogin(num){
         document.getElementById("caja"+num).style.display="block";
     }
 }
+function desmarcar(){
+    document.getElementById("btn-menu").checked=false;
+}

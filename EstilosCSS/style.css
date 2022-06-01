@@ -6,20 +6,14 @@
 }
 body{
     height: 100vh;
+    background-color: #C4B7A6;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: stretch;
+    min-height: 100vh;
 }
 .hero h1{
     color: black;
     font-size: 2rem;
-}
-body{
-    background-color: #E0E2E4;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
 }
 header{
     position: fixed;
@@ -38,43 +32,53 @@ header{
     min-height: 50px;
 }
 .logo{
-    width: 80px;
-    height: auto;
+    width: auto;
+    height: 60px;
     border-radius: 100px;
     border: 2px solid #ecebe0;
     object-fit: contain;
     min-width: 0%;
 }
-header nav ul{
-    display: flex;
-    align-items: center;
-    height: 100%;
-    padding: 50px;
-    flex-direction: row;
-}
-ul li {
-    list-style: none;
-    min-width: 10px;
-    min-height: 10px;
-}
-ul li a{
+nav a{
     text-decoration: none;
-    color:#001d3d;
-    background-color: #ebd8b2;
-    border-radius: 15px 0px 15px 0px;
+    color:black;
     padding: 5px;
     margin: 10px;
-    border: 1px solid black;
     min-width: 10px;
     min-height: 10px;
     font-size: 100%;
+    transition: all 500ms ease;
+    border-bottom: 4px solid transparent;
 }
-a:hover{
-    background-color: #7514ca94;
+nav a:hover{
+    color: greenyellow;
+    border-bottom: 4px solid greenyellow;
 }
+
+#btn-menu{
+    display: none;
+}
+.boton{
+    float: right;
+    display: none;
+    margin-right: 10px;
+}
+.boton label{
+    color: white;
+    background: #2a343e;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
+
+
 .hero{
     width: 100%;
-    height: 100vh;
+    height: 75vh;
     background-color: #cdb4db;
     background-image: url(/Images/hero-fondo.jpg);
     background-size: cover;
@@ -83,7 +87,7 @@ a:hover{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
 
 .hero-description1{
@@ -92,10 +96,12 @@ a:hover{
     font-size: 30px;
     font-weight: bold;
     text-shadow: 5px 5px 5px #001d3d;
+    text-align: center;
 }
 .hero-description2{
     color: #ffffff;
     font-family: 'Kurale', serif;
+    text-align: center;
 }
 
 main{
@@ -113,7 +119,8 @@ main{
     margin-bottom: 50px;
 }
 .hero-content{
-    margin-right: 3rem
+    margin: 3rem;
+    align-items: center;
 }
 .hero-image{
     width: 30%;
@@ -155,12 +162,16 @@ main{
 }
 footer{
     padding: 20px;
-    background-color: pink;
+    background-color: #C4B7A6;
     display: flex;
     align-items: center;
-    height: 10vh;
+    height: 90px;
     padding: 50px;
     flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    color: black;
+    border-top: 3px solid #001d3d;
 }
 .footer{
     width: 50%;
@@ -170,6 +181,7 @@ footer{
     align-items: center;
     padding: 50px;
     flex-direction: row;
+    color: black;
 }
 .categoria{
     padding: 10px;
@@ -397,4 +409,36 @@ footer{
 #catalogo{
     margin: 10px 50px;
     font-size: 40px;
+}
+
+@media only screen and (min-width:200px) and (max-width:600px){
+    .header{
+        height: 90px;
+    }
+    .boton{
+        display: block;
+    }
+    .logo, .boton{
+        line-height: 90px;
+    }
+    nav{
+        position:absolute;
+        background: #C2BAAF;
+        width: 100%;
+        height: 100vh;
+        top: 90px;
+        left: 0;
+        transition: all 500ms ease;
+        transform: translateX(-100%);
+    }
+    #btn-menu:checked ~ nav{
+        transform: translateX(0%);
+    }
+    nav a{
+        display: block;
+        margin-top: 10px;
+    }
+    .titulo{
+        font-size: 20px;
+    }
 }

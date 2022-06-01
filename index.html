@@ -13,15 +13,18 @@
 <body>
     <header>
         <img src="Images/Logo.jpg" alt="Sin Fin Logo" class="logo" />
+        <div class="boton">
+            <label for="btn-menu"><ion-icon name="ellipsis-vertical-outline"></ion-icon></label>
+        </div>
+        <input type="checkbox" id="btn-menu"/>
         <nav>
-            <ul>
-                <li><a href="#hero">Inicio</a></li>
-                <li><a href="#trabajos">Trabajos</a></li>
-                <li><a href="#catalogo">Catálogo</a></li>
-                <li><a>
+            <a href="#hero" onclick="desmarcar()">Inicio</a>
+            <a href="#trabajos" onclick="desmarcar()">Trabajos</a>
+            <a href="#catalogo" onclick="desmarcar()">Catálogo</a>
+            <a href="#catalogo" onclick="desmarcar()">Lugares de Compra</a>
+            <a onclick="desmarcar()">
                         <ion-icon name="cart-outline"></ion-icon>
-                    </a></li>
-            </ul>
+            </a>
         </nav>
     </header>
     <main>
@@ -30,9 +33,9 @@
                 <h2 class="hero-description1">Bienvenidos a Moldes Sin Fin</h2>
                 <h3 class="hero-description2">Vendemos moldes e impresiones en 3d</h2>
             </div>
-            <div class="hero-image">
+     <!--       <div class="hero-image">
                 <img src="Images/hero-image.jpg" alt="hero-image" />
-            </div>
+            </div>-->
         </section>
         <h2 class="titulo"><ion-icon name="rose-outline"></ion-icon>Galeria de trabajos<ion-icon name="rose-outline"></ion-icon></h2>
         <span class="linea"></span>
@@ -344,7 +347,9 @@
                         <div id="tapaF" class="grid">
 
                         </div>
-                        
+                        <button onclick="divLogin('19')" class="sub">
+                            <ion-icon name="arrow-up-outline"></ion-icon>
+                        </button>
                     </div>
                     
                 </div>
@@ -356,11 +361,6 @@
             </div>
         </div>
     </div>
-
-    <div>
-        Insertar formulario
-    </div>
-
 
     <footer>
         <div class="footer">Moldes Sin Fin</div>
