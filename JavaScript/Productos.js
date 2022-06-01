@@ -75,5 +75,15 @@ const productos=[
     new Producto("../Images/Productos/Decoracion/D-64.jpg", "D-64", "$2700", "6,5x9,5 cm", "moldesDeSilicona", "decoracion"),
     new Producto("../Images/Productos/Decoracion/D-65.jpg", "D-65", "$2700", "5,5x10 cm", "moldesDeSilicona", "decoracion"),
     new Producto("../Images/Productos/Decoracion/D-66.jpg", "D-66", "$2700", "9x6,5 cm", "moldesDeSilicona", "decoracion"),
-    new Producto("../Images/Productos/Decoracion/D-67.jpg", "D-67", "$1700", "6x5 cm", "moldesDeSilicona", "decoracion")
+    new Producto("../Images/Productos/Decoracion/D-67.jpg", "D-67", "$1700", "6x5 cm", "moldesDeSilicona", "decoracion"),
+    new Producto("../Images/Productos/Navidad/N-01.jpg", "N-01", "$900", "4,5cm/4cm/3,5cm", "moldesDeSilicona", "navidad"),
+    new Producto("../Images/Productos/Navidad/N-02.jpg", "N-02", "$1800", "11,5cm/7,5cm", "moldesDeSilicona", "navidad"),
+    new Producto("../Images/Productos/Navidad/N-03.jpg", "N-03", "$900", "4cm/7cm/5cm", "moldesDeSilicona", "navidad"),
+    new Producto("../Images/Productos/Navidad/N-04.jpg", "N-04", "$650", "7 cm", "moldesDeSilicona", "navidad"),
+    new Producto("../Images/Productos/Navidad/N-05.jpg", "N-05", "$990", "7,5 cm", "moldesDeSilicona", "navidad"),
+    new Producto("../Images/Productos/Navidad/N-06.jpg", "N-06", "$990", "3cm c/u", "moldesDeSilicona", "navidad"),
+    new Producto("../Images/Productos/Navidad/N-07.jpg", "N-07", "$1950", "14,5x3,5 cm", "moldesDeSilicona", "navidad"),
+    new Producto("../Images/Productos/Navidad/N-08.jpg", "N-08", "$990", "4cm/3cm/2cm", "moldesDeSilicona", "navidad"),
+    new Producto("../Images/Productos/Navidad/N-09.jpg", "N-09", "$2500", "10,5x6 cm", "moldesDeSilicona", "navidad"),
+    new Producto("../Images/Productos/Navidad/N-10.jpg", "N-10", "$990", "8,5cm", "moldesDeSilicona", "navidad"),
 ]
