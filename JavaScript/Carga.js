@@ -60,3 +60,4 @@ cargarProductos("mayolica");
 cargarProductos("rodillo");
 cargarProductos("manija");
 cargarProductos("tapaF");
+cargarProductos("especial");
