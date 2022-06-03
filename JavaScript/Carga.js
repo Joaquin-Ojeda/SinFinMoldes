@@ -41,24 +41,3 @@ function crearProductoHTML(producto,par){
     }
     return productoHTML;
 }
-cargarProductos("pajarito");
-cargarProductos("flor");
-cargarProductos("esquinero");
-cargarProductos("decoracion");
-cargarProductos("mariposa");
-cargarProductos("patita");
-cargarProductos("maceta");
-cargarProductos("medallon");
-cargarProductos("cerradura");
-cargarProductos("llave");
-cargarProductos("navidad");
-cargarProductos("pascua");
-cargarProductos("tapa");
-cargarProductos("pl");
-cargarProductos("plp");
-cargarProductos("mayolica");
-cargarProductos("rodillo");
-cargarProductos("manija");
-cargarProductos("tapaF");
-cargarProductos("especial");
-cargarProductos("comunion");
