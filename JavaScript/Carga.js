@@ -61,3 +61,4 @@ cargarProductos("rodillo");
 cargarProductos("manija");
 cargarProductos("tapaF");
 cargarProductos("especial");
+cargarProductos("comunion");
