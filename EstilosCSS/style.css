@@ -360,6 +360,12 @@ main{
     color: black;
     font-family: 'Dancing Script', cursive;
     margin: auto;
+    font-weight: bold;
+    font-size: 60px;
+}
+.descripcion-producto{
+    color: black;
+    margin: auto;
     font-size: 200%;
 }
 
@@ -461,8 +467,9 @@ main{
 
 #catalogo{
     font-family: 'Dancing Script', cursive;
+    font-weight: bold;
     margin: 10px 50px;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 @media screen and (max-width:800px) {
@@ -503,7 +510,10 @@ main{
         margin-top: 10px;
     }
     .titulo{
-        font-size: 20px;
+        font-size: 40px;
+    }
+    .titulo2{
+        font-size: 40px;
     }
 }
 
@@ -514,7 +524,7 @@ main{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
     padding: 45px 0px; 
-    max-width: 1200px;
+
 }
 
 .punto-venta{
@@ -565,7 +575,8 @@ main{
 .titulo2{
     color: black;
     font-family: 'Dancing Script', cursive;
+    font-weight: bold;
     margin: auto;
-    font-size: 200%;
+    font-size: 60px;
     text-align: center;
 }
