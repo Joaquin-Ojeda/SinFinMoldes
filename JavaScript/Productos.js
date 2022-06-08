@@ -147,7 +147,7 @@ const productos=[
     new Producto("../Images/Productos/Manijas/MNJ-16.jpg", "MNJ-16", "$200", "7 cm", "moldesDeSilicona", "manija"),
     new Producto("../Images/Productos/Manijas/MNJ-17.jpg", "MNJ-17", "$200", "13 cm", "moldesDeSilicona", "manija"),
     new Producto("../Images/Productos/Manijas/MNJ-18.jpg", "MNJ-18", "$200", "13 cm", "moldesDeSilicona", "manija"),
-    new Producto("../Images/Productos/Manijas/MNJ-18.jpg", "MNJ-18", "$200", "13 cm", "moldesDeSilicona", "manija"),
+    new Producto("../Images/Productos/Manijas/MNJ-19.jpg", "MNJ-19", "$200", "13 cm", "moldesDeSilicona", "manija"),
     new Producto("../Images/Productos/Manijas/MNJ-20.jpg", "MNJ-20", "$200", "13 cm", "moldesDeSilicona", "manija"),
     new Producto("../Images/Productos/Manijas/MNJ-21.jpg", "MNJ-21", "$200", "13 cm", "moldesDeSilicona", "manija"),
     new Producto("../Images/Productos/TapaFrascos/TRD-01.jpg", "TRD-01", "$200", "3,5x2 cm", "moldesDeSilicona", "tapaF"),
