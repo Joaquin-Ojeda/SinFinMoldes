@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kurale&display=swap');
+
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Kurale', serif;
 }
 body{
-    height: 100vh;
     background-color: #C4B7A6;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
 }
 .hero h1{
     color: black;
@@ -46,13 +46,13 @@ nav a{
     margin: 10px;
     min-width: 10px;
     min-height: 10px;
-    font-size: 100%;
+    font-size: 17px;
     transition: all 500ms ease;
     border-bottom: 4px solid transparent;
 }
 nav a:hover{
-    color: greenyellow;
-    border-bottom: 4px solid greenyellow;
+    color: #d2a1a7;
+    border-bottom: 4px solid #d2a1a7;
 }
 
 #btn-menu{
@@ -160,29 +160,78 @@ main{
 .catalogo-card img{
     height: 75%;
 }
-footer{
-    padding: 20px;
-    background-color: #C4B7A6;
+
+.pie-pagina{
+    width: 100%;
+    background-color: rgb(23, 24, 26);
+
+}
+.pie-pagina .footer-div{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px; 
+}
+.pie-pagina .footer-div .box figure{
+    width: 100%;
+    height: 100%;
     display: flex;
-    align-items: center;
-    height: 90px;
-    padding: 50px;
-    flex-direction: row;
-    margin-top: 50px;
-    margin-bottom: 0px;
-    color: black;
-    border-top: 3px solid #001d3d;
+    justify-content: center;
 }
-.footer{
-    width: 50%;
+.pie-pagina .footer-div .box figure img{
+    width: 250px;
 }
-.contacto{
-    display: flex;
-    align-items: center;
-    padding: 50px;
-    flex-direction: row;
-    color: black;
+.pie-pagina .footer-div .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
 }
+.pie-pagina .footer-div .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .footer-div .redes a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: grey;
+    text-align: center;
+}
+.tel{
+    display: inline-block;
+    text-decoration: none;
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    background-color: grey;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.pie-pagina .footer-div2{
+    background-color: rgb(54, 53, 53);
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+.pie-pagina .footer-div2 small{
+    font-size: 15px;
+}
+
+
+
+
 .categoria{
     padding: 10px;
     background-color: #B9936C;
@@ -195,6 +244,7 @@ footer{
     margin: auto;
     object-fit: cover;
     margin-top: 30px;
+    margin-bottom: 30px;
     
 }
 .categoria2{
@@ -209,6 +259,7 @@ footer{
     object-fit: cover;
     margin-top: 30px;
     background-image: url("/Images/fondoMadera2.png");
+    margin-bottom: 50px;
 }
 .subCategoria{
     padding: 10px;
@@ -274,7 +325,7 @@ footer{
     visibility: hidden;
     display: none;
     width: 100%;
-    height: 99%;
+    height: 100%;
 }
 
 .articulo img{
@@ -306,12 +357,14 @@ footer{
 }
 
 .titulo{
+    color: black;
+    font-family: 'Dancing Script', cursive;
     margin: auto;
     font-size: 200%;
 }
 
 .linea{
-    background: #550b51;
+    background: #d0a7a3;
     height: 5px;
     width: 100%;
     display: block;
@@ -407,8 +460,19 @@ footer{
 }
 
 #catalogo{
+    font-family: 'Dancing Script', cursive;
     margin: 10px 50px;
     font-size: 40px;
+}
+
+@media screen and (max-width:800px) {
+    .pie-pagina .footer-div{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px; 
+    }
+
 }
 
 @media only screen and (min-width:200px) and (max-width:600px){
@@ -441,4 +505,67 @@ footer{
     .titulo{
         font-size: 20px;
     }
+}
+
+.lugaresDeCompra{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px; 
+    max-width: 1200px;
+}
+
+.punto-venta{
+    background-color: white;
+    width: 90%;
+    height: 200px;
+    margin: 10px;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.punto-venta-icono{
+    margin: 30px;
+    margin-right: 50px;
+    font-size: 50px;
+}
+
+.punto-venta-descripcion p{
+    margin: 10px
+}
+
+@media screen and (max-width:850px){
+        .lugaresDeCompra{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px; 
+    }
+    .punto-venta-icono{
+        font-size: 30px;
+    }
+}
+@media screen and (min-width:851px) and (max-width:1200px){
+    .lugaresDeCompra{
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px; 
+    }
+    .punto-venta-icono{
+        font-size: 40px;
+    }
+}
+.titulo2{
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    margin: auto;
+    font-size: 200%;
+    text-align: center;
 }
