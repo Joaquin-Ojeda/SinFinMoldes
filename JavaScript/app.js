@@ -16,9 +16,9 @@ function crearProductoHTML(producto,par){
         productoHTML=`
         <div class="articulo par">
             <div class="contenido">
-                <p class="titulo">${producto.descripcion}</p>
-                <p class="titulo">Medidas: <p class="descripcion">${producto.medidas}</p></p>
-                <p class="titulo">Precio:<p class="descripcion">${producto.valor}</p></p>
+                <p class="descripcion-producto">${producto.descripcion}</p>
+                <p class="descripcion-producto">Medidas: <p class="descripcion">${producto.medidas}</p></p>
+                <p class="descripcion-producto">Precio:<p class="descripcion">${producto.valor}</p></p>
                 <br/>
                 <!-- <button class="agregarCarrito">Agregar al carrito <ion-icon name="cart-outline"></ion-icon></button> -->
             </div>
@@ -30,9 +30,9 @@ function crearProductoHTML(producto,par){
         <div class="articulo impar">
         <img src="${producto.imagen}">
         <div class="contenido">
-            <p class="titulo">${producto.descripcion}</p>
-            <p class="titulo">Medidas:<p class="descripcion">${producto.medidas}</p></p>
-            <p class="titulo">Precio:<p class="descripcion">${producto.valor}</p></p>
+            <p class="descripcion-producto">${producto.descripcion}</p>
+            <p class="descripcion-producto">Medidas:<p class="descripcion">${producto.medidas}</p></p>
+            <p class="descripcion-producto">Precio:<p class="descripcion">${producto.valor}</p></p>
             <br/>
             <!-- <button class="agregarCarrito">Agregar al carrito <ion-icon name="cart-outline"></ion-icon></button> -->
         </div>
