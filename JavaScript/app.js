@@ -64,3 +64,26 @@ function divLogin1(num,tipo){
 function desmarcar(){
     document.getElementById("btn-menu").checked=false;
 }
+
+function cargarPuntoVenta(){
+    let puntoVentaHTML="";
+    for(let puntoVenta of puntosVenta){
+            puntoVentaHTML+=crearPuntoVentaHTML(puntoVenta);
+            console.log(puntoVenta);
+    }
+    document.getElementById('cajaPuntosVenta').innerHTML=puntoVentaHTML;
+}
+
+function crearPuntoVentaHTML(puntoVenta){
+    let ventaHTML='';
+    ventaHTML=`<div class="punto-venta">
+        <div class="punto-venta-icono"><ion-icon name="storefront"></ion-icon></div>
+        <div class="punto-venta-descripcion">
+            <p>${puntoVenta.nombre}</p>
+            <p>${puntoVenta.web}</p>
+            <p><ion-icon name="logo-whatsapp"></ion-icon> ${puntoVenta.tel}</p>
+            <p><ion-icon name="location"></ion-icon>${puntoVenta.ubicacion}</p>
+        </div>
+    </div>`
+    return ventaHTML;
+}
