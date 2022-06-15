@@ -336,12 +336,10 @@ main{
 }
 
 .articulo img{
-    width: auto;
+    width: 300px;
+    height: auto;
     margin: 10px;
     border-radius: 10%;
-    height: 400px;
-    min-height: 50px;
-    min-width: 50px;
 }
 
 .contenido{
@@ -558,6 +556,12 @@ main{
     margin: 10px
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+}
+
 @media screen and (max-width:850px){
         .lugaresDeCompra{
         width: 90%;
@@ -567,6 +571,9 @@ main{
     }
     .punto-venta-icono{
         font-size: 30px;
+    }
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 @media screen and (min-width:851px) and (max-width:1200px){
@@ -579,6 +586,7 @@ main{
     .punto-venta-icono{
         font-size: 40px;
     }
+    
 }
 .titulo2{
     color: black;

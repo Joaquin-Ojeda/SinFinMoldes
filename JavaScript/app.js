@@ -15,6 +15,7 @@ function crearProductoHTML(producto,par){
     if(par){
         productoHTML=`
         <div class="articulo par">
+        <img src="${producto.imagen}">
             <div class="contenido">
                 <p class="descripcion-producto">${producto.descripcion}</p>
                 <p class="descripcion-producto">Medidas: <p class="descripcion">${producto.medidas}</p></p>
@@ -22,7 +23,6 @@ function crearProductoHTML(producto,par){
                 <br/>
                 <!-- <button class="agregarCarrito">Agregar al carrito <ion-icon name="cart-outline"></ion-icon></button> -->
             </div>
-            <img src="${producto.imagen}">
         </div>
         ` 
     }else{
