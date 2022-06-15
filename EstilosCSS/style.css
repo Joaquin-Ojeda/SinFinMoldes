@@ -16,7 +16,7 @@ body{
     font-size: 2rem;
 }
 header{
-    position: fixed;
+    position: sticky;
     z-index: 10;
     height: 90px;
     width: 100%;
@@ -89,11 +89,18 @@ nav a:hover{
     flex-wrap: wrap;
     padding-top: 5rem;
 }
-
+.hero-titulo{
+    color: #ffffff;
+    font-family: 'Kurale', serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #001d3d;
+    text-align: center;
+}
 .hero-description1{
     color: #ffffff;
     font-family: 'Kurale', serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     text-shadow: 5px 5px 5px #001d3d;
     text-align: center;
@@ -421,8 +428,8 @@ main{
     transition: transform 0.3s ease-in-out;
 }
 .light-box img{
-    max-height: 80vh;
-
+    max-width: 80vw;
+    max-height: 100vh;
 }
 .light-box:target{
     transform: scale(1);
@@ -433,26 +440,24 @@ main{
     position: absolute;
     top: 40px;
     right: 40px;
-    background: red;
     color: white;
     text-decoration: none;
     width: 40px;
     height: 40px;
     text-align: center;
     line-height: 40px;
-    border-radius: 50%;
+    font-size: 60px;
 }
 
 .next{
     display: block;
-    background-color: red;
     color: white;
     height: 30px;
     width: 30px;
     line-height: 30px;
     text-decoration: none;
     text-align: center;
-
+    font-size: 30px;
 }
 
 @media screen and (max-width:400px) {
@@ -479,7 +484,10 @@ main{
         grid-gap: 30px;
         padding: 35px 0px; 
     }
-
+    .close{
+        font-size: 30px;
+        top: 20px;
+    }
 }
 
 @media only screen and (min-width:200px) and (max-width:600px){
