@@ -166,7 +166,8 @@ function copiarCarrito(){
     }
     copia+=" Total: "+total;
 
-    document.getElementById('boton-carrito').setAttribute('href', "whatsapp://send?text=Hola Mundo&phone=+541165119848");
+    let url="https://wa.me/+541165119848?text="+copia;
+    window.open(url);
 
     x.setAttribute("value", copia);
     document.body.appendChild(x);
