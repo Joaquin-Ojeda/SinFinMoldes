@@ -22,7 +22,7 @@
             <a href="#trabajos" onclick="desmarcar()">Trabajos</a>
             <a href="#catalogo" onclick="desmarcar()">Catálogo</a>
             <a href="#lugaresDeCompra" onclick="desmarcar()">Puntos de Venta</a>
-            <a onclick="desmarcar()">
+            <a href="#Carrito" onclick="desmarcar()">
                         <ion-icon name="cart-outline"></ion-icon>
             </a>
         </nav>
@@ -345,6 +345,40 @@
             </div>
         </div>
     </div>
+    
+    <div id="Carrito">
+        <h2 class="titulo">Carrito</h2>
+        <hr>
+        <div class="info">
+            <div class="shopping-cart-header boxProducto">
+                <h6>Producto</h6>
+            </div>
+            <div class="shopping-cart-header">
+                <h6>Precio</h6>
+            </div>
+            <div class="shopping-cart-header">
+                <h6>Cantidad</h6>
+            </div>
+        </div>
+        <div id="carritoProductos">
+            <!--Producto ejemplo
+            <div class="info items">
+                <div class="preview boxProducto">
+                    <img src="Images/Productos/molde01.jpg"/>
+                    <h3>MNJ-01</h2>
+                </div>
+                <div class="preview">Precio</div>
+                <div class="preview cantidad">
+                    <input class="contadorProducto" type="number" value="1" min="1"/>
+                    <button class="botonEliminar" type="button">X</button>
+                </div>
+            </div>
+            Fin de Producto ejemplo -->
+        </div>
+    </div>
+    <div class="boton-copiar">
+        <button class="agregarCarrito" onclick="copiarCarrito()">Copiar Pedido</button>
+    </div>
 
     <h2 id="lugaresDeCompra" class="titulo2">Puntos de venta</h2>
     <div id="cajaPuntosVenta" class="lugaresDeCompra">
@@ -385,7 +419,7 @@
             </div>
         </div>
         <div class="footer-div2">
-            <small>© 2022 <b>Moldes Sin Fin</b> - Todos los Derechos Reservados </small>
+            <p>® 2022 <b>Moldes Sin Fin</b> - Todos los Derechos Reservados </p>
         </div>
     </footer>
 

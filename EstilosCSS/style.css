@@ -354,11 +354,13 @@ main{
     background-color: #4CAF50;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .titulo{
@@ -596,3 +598,49 @@ main{
     font-size: 60px;
     text-align: center;
 }
+
+.shopping-cart-header {
+    border-bottom: 1px solid #ccc;
+    width: 25%;
+  }
+  .info{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 15px;
+    margin-left: 4px;
+  }
+  .preview{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin: 15px;
+    align-items: center;
+    width: 25%;
+  }
+  .preview img{
+    height: 50px;
+  }
+  .preview h3{
+    margin-left: 10px;
+  }
+  .contadorProducto{
+    width: 40px;
+    border-radius: 20%;
+    text-align: center;
+  }
+  .cantidad{
+    justify-content: space-around;
+  }
+  .boxProducto{
+    width: 35%;
+  }
+  .items{
+    background-color: rgb(158, 127, 127);
+    border-radius: 5px;
+  }
+  .boton-copiar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
