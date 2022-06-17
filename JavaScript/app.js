@@ -108,9 +108,9 @@ function crearCarritoHTML(producto){
     <div id="${producto.descripcion}" class="info items">
              <div class="preview boxProducto">
                 <img src="${producto.imagen}"/>
-                <h3>${producto.descripcion}</h2>
+                <h2>${producto.descripcion}</h2>
              </div>
-             <div class="preview">$${producto.valor}</div>
+             <div class="preview"><h2>$${producto.valor}</h2></div>
              <div class="preview cantidad">
                 <input id="${producto.descripcion}Input" class="contadorProducto" type="number" value="1"/>
                 <button class="botonEliminar" type="button">X</button>

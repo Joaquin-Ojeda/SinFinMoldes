@@ -600,8 +600,11 @@ main{
 }
 
 .shopping-cart-header {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 2px solid rgb(47, 179, 255);
     width: 25%;
+  }
+  .shopping-cart-header h6{
+    font-size: 30px;
   }
   .info{
     display: flex;
@@ -619,7 +622,8 @@ main{
     width: 25%;
   }
   .preview img{
-    height: 50px;
+    height: 100px;
+    max-width: 100px;
   }
   .preview h3{
     margin-left: 10px;
@@ -636,7 +640,7 @@ main{
     width: 35%;
   }
   .items{
-    background-color: rgb(158, 127, 127);
+    background-color: rgb(165, 158, 146);
     border-radius: 5px;
   }
   .boton-copiar{
@@ -644,3 +648,20 @@ main{
     justify-content: center;
     margin-top: 20px;
   }
+
+  .preview h2{
+    font-size: 35px;
+  }
+
+@media screen and (max-width:650px){
+    .preview img{
+        height: 100px;
+        max-width: 80px;
+      }
+      .preview h2{
+        font-size: 20px;
+      }
+      .shopping-cart-header h6{
+        font-size: 20px;
+      }
+}
