@@ -166,7 +166,7 @@ function copiarCarrito(){
     }
     copia+=" Total: "+total;
 
-    document.getElementById("boton-carrito").setAttribute("href", "whatsapp://send?text=Hola Mundo&phone=+541165119848");
+    document.getElementById('boton-carrito').setAttribute('href', "whatsapp://send?text=Hola Mundo&phone=+541165119848");
 
     x.setAttribute("value", copia);
     document.body.appendChild(x);
