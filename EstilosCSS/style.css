@@ -216,7 +216,7 @@ main{
 .tel{
     display: inline-block;
     text-decoration: none;
-    width: 100px;
+    width: 150px;
     height: 45px;
     line-height: 45px;
     color: white;
@@ -529,7 +529,7 @@ main{
     width: 100%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
     padding: 45px 0px; 
 
@@ -548,10 +548,10 @@ main{
     align-items: center;
 }
 
-.punto-venta-icono{
-    margin: 30px;
-    margin-right: 50px;
-    font-size: 50px;
+.punto-venta img{
+    height: 180px;
+    width: 200px;
+    margin-left: 9px;
 }
 
 .punto-venta-descripcion p{
@@ -565,14 +565,31 @@ main{
 }
 
 @media screen and (max-width:850px){
+    .lugaresDeCompra{
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px; 
+}
+.punto-venta img{
+    height: 180px;
+    width: 200px;
+}
+.grid{
+    grid-template-columns: repeat(1, 1fr);
+}
+}
+
+@media screen and (max-width:600px){
         .lugaresDeCompra{
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 50px;
         padding: 45px 0px; 
     }
-    .punto-venta-icono{
-        font-size: 30px;
+    .punto-venta img{
+        height: 100px;
+        width: 100px;
     }
     .grid{
         grid-template-columns: repeat(1, 1fr);
@@ -581,12 +598,13 @@ main{
 @media screen and (min-width:851px) and (max-width:1200px){
     .lugaresDeCompra{
     width: 90%;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 50px;
     padding: 45px 0px; 
     }
-    .punto-venta-icono{
-        font-size: 40px;
+    .punto-venta img{
+        height: 180px;
+        width: 200px;
     }
     
 }
@@ -664,4 +682,13 @@ main{
       .shopping-cart-header h6{
         font-size: 20px;
       }
+}
+
+.botonEliminar{
+    padding: 5px;
+    color: red;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
 }

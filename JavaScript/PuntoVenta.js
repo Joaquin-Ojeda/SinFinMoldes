@@ -1,9 +1,10 @@
 class PuntoVenta{
-    constructor(nombre,tel,web,ubicacion){
+    constructor(nombre,tel,web,ubicacion,logo){
         this.nombre=nombre;
         this.tel=tel;
         this.web=web;
         this.ubicacion=ubicacion;
+        this.logo=logo;
     }
     get nombre(){
         return this._nombre;
@@ -28,5 +29,11 @@ class PuntoVenta{
     }
     set ubicacion(ubicacion){
         this._ubicacion=ubicacion;
+    }
+    get logo(){
+        return this._logo;
+    }
+    set logo(logo){
+        this._logo=logo;
     }
 }
