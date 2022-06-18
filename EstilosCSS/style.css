@@ -65,7 +65,7 @@ nav a:hover{
 }
 .boton label{
     color: white;
-    background: #2a343e;
+    background: #b89172;
     padding: 5px;
     font-size: 14px;
     border-radius: 3px;
@@ -364,10 +364,9 @@ main{
 }
 
 .titulo{
-    color: black;
     font-family: 'Dancing Script', cursive;
-    margin: auto;
     font-weight: bold;
+    margin: 10px 50px;
     font-size: 60px;
 }
 .descripcion-producto{
@@ -489,7 +488,14 @@ main{
         top: 20px;
     }
 }
-
+.titulo2{
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    margin: auto;
+    font-size: 60px;
+    text-align: center;
+}
 @media only screen and (min-width:200px) and (max-width:600px){
     .header{
         height: 90px;
@@ -514,7 +520,8 @@ main{
         transform: translateX(0%);
     }
     nav a{
-        display: block;
+        display: flex;
+        justify-content: center;
         margin-top: 10px;
     }
     .titulo{
@@ -615,14 +622,7 @@ main{
     }
     
 }
-.titulo2{
-    color: black;
-    font-family: 'Dancing Script', cursive;
-    font-weight: bold;
-    margin: auto;
-    font-size: 60px;
-    text-align: center;
-}
+
 
 .shopping-cart-header {
     border-bottom: 2px solid rgb(47, 179, 255);
