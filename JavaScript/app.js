@@ -81,7 +81,7 @@ function crearPuntoVentaHTML(puntoVenta){
         <img src="${puntoVenta.logo}">
         <div class="punto-venta-descripcion">
             <p>${puntoVenta.nombre}</p>
-            <p>${puntoVenta.web}</p>
+            <a href="https://www.instagram.com/${puntoVenta.web}/" target="_blank"><ion-icon name="logo-instagram"></ion-icon> @${puntoVenta.web}</a>
             <p><ion-icon name="logo-whatsapp"></ion-icon> ${puntoVenta.tel}</p>
             <p><ion-icon name="location"></ion-icon>${puntoVenta.ubicacion}</p>
         </div>
