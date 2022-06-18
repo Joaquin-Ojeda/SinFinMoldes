@@ -78,7 +78,7 @@ function cargarPuntoVenta(){
 function crearPuntoVentaHTML(puntoVenta){
     let ventaHTML='';
     ventaHTML=`<div class="punto-venta">
-        <div class="punto-venta-icono"><ion-icon name="storefront"></ion-icon></div>
+        <img src="${puntoVenta.logo}">
         <div class="punto-venta-descripcion">
             <p>${puntoVenta.nombre}</p>
             <p>${puntoVenta.web}</p>
@@ -113,7 +113,7 @@ function crearCarritoHTML(producto){
              <div class="preview"><h2>$${producto.valor}</h2></div>
              <div class="preview cantidad">
                 <input id="${producto.descripcion}Input" class="contadorProducto" type="number" value="1"/>
-                <button class="botonEliminar" type="button">X</button>
+                <button id="${producto.descripcion}Eliminar" class="botonEliminar" type="button" onclick="eliminarProducto('${producto.descripcion}')"><ion-icon name="close"></ion-icon></button>
              </div>
         </div>
         `;
@@ -166,7 +166,7 @@ function copiarCarrito(){
     }
     copia+=" Total: "+total;
 
-    let url="https://wa.me/+541165119848?text="+copia;
+    let url="https://wa.me/+541131452073?text="+copia;
     window.open(url);
 
     x.setAttribute("value", copia);
@@ -174,4 +174,28 @@ function copiarCarrito(){
     x.select();
     document.execCommand("copy");
     document.body.removeChild(x);
+}
+
+function buscarArray(nombre){
+    let indice=-1;
+    for(let i=0;i<=carrito.length;i++){
+        if(carrito[i].descripcion==nombre){
+            indice=i;
+            i=(carrito.length)+1;
+        }
+    }
+    return indice;
+}
+
+function eliminarPrArray(nombre){
+    let indice= buscarArray(nombre);
+    if(indice!=-1){
+        carrito.splice(indice,1);
+    }
+}
+
+function eliminarProducto(nombre){
+    let eliminado=document.getElementById(nombre);
+    eliminarPrArray(nombre);
+    eliminado.remove();
 }
