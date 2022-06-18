@@ -142,17 +142,13 @@ function agregarCarrito(nombre){
         carrito.push(producto);
         document.getElementById('carritoProductos').innerHTML+=crearCarritoHTML(producto);
     }
-    //Ejemplo para crear el total y copiar al portapapeles
-    /* 
-        let x=producto.descripcion+' '+producto.valor+" 1"+'\n'+producto.descripcion+' '+producto.valor+" 1"+'\n';
-        console.log(x);
-        let aux = document.createElement("input");
-        aux.setAttribute("value", x);
-        document.body.appendChild(aux);
-        aux.select();
-        document.execCommand("copy");
-        document.body.removeChild(aux);
-    */
+    Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'Producto agregado al carrito',
+        showConfirmButton: false,
+        timer: 800
+      })
 }
 function copiarCarrito(){
     let copia="";
@@ -198,4 +194,5 @@ function eliminarProducto(nombre){
     let eliminado=document.getElementById(nombre);
     eliminarPrArray(nombre);
     eliminado.remove();
+    
 }
