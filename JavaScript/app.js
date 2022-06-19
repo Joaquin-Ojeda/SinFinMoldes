@@ -112,7 +112,7 @@ function crearCarritoHTML(producto){
              </div>
              <div class="preview"><h2>$${producto.valor}</h2></div>
              <div class="preview cantidad">
-                <input id="${producto.descripcion}Input" class="contadorProducto" type="number" value="1"/>
+                <input id="${producto.descripcion}Input" class="contadorProducto" type="number" value="1" min="1" onchange="actualizarTotal()"/>
                 <button id="${producto.descripcion}Eliminar" class="botonEliminar" type="button" onclick="eliminarProducto('${producto.descripcion}')"><ion-icon name="close"></ion-icon></button>
              </div>
         </div>
@@ -149,6 +149,7 @@ function agregarCarrito(nombre){
         showConfirmButton: false,
         timer: 800
       })
+      actualizarTotal();
 }
 function copiarCarrito(){
     let copia="";
@@ -194,5 +195,19 @@ function eliminarProducto(nombre){
     let eliminado=document.getElementById(nombre);
     eliminarPrArray(nombre);
     eliminado.remove();
-    
+    actualizarTotal()
+}
+
+function calcularTotal(){
+    let total=0;
+    let inputValor;
+    for(producto of carrito){
+        inputValor=document.getElementById(producto.descripcion+"Input").value;
+        total+=(parseInt(producto.valor)*inputValor);
+    }
+    return total;
+}
+function actualizarTotal(){
+    let total= calcularTotal();
+    document.getElementById("total").innerHTML="$"+total;
 }

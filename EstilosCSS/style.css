@@ -288,11 +288,10 @@ main{
 .sub{
     font-family: 'Kurale', serif;
     font-size: 20px;
-    margin: 10px;
+    margin: 10px 0px;
     display: flex;
     justify-content: center;
     width: 100%;
-    
 }
 .subCategoria2{
     padding: 10px;
@@ -623,7 +622,10 @@ main{
     
 }
 
-
+.aux{
+    width: 25%;
+    font-size: 30px;
+}
 .shopping-cart-header {
     border-bottom: 2px solid rgb(47, 179, 255);
     width: 25%;
