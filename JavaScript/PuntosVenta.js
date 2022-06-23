@@ -7,9 +7,10 @@ const puntosVenta=[
     new PuntoVenta("Adri's House","11 3185-4012","adrishousetaller","Av. Hipólito Yrigoyen N°1863 Florencio Varela BS.AS","/Images/PuntosDeVenta/adrishouselogo.jpg"),
     new PuntoVenta("Cre-Art","-","-","Argentina, Buenos Aires Capital: Calle falsa 123","/Images/PuntosDeVenta/creartelogo.jpg"),
     new PuntoVenta("Arte Del Sur Deco","-","-","Argentina, Buenos Aires Capital: Calle falsa 123","/Images/PuntosDeVenta/artedelsurdecologo.jpg"),
-    new PuntoVenta("Artistica Rainero","-","-","Argentina, Buenos Aires Capital: Calle falsa 123","/Images/PuntosDeVenta/artisticarainerologo.jpg"),
+    new PuntoVenta("Artistica Rainero","3584628195","artisticarainero","Constitución 328 Rio Cuarto Cordoba","/Images/PuntosDeVenta/artisticarainerologo.jpg"),
     new PuntoVenta("Alquimia Del Arte","15 5311-7984","-","Argentina, Buenos Aires Capital: Calle falsa 123","/Images/PuntosDeVenta/alquimiadelartelogo.jpg"),
     new PuntoVenta("Expresarte","-","expresartealmacendearte","9 de Julio 414 San Andres de Giles","/Images/PuntosDeVenta/expresartelogo.jpg"),
     new PuntoVenta("Bianca Art Deco","-","nataliavanrenterghem","Gonzales Catan BS.AS","/Images/PuntosDeVenta/biancaartedecologo.jpg"),
+    new PuntoVenta("D&D Laser","11 3485-0306","ddlaser","Gonzales Catan BS.AS","/Images/PuntosDeVenta/d&dlaser.jpg"),
 ]
 cargarPuntoVenta()
