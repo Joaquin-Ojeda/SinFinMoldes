@@ -109,7 +109,7 @@ const productos=[
     new Producto("../Images/Productos/Esquineros/E-13.jpg", "E-13", "4500", "13cm", "moldesDeSilicona", "esquinero"),
     new Producto("../Images/Productos/Esquineros/E-14.jpg", "E-14", "2200", "9x13cm", "moldesDeSilicona", "esquinero"),
     new Producto("../Images/Productos/Esquineros/E-15.jpg", "E-15", "2200", "11,5cm", "moldesDeSilicona", "esquinero"),
-    new Producto("../Images/Productos/Esquineros/E-16.jpg", "E-16", "----", "13cm", "moldesDeSilicona", "esquinero"),
+    new Producto("../Images/Productos/Esquineros/E-16.jpg", "E-16", "5200", "13x6cm", "moldesDeSilicona", "esquinero"),
     new Producto("../Images/Productos/Esquineros/E-17.jpg", "E-17", "1100", "8cm", "moldesDeSilicona", "esquinero"),
     new Producto("../Images/Productos/Esquineros/E-18.jpg", "E-18", "1700", "12cm", "moldesDeSilicona", "esquinero"),
     new Producto("../Images/Productos/Esquineros/E-19.jpg", "E-19", "1100", "cm/cm", "moldesDeSilicona", "esquinero"),
