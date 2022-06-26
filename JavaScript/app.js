@@ -211,3 +211,16 @@ function actualizarTotal(){
     let total= calcularTotal();
     document.getElementById("total").innerHTML="$"+total;
 }
+
+function cambiarIcono(id){
+    let aux=document.getElementById(id).innerHTML;
+    console.log(aux);
+    if(aux=='<a href="#catalogo"><ion-icon name="arrow-down" role="img" class="md hydrated" aria-label="arrow down"></ion-icon></a>'){
+        document.getElementById(id).innerHTML='<a href="#catalogo"><ion-icon name="arrow-up"></ion-icon></a>';
+        document.getElementById(id+"BTN").style.position="sticky";
+    }
+    else{
+        document.getElementById(id).innerHTML='<a href="#catalogo"><ion-icon name="arrow-down"></ion-icon></a>';
+        document.getElementById(id+"BTN").style.position="relative";
+    }
+}
