@@ -287,6 +287,7 @@ main{
 }
 .sub{
     font-family: 'Kurale', serif;
+    font-weight: bold;
     font-size: 20px;
     margin: 10px 0px;
     display: flex;
