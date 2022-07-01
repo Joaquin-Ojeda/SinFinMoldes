@@ -172,7 +172,7 @@ function copiarCarrito(){
     let total=0;
     for(producto of carrito){
         aux=document.getElementById(producto.descripcion+"Input").value
-        copia+=producto.descripcion+" Cantidad:"+aux+" / ";
+        copia+=producto.descripcion+" X"+aux+" / ";
         total+=(parseInt(producto.valor))*aux;
     }
     copia+=" Total: "+total;
