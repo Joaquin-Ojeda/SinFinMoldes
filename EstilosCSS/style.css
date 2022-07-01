@@ -246,7 +246,7 @@ main{
     background-color: #B9936C;
     border-radius: 30px;
     width: 95vw;
-    background-image: url("/Images/hero-fondo6.jpg");
+    background-image: url("/Images/fondoMadera4.jpg");
     overflow: hidden;
     object-fit: contain;
     background-size: 100%;
@@ -267,7 +267,7 @@ main{
     margin: auto;
     object-fit: cover;
     margin-top: 30px;
-    background-image: url("/Images/hero-fondo7.jpg");
+    background-image: url("/Images/hero-fondo3.jpg");
     margin-bottom: 10px;
 }
 .subCategoria{
