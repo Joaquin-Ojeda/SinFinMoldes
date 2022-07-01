@@ -77,7 +77,18 @@ function cargarPuntoVenta(){
 
 function crearPuntoVentaHTML(puntoVenta){
     let ventaHTML='';
-    ventaHTML=`<div class="punto-venta">
+    if(puntoVenta.tel=="-"){
+        ventaHTML=`<div class="punto-venta">
+        <img src="${puntoVenta.logo}">
+        <div class="punto-venta-descripcion">
+            <p>${puntoVenta.nombre}</p>
+            <a href="https://www.instagram.com/${puntoVenta.web}/" target="_blank"><ion-icon name="logo-instagram"></ion-icon> @${puntoVenta.web}</a>
+            <p><ion-icon name="location"></ion-icon>${puntoVenta.ubicacion}</p>
+        </div>
+    </div>`
+    }
+    else{
+        ventaHTML=`<div class="punto-venta">
         <img src="${puntoVenta.logo}">
         <div class="punto-venta-descripcion">
             <p>${puntoVenta.nombre}</p>
@@ -86,6 +97,9 @@ function crearPuntoVentaHTML(puntoVenta){
             <p><ion-icon name="location"></ion-icon>${puntoVenta.ubicacion}</p>
         </div>
     </div>`
+    }
+
+    
     return ventaHTML;
 }
 //JS del Carrito
@@ -222,5 +236,11 @@ function cambiarIcono(id){
     else{
         document.getElementById(id).innerHTML='<a href="#catalogo"><ion-icon name="arrow-down"></ion-icon></a>';
         document.getElementById(id+"BTN").style.position="relative";
+        for(let i=1;i<=22;i++){
+            if(document.getElementById("caja"+i).style.visibility=="visible"){
+                document.getElementById("caja"+i).style.visibility="hidden";
+                document.getElementById("caja"+i).style.display="none";
+            }
+        }
     }
 }
