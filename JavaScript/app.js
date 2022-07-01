@@ -244,3 +244,46 @@ function cambiarIcono(id){
         }
     }
 }
+
+function galeria(trabajo,i){
+    let posicion=(i.toString());
+    let trabajoHTML=`
+    <a href="#image${posicion}">
+        <img class="img${posicion}" src="Images/Trabajos/${trabajo}" alt=""/>
+    </a>
+    `;
+    document.getElementById("trabajos").innerHTML+=trabajoHTML;
+}
+function vistaPrevia(trabajo,i){
+    let posicion=(i.toString());
+    let anterior=i-1;
+    let siguiente=i+1;
+    if(i==1){
+        anterior=trabajos.length;
+    }
+    if(i==trabajos.length){
+        siguiente=1;
+    }
+    anterior=anterior.toString();
+    siguiente=siguiente.toString();
+    
+
+    let trabajoHTML=`
+    <article class="light-box" id="image${posicion}">
+        <a href="#image${anterior}" class="next"><ion-icon name="arrow-back-circle"></ion-icon></a>
+        <img src="Images/Trabajos/${trabajo}" alt="">
+        <a href="#image${siguiente}" class="next"><ion-icon name="arrow-forward-circle"></ion-icon></a>
+        <a href="#img${posicion}" class="close"><ion-icon name="close-circle"></ion-icon></a>
+    </article>
+    `;
+    document.getElementById("vistaprevia").innerHTML+=trabajoHTML;
+}
+
+function cargarTrabajos(){
+    let trabajo="";
+    for(let i=0;i<trabajos.length;i++){
+        trabajo=trabajos[i];
+        galeria(trabajo,i+1);
+        vistaPrevia(trabajo,i+1);
+    }
+}
