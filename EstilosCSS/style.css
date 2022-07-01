@@ -717,7 +717,8 @@ main{
     text-decoration: underline;
 }
 .condiciones p{
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 @media screen and (max-width:610px){
