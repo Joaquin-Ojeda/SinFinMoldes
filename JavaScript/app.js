@@ -316,7 +316,15 @@ function aumentoDiezPrc(producto, porcentaje){
 
 function actualizarPrecios(porcentaje){
     for(producto of productos){
-        aumentoDiezPrc(producto, porcentaje);
-
+        if(producto.categoria=="moldesDeSilicona"){
+            aumentoDiezPrc(producto, porcentaje);
+        }
     }
+}
+
+//AGREGAR PRODUCTOS AL ARRAY
+
+function agregarProductoEnProductos(imagen,descripcion,valor,medidas,categoria,tipo){
+    let producto=new Producto(imagen,descripcion,valor,medidas,categoria,tipo);
+    productos.push(producto);
 }
