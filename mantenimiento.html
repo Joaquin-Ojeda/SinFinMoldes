@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Images/Logo.jpg" type="image/x-icon">
+    <title>Moldes Sin Fin</title>
+    <link href="EstilosCSS/style.css" rel="stylesheet" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="Images/Logo.jpg" alt="Sin Fin Logo" class="logo" />
+        <div class="boton">
+            <label for="btn-menu"><ion-icon name="ellipsis-vertical-outline"></ion-icon></label>
+        </div>
+        <input type="checkbox" id="btn-menu"/>
+        <nav>
+            <a href="#hero" onclick="desmarcar()">Inicio</a>
+            <a href="#Trabajos" onclick="desmarcar()">Trabajos</a>
+            <a href="#Advertencia" onclick="desmarcar()">Catálogo</a>
+            <a href="#PuntosDeVenta" onclick="desmarcar()">Puntos de Venta</a>
+            <a href="#footer-contacto" onclick="desmarcar()">Contacto</a>
+            <a href="#CarritoCompras" onclick="desmarcar()">
+                        <ion-icon name="cart-outline"></ion-icon>
+            </a>
+            
+        </nav>
+    </header>
+    
+    <div class="mantenimiento">
+        <h2>Pagina en Mantenimiento</h2>
+        <p>Lamentamos los inconvenientes que pueda causar</p>
+    </div>
+
+    <footer id="footer-contacto" class="pie-pagina">
+        <div class="footer-div">
+            <div class="box">
+                <figure>
+                    <a>
+                        <img src="Images/Logo sin Fondo.png" alt="Logo de Moldes Sin Fin">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Somos una pequeña empresa familiar.</p>
+                <p></p>
+            </div>
+            <div class="box">
+                <h2>CONTÁCTANOS</h2>
+                <div class="redes">
+                    <a href="https://www.facebook.com/profile.php?id=100004331418909" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://www.instagram.com/liliana_sinfin/"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a><ion-icon name="logo-whatsapp"></ion-icon></a>
+                    <p class="tel">+54 113145-2073</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-div2">
+            <p>® 2022 <b>Moldes Sin Fin</b> - Todos los Derechos Reservados </p>
+        </div>
+    </footer>
+
+    <script src="JavaScript/app.js"></script>
+    <script src="JavaScript/Producto.js"></script>
+    <script src="JavaScript/Productos.js"></script>
+    <script src="JavaScript/PuntoVenta.js"></script>
+    <script src="JavaScript/PuntosVenta.js"></script>
+    <script src="JavaScript/Trabajos.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

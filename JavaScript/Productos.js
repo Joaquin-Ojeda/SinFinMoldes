@@ -294,3 +294,5 @@ const productos=[
     new Producto("../Images/Productos/Plp/PLP-17.jpg", "PLP-17", "400", "13x8cm", "moldesDeSilicona", "plp"),      
 
 ]
+
+actualizarPrecios(1.10);

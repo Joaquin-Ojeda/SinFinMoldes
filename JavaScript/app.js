@@ -102,7 +102,7 @@ function crearPuntoVentaHTML(puntoVenta){
     
     return ventaHTML;
 }
-//JS del Carrito
+//CARRITO
 const carrito=[];
 
 function buscarProducto(nombre){
@@ -226,9 +226,9 @@ function actualizarTotal(){
     document.getElementById("total").innerHTML="$"+total;
 }
 
+//CAMBIO DE ICONO EN CATALOGO
 function cambiarIcono(id){
     let aux=document.getElementById(id).innerHTML;
-    console.log(aux);
     if(aux=='<a href="#catalogo"><ion-icon name="arrow-down" role="img" class="md hydrated" aria-label="arrow down"></ion-icon></a>'){
         document.getElementById(id).innerHTML='<a href="#catalogo"><ion-icon name="arrow-up"></ion-icon></a>';
         document.getElementById(id+"BTN").style.position="sticky";
@@ -244,7 +244,7 @@ function cambiarIcono(id){
         }
     }
 }
-
+//CARGAR GALERIA
 function galeria(trabajo,i){
     let posicion=(i.toString());
     let trabajoHTML=`
@@ -285,5 +285,38 @@ function cargarTrabajos(){
         trabajo=trabajos[i];
         galeria(trabajo,i+1);
         vistaPrevia(trabajo,i+1);
+    }
+}
+//ACTUALIZACION DE PRECIOS
+function redondearPrecio(precio){
+    let resto=precio%10;
+    let total=0;
+
+    if(resto==0){
+        total=precio;
+    }
+    else{
+        if(resto<5){
+            total=precio-resto;
+        }
+        else{
+            resto=10-resto;
+            total=precio+resto;
+        }
+    }
+    return total;
+}
+
+function aumentoDiezPrc(producto, porcentaje){
+    let precio=parseInt(producto.valor);
+    precio=parseInt(precio*porcentaje);
+    precio=redondearPrecio(precio);
+    producto.valor=precio.toString();
+}
+
+function actualizarPrecios(porcentaje){
+    for(producto of productos){
+        aumentoDiezPrc(producto, porcentaje);
+
     }
 }
