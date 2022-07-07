@@ -53,6 +53,7 @@ const productos=[
     new Producto("../Images/Productos/Decoracion/D-22.jpg", "D-22", "1200", "4x5cm", "moldesDeSilicona", "decoracion"),
     new Producto("../Images/Productos/Decoracion/D-23.jpg", "D-23", "950", "1cm/cm/8xcm", "moldesDeSilicona", "decoracion"),
     new Producto("../Images/Productos/Decoracion/D-24.jpg", "D-24", "3200", "12cm", "moldesDeSilicona", "decoracion"),
+    new Producto("../Images/Productos/Decoracion/D-25.jpg", "D-25", "1600", "-cm", "moldesDeSilicona", "decoracion"),
     new Producto("../Images/Productos/Decoracion/D-26.jpg", "D-26", "2300", "23cm", "moldesDeSilicona", "decoracion"),
     new Producto("../Images/Productos/Decoracion/D-28.jpg", "D-28", "2300", "23cm", "moldesDeSilicona", "decoracion"),
     new Producto("../Images/Productos/Decoracion/D-30.jpg", "D-30", "2600", "23cm", "moldesDeSilicona", "decoracion"),

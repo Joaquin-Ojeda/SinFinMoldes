@@ -324,7 +324,19 @@ function actualizarPrecios(porcentaje){
 
 //AGREGAR PRODUCTOS AL ARRAY
 
+function ordenarPorDescripcion(producto1,producto2){
+    let valor=0;
+    if(producto1.descripcion<producto2.descripcion){
+        valor=-1;
+    }
+    else{
+        valor=1;
+    }
+    return valor;
+}
+
 function agregarProductoEnProductos(imagen,descripcion,valor,medidas,categoria,tipo){
     let producto=new Producto(imagen,descripcion,valor,medidas,categoria,tipo);
     productos.push(producto);
+    productos.sort(ordenarPorDescripcion)
 }
