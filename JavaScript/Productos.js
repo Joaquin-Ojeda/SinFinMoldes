@@ -296,3 +296,5 @@ const productos=[
 actualizarPrecios(1.10);
 
 agregarProductoEnProductos("../Images/Productos/Plp/PLP-17.jpg", "PLP-17", "400", "13x8cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Decoracion/D-31.jpg", "D-31", "6500", "11,5x7,5cm", "moldesDeSilicona", "decoracion");
+agregarProductoEnProductos("../Images/Productos/Decoracion/D-34.jpg", "D-34", "940", "4/3cm", "moldesDeSilicona", "decoracion");
