@@ -55,7 +55,6 @@ const productos=[
     new Producto("../Images/Productos/Decoracion/D-24.jpg", "D-24", "3200", "12cm", "moldesDeSilicona", "decoracion"),
     new Producto("../Images/Productos/Decoracion/D-25.jpg", "D-25", "1600", "-cm", "moldesDeSilicona", "decoracion"),
     new Producto("../Images/Productos/Decoracion/D-26.jpg", "D-26", "2300", "23cm", "moldesDeSilicona", "decoracion"),
-    new Producto("../Images/Productos/Decoracion/D-28.jpg", "D-28", "2300", "23cm", "moldesDeSilicona", "decoracion"),
     new Producto("../Images/Productos/Decoracion/D-30.jpg", "D-30", "2600", "23cm", "moldesDeSilicona", "decoracion"),
     new Producto("../Images/Productos/Decoracion/D-32.jpg", "D-32", "1700", "7,5X7,5cm/4,5cm", "moldesDeSilicona", "decoracion"),
     new Producto("../Images/Productos/Decoracion/D-35.jpg", "D-35", "1100", "9,5cm", "moldesDeSilicona", "decoracion"),
@@ -300,3 +299,20 @@ agregarProductoEnProductos("../Images/Productos/Decoracion/D-31.jpg", "D-31", "6
 agregarProductoEnProductos("../Images/Productos/Decoracion/D-34.jpg", "D-34", "940", "4/3cm", "moldesDeSilicona", "decoracion");
 
 actualizarPrecios(1.10);
+
+agregarProductoEnProductos("../Images/Productos/Flores/F-09.jpg", "F-09", "1800", "7cm", "moldesDeSilicona", "flor");
+agregarProductoEnProductos("../Images/Productos/Jabones/V-01.jpg", "V-01", "1700", "4cm", "moldesDeSilicona", "jabon");
+agregarProductoEnProductos("../Images/Productos/Jabones/V-02.jpg", "V-02", "1700", "4cm", "moldesDeSilicona", "jabon");
+agregarProductoEnProductos("../Images/Productos/Jabones/V-03.jpg", "V-03", "1700", "4cm", "moldesDeSilicona", "jabon");
+agregarProductoEnProductos("../Images/Productos/Jabones/V-04.jpg", "V-04", "1700", "4cm", "moldesDeSilicona", "jabon");
+agregarProductoEnProductos("../Images/Productos/Jabones/V-05.jpg", "V-05", "1700", "4cm", "moldesDeSilicona", "jabon");
+agregarProductoEnProductos("../Images/Productos/Jabones/V-06.jpg", "V-06", "1700", "4cm", "moldesDeSilicona", "jabon");
+agregarProductoEnProductos("../Images/Productos/Jabones/V-07.jpg", "V-07", "1700", "4cm", "moldesDeSilicona", "jabon");
+agregarProductoEnProductos("../Images/Productos/Jabones/V-08.jpg", "V-08", "1700", "4cm", "moldesDeSilicona", "jabon");
+agregarProductoEnProductos("../Images/Productos/Jabones/V-09.jpg", "V-09", "1700", "4cm", "moldesDeSilicona", "jabon");
+agregarProductoEnProductos("../Images/Productos/Jabones/V-10.jpg", "V-10", "1700", "4cm", "moldesDeSilicona", "jabon");
+agregarProductoEnProductos("../Images/Productos/Jabones/V-11.jpg", "V-11", "1700", "4cm", "moldesDeSilicona", "jabon");
+agregarProductoEnProductos("../Images/Productos/Jabones/V-12.jpg", "V-12", "1700", "4cm", "moldesDeSilicona", "jabon");
+agregarProductoEnProductos("../Images/Productos/Esquineros/E-31.jpg", "E-31", "950", "7cm", "moldesDeSilicona", "esquinero");
+agregarProductoEnProductos("../Images/Productos/Decoracion/D-27.jpg", "D-27", "1400", "20x1,5cm", "moldesDeSilicona", "decoracion");
+agregarProductoEnProductos("../Images/Productos/Decoracion/D-28.jpg", "D-28", "950", "20x1cm", "moldesDeSilicona", "decoracion");
