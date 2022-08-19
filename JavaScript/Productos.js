@@ -316,3 +316,10 @@ agregarProductoEnProductos("../Images/Productos/Jabones/V-12.jpg", "V-12", "1700
 agregarProductoEnProductos("../Images/Productos/Esquineros/E-31.jpg", "E-31", "950", "7cm", "moldesDeSilicona", "esquinero");
 agregarProductoEnProductos("../Images/Productos/Decoracion/D-27.jpg", "D-27", "1400", "20x1,5cm", "moldesDeSilicona", "decoracion");
 agregarProductoEnProductos("../Images/Productos/Decoracion/D-28.jpg", "D-28", "950", "20x1cm", "moldesDeSilicona", "decoracion");
+agregarProductoEnProductos("../Images/Productos/Pajaritos/J-20.jpg", "J-20", "2900", "11x6cm", "moldesDeSilicona", "pajarito");
+agregarProductoEnProductos("../Images/Productos/Decoracion/D-04.jpg", "D-04", "1500", "15x2cm", "moldesDeSilicona", "decoracion");
+agregarProductoEnProductos("../Images/Productos/Decoracion/D-46.jpg", "D-46", "3080", "10cm", "moldesDeSilicona", "decoracion");
+agregarProductoEnProductos("../Images/Productos/Navidad/N-12.jpg", "N-12", "3800", "14x9cm", "moldesDeSilicona", "navidad");
+agregarProductoEnProductos("../Images/Productos/Navidad/N-13.jpg", "N-13", "3900", "11,5x8cm", "moldesDeSilicona", "navidad");
+agregarProductoEnProductos("../Images/Productos/Esquineros/E-32.jpg", "E-32", "4500", "20x11cm", "moldesDeSilicona", "esquinero");
+agregarProductoEnProductos("../Images/Productos/Esquineros/E-33.jpg", "E-33", "6500", "19,5x7cm", "moldesDeSilicona", "esquinero");
