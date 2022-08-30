@@ -68,23 +68,23 @@ const productos=[
     new Producto("../Images/Productos/Decoracion/D-48.jpg", "D-48", "2100", "5x6cm", "moldesDeSilicona", "decoracion"),
     new Producto("../Images/Productos/Decoracion/D-49.jpg", "D-49", "2600", "6x7cm", "moldesDeSilicona", "decoracion"),
     new Producto("../Images/Productos/Decoracion/D-50.jpg", "D-50", "3100", "4,5x5cm", "moldesDeSilicona", "decoracion"),
-    new Producto("../Images/Productos/Decoracion/D-51.jpg", "D-51", "1700", "6x4cm", "moldesDeSilicona", "decoracion"),
-    new Producto("../Images/Productos/Decoracion/D-52.jpg", "D-52", "1700", "3x4,5cm", "moldesDeSilicona", "decoracion"),
-    new Producto("../Images/Productos/Decoracion/D-53.jpg", "D-53", "2600", "6x5cm", "moldesDeSilicona", "decoracion"),
-    new Producto("../Images/Productos/Decoracion/D-54.jpg", "D-54", "2400", "4x4cm", "moldesDeSilicona", "decoracion"),
-    new Producto("../Images/Productos/Decoracion/D-55.jpg", "D-55", "890", "5x2cm", "moldesDeSilicona", "decoracion"),
-    new Producto("../Images/Productos/Decoracion/D-56.jpg", "D-56", "1600", "5x1,cm/6,5x4,cm", "moldesDeSilicona", "decoracion"),
-    new Producto("../Images/Productos/Decoracion/D-58.jpg", "D-58", "870", "4,2x5cm", "moldesDeSilicona", "decoracion"),
-    new Producto("../Images/Productos/Decoracion/D-59.jpg", "D-59", "880", "2,5x5cm", "moldesDeSilicona", "decoracion"),
-    new Producto("../Images/Productos/Decoracion/D-60.jpg", "D-60", "2100", "4,5x7cm", "moldesDeSilicona", "decoracion"),
-    new Producto("../Images/Productos/Decoracion/D-61.jpg", "D-61", "450", "3x3,5cm", "moldesDeSilicona", "decoracion"),
-    new Producto("../Images/Productos/Decoracion/D-62.jpg", "D-62", "550", "3,5x3,5cm", "moldesDeSilicona", "decoracion"),
-    new Producto("../Images/Productos/Decoracion/D-63.jpg", "D-63", "2900", "5x6,5cm", "moldesDeSilicona", "decoracion"),
-    new Producto("../Images/Productos/Decoracion/D-64.jpg", "D-64", "2700", "6,5x9,5cm", "moldesDeSilicona", "decoracion"),
-    new Producto("../Images/Productos/Decoracion/D-65.jpg", "D-65", "2700", "5,5x10cm", "moldesDeSilicona", "decoracion"),
-    new Producto("../Images/Productos/Decoracion/D-66.jpg", "D-66", "2700", "9x6,5cm", "moldesDeSilicona", "decoracion"),
-    new Producto("../Images/Productos/Decoracion/D-67.jpg", "D-67", "1700", "6x5cm", "moldesDeSilicona", "decoracion"),
-    new Producto("../Images/Productos/Decoracion/D-68.jpg", "D-68", "3500", "7,5x9cm", "moldesDeSilicona", "decoracion"),
+    new Producto("../Images/Productos/Decoracion/D-51.jpg", "D-51", "1700", "6x4cm", "moldesDeSilicona", "decoracion2"),
+    new Producto("../Images/Productos/Decoracion/D-52.jpg", "D-52", "1700", "3x4,5cm", "moldesDeSilicona", "decoracion2"),
+    new Producto("../Images/Productos/Decoracion/D-53.jpg", "D-53", "2600", "6x5cm", "moldesDeSilicona", "decoracion2"),
+    new Producto("../Images/Productos/Decoracion/D-54.jpg", "D-54", "2400", "4x4cm", "moldesDeSilicona", "decoracion2"),
+    new Producto("../Images/Productos/Decoracion/D-55.jpg", "D-55", "890", "5x2cm", "moldesDeSilicona", "decoracion2"),
+    new Producto("../Images/Productos/Decoracion/D-56.jpg", "D-56", "1600", "5x1,cm/6,5x4,cm", "moldesDeSilicona", "decoracion2"),
+    new Producto("../Images/Productos/Decoracion/D-58.jpg", "D-58", "870", "4,2x5cm", "moldesDeSilicona", "decoracion2"),
+    new Producto("../Images/Productos/Decoracion/D-59.jpg", "D-59", "880", "2,5x5cm", "moldesDeSilicona", "decoracion2"),
+    new Producto("../Images/Productos/Decoracion/D-60.jpg", "D-60", "2100", "4,5x7cm", "moldesDeSilicona", "decoracion2"),
+    new Producto("../Images/Productos/Decoracion/D-61.jpg", "D-61", "450", "3x3,5cm", "moldesDeSilicona", "decoracion2"),
+    new Producto("../Images/Productos/Decoracion/D-62.jpg", "D-62", "550", "3,5x3,5cm", "moldesDeSilicona", "decoracion2"),
+    new Producto("../Images/Productos/Decoracion/D-63.jpg", "D-63", "2900", "5x6,5cm", "moldesDeSilicona", "decoracion2"),
+    new Producto("../Images/Productos/Decoracion/D-64.jpg", "D-64", "2700", "6,5x9,5cm", "moldesDeSilicona", "decoracion2"),
+    new Producto("../Images/Productos/Decoracion/D-65.jpg", "D-65", "2700", "5,5x10cm", "moldesDeSilicona", "decoracion2"),
+    new Producto("../Images/Productos/Decoracion/D-66.jpg", "D-66", "2700", "9x6,5cm", "moldesDeSilicona", "decoracion2"),
+    new Producto("../Images/Productos/Decoracion/D-67.jpg", "D-67", "1700", "6x5cm", "moldesDeSilicona", "decoracion2"),
+    new Producto("../Images/Productos/Decoracion/D-68.jpg", "D-68", "3500", "7,5x9cm", "moldesDeSilicona", "decoracion2"),
     new Producto("../Images/Productos/Navidad/N-01.jpg", "N-01", "900", "4,cm/cm/3,cm", "moldesDeSilicona", "navidad"),
     new Producto("../Images/Productos/Navidad/N-02.jpg", "N-02", "1800", "11,cm/7,cm", "moldesDeSilicona", "navidad"),
     new Producto("../Images/Productos/Navidad/N-03.jpg", "N-03", "900", "4cm/7cm/5cm", "moldesDeSilicona", "navidad"),
@@ -204,7 +204,7 @@ const productos=[
     new Producto("../Images/Productos/Flores/F-17.jpg", "F-17", "4600", "32x5,5cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Flores/F-18.jpg", "F-18", "5900", "17cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Flores/F-19.jpg", "F-19", "6300", "31cm", "moldesDeSilicona", "flor"),
-    new Producto("../Images/Productos/Flores/F-20.jpg", "F-20", "-", "-cm", "moldesDeSilicona", "flor"),
+    new Producto("../Images/Productos/Flores/F-20.jpg", "F-20", "375", "-cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Flores/F-21.jpg", "F-21", "1900", "8,5/5/4/3cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Flores/F-22.jpg", "F-22", "2100", "8/7,5/6/5,5cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Flores/F-23.jpg", "F-23", "450", "-cm", "moldesDeSilicona", "flor"),
@@ -323,3 +323,17 @@ agregarProductoEnProductos("../Images/Productos/Navidad/N-12.jpg", "N-12", "3800
 agregarProductoEnProductos("../Images/Productos/Navidad/N-13.jpg", "N-13", "3900", "11,5x8cm", "moldesDeSilicona", "navidad");
 agregarProductoEnProductos("../Images/Productos/Esquineros/E-32.jpg", "E-32", "4500", "20x11cm", "moldesDeSilicona", "esquinero");
 agregarProductoEnProductos("../Images/Productos/Esquineros/E-33.jpg", "E-33", "6500", "19,5x7cm", "moldesDeSilicona", "esquinero");
+agregarProductoEnProductos("../Images/Productos/Navidad/N-14.jpg", "N-14", "450", "7x3cm", "moldesDeSilicona", "navidad");
+agregarProductoEnProductos("../Images/Productos/Navidad/N-15.jpg", "N-15", "2540", "7,5x5,5cm", "moldesDeSilicona", "navidad");
+agregarProductoEnProductos("../Images/Productos/Mariposas/B-12.jpg", "B-12", "720", "6x4,5cm", "moldesDeSilicona", "mariposa");
+agregarProductoEnProductos("../Images/Productos/Mariposas/B-13.jpg", "B-13", "720", "6x4,5cm", "moldesDeSilicona", "mariposa");
+agregarProductoEnProductos("../Images/Productos/Mariposas/B-14.jpg", "B-14", "720", "6x4,5cm", "moldesDeSilicona", "mariposa");
+agregarProductoEnProductos("../Images/Productos/Pajaritos/J-21.jpg", "J-21", "3100", "4x5,5cm", "moldesDeSilicona", "pajarito");
+agregarProductoEnProductos("../Images/Productos/Pajaritos/J-22.jpg", "J-22", "1200", "4x5,5cm", "moldesDeSilicona", "pajarito");
+agregarProductoEnProductos("../Images/Productos/Decoracion/D-69.jpg", "D-69", "4100", "18cm", "moldesDeSilicona", "decoracion2");
+agregarProductoEnProductos("../Images/Productos/Decoracion/D-70.jpg", "D-70", "0", "3x5,5cm", "moldesDeSilicona", "decoracion2");
+agregarProductoEnProductos("../Images/Productos/ABC/ABC-01.jpg", "ABC-01", "2100", "10,5x13cm", "moldesDeSilicona", "ab");
+agregarProductoEnProductos("../Images/Productos/ABC/ABC-02.jpg", "ABC-02", "2100", "10,5x13cm", "moldesDeSilicona", "ab");
+agregarProductoEnProductos("../Images/Productos/Cerraduras/C-05.jpg", "C-05", "1850", "11x4cm", "moldesDeSilicona", "cerradura");
+agregarProductoEnProductos("../Images/Productos/Cerraduras/C-06.jpg", "C-06", "1850", "8,5x5cm", "moldesDeSilicona", "cerradura");
+agregarProductoEnProductos("../Images/Productos/Cerraduras/C-07.jpg", "C-07", "1850", "10,5x4,5cm", "moldesDeSilicona", "cerradura");
