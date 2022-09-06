@@ -206,7 +206,7 @@ const productos=[
     new Producto("../Images/Productos/Flores/F-19.jpg", "F-19", "6300", "31cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Flores/F-20.jpg", "F-20", "375", "-cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Flores/F-21.jpg", "F-21", "1900", "8,5/5/4/3cm", "moldesDeSilicona", "flor"),
-    new Producto("../Images/Productos/Flores/F-22.jpg", "F-22", "2100", "8/7,5/6/5,5cm", "moldesDeSilicona", "flor"),
+    new Producto("../Images/Productos/Flores/F-22.jpg", "N-16", "2100", "8/7,5/6/5,5cm", "moldesDeSilicona", "navidad"),
     new Producto("../Images/Productos/Flores/F-23.jpg", "F-23", "450", "-cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Flores/F-24.jpg", "F-24", "1700", "-cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Medallones/R-01.jpg", "R-01", "1400", "7cm", "moldesDeSilicona", "medallon"),
