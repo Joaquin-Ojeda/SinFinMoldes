@@ -337,3 +337,5 @@ agregarProductoEnProductos("../Images/Productos/ABC/ABC-02.jpg", "ABC-02", "2100
 agregarProductoEnProductos("../Images/Productos/Cerraduras/C-05.jpg", "C-05", "1850", "11x4cm", "moldesDeSilicona", "cerradura");
 agregarProductoEnProductos("../Images/Productos/Cerraduras/C-06.jpg", "C-06", "1850", "8,5x5cm", "moldesDeSilicona", "cerradura");
 agregarProductoEnProductos("../Images/Productos/Cerraduras/C-07.jpg", "C-07", "1850", "10,5x4,5cm", "moldesDeSilicona", "cerradura");
+
+actualizarPrecios(1.15);
