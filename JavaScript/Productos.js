@@ -361,3 +361,4 @@ agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad09.jpg", "Navid
 agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad10.jpg", "Navidad 10", "400", "12x7cm", "moldesDeSilicona", "navidadpl");
 
 actualizarPrecios(1.11);
+actualizarPrecios(1.13);
