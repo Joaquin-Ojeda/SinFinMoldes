@@ -340,3 +340,67 @@ function agregarProductoEnProductos(imagen,descripcion,valor,medidas,categoria,t
     productos.push(producto);
     productos.sort(ordenarPorDescripcion)
 }
+
+//CARGAR CATEGORIAS
+
+function crearCategoria(molde,i,par){
+    let nuevo='';
+    if(par){
+        nuevo=
+        `
+        <div id="${molde.id}" class="subCategoria2">
+            <button onclick="divLogin1('${i}','${molde.caja}')" class="sub">${molde.id}</button>
+            <div id="caja${i}" class="cajas">
+                <div id="${molde.caja}" class="grid"></div>
+                <button onclick="divLogin('${i}')" class="sub">
+                    <a href="#${molde.id}"><ion-icon name="arrow-up-outline"></ion-icon></a>
+                </button>
+            </div>
+        </div>
+
+        `;
+    }
+    else{
+        nuevo=
+        `
+        <div id="${molde.id}" class="subCategoria">
+            <button onclick="divLogin1('${i}','${molde.caja}')" class="sub">${molde.id}</button>
+            <div id="caja${i}" class="cajas">
+                <div id="${molde.caja}" class="grid"></div>
+                <button onclick="divLogin('${i}')" class="sub">
+                    <a href="#${molde.id}"><ion-icon name="arrow-up-outline"></ion-icon></a>
+                </button>
+            </div>
+        </div>
+
+        `;
+    }
+
+    return nuevo;
+
+}
+function cargarMolde(cat){
+    document.getElementById("cajamoldes-silicona").innerHTML+=cat;
+}
+function cargarArt3d(cat){
+    document.getElementById("cajaarticulos3D").innerHTML+=cat;
+}
+
+function cargarCategorias(categorias){
+
+    let parMoldes=true;
+    let parArt3d=false;
+
+    for(let i=1;i<=categorias.length;i++){
+        
+        if(categorias[i-1].tipo==="moldes-silicona")
+        {
+            cargarMolde(crearCategoria(categorias[i-1],i,parMoldes));
+            parMoldes=!parMoldes;
+        }
+        else{
+            cargarArt3d(crearCategoria(categorias[i-1],i,parArt3d));
+            parArt3d=!parArt3d;
+        }
+    }
+}
