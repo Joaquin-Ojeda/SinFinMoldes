@@ -31,3 +31,4 @@ const categorias=[
 ]
 
 cargarCategorias(categorias);
+categoriaNueva("Rodillos");
