@@ -349,7 +349,7 @@ function crearCategoria(molde,i,par){
         nuevo=
         `
         <div id="${molde.id}" class="subCategoria2">
-            <button onclick="divLogin1('${i}','${molde.caja}')" class="sub">${molde.id}</button>
+            <button id="${molde.id+"Boton"}" onclick="divLogin1('${i}','${molde.caja}')" class="sub">${molde.id}</button>
             <div id="caja${i}" class="cajas">
                 <div id="${molde.caja}" class="grid"></div>
                 <button onclick="divLogin('${i}')" class="sub">
@@ -364,7 +364,7 @@ function crearCategoria(molde,i,par){
         nuevo=
         `
         <div id="${molde.id}" class="subCategoria">
-            <button onclick="divLogin1('${i}','${molde.caja}')" class="sub">${molde.id}</button>
+            <button id="${molde.id+"Boton"}" onclick="divLogin1('${i}','${molde.caja}')" class="sub">${molde.id}</button>
             <div id="caja${i}" class="cajas">
                 <div id="${molde.caja}" class="grid"></div>
                 <button onclick="divLogin('${i}')" class="sub">
@@ -390,6 +390,7 @@ function cargarCategorias(categorias){
 
     let parMoldes=true;
     let parArt3d=false;
+    
 
     for(let i=1;i<=categorias.length;i++){
         
@@ -404,3 +405,8 @@ function cargarCategorias(categorias){
         }
     }
 }
+
+function categoriaNueva(categoria){
+    document.getElementById(categoria+"Boton").innerHTML+=` <span class="nuevo">Nuevo!</span>`;
+}
+

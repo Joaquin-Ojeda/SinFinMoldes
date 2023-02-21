@@ -790,3 +790,8 @@ html{
     font-size: 30px;
     font-weight: bold;
 }
+
+.nuevo{
+    margin-left: 10px;
+    color: red;
+}
