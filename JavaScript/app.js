@@ -338,7 +338,9 @@ function ordenarPorDescripcion(producto1,producto2){
 function agregarProductoEnProductos(imagen,descripcion,valor,medidas,categoria,tipo){
     let producto=new Producto(imagen,descripcion,valor,medidas,categoria,tipo);
     productos.push(producto);
-    productos.sort(ordenarPorDescripcion)
+    if(tipo!=="rodillo"){
+        productos.sort(ordenarPorDescripcion)
+    }
 }
 
 //CARGAR CATEGORIAS
