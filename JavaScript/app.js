@@ -314,9 +314,9 @@ function aumentoDiezPrc(producto, porcentaje){
     producto.valor=precio.toString();
 }
 
-function actualizarPrecios(porcentaje){
+function actualizarPrecios(porcentaje,tipo){
     for(producto of productos){
-        if(producto.categoria=="moldesDeSilicona"){
+        if(producto.categoria==tipo){
             aumentoDiezPrc(producto, porcentaje);
         }
     }

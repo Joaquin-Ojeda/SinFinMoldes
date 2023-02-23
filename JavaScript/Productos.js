@@ -292,13 +292,13 @@ const productos=[
     new Producto("../Images/Productos/Plp/PLP-15.jpg", "PLP-15", "450", "12cm", "articulos3D", "plp"),   
     new Producto("../Images/Productos/Plp/PLP-16.jpg", "PLP-16", "400", "13x8cm", "articulos3D", "plp"),   
 ]
-actualizarPrecios(1.10);
+actualizarPrecios(1.10,"moldesDeSilicona");
 
 agregarProductoEnProductos("../Images/Productos/Plp/PLP-17.jpg", "PLP-17", "400", "13x8cm", "articulos3D", "plp");
 agregarProductoEnProductos("../Images/Productos/Decoracion/D-31.jpg", "D-31", "6500", "11,5x7,5cm", "moldesDeSilicona", "decoracion");
 agregarProductoEnProductos("../Images/Productos/Decoracion/D-34.jpg", "D-34", "940", "4/3cm", "moldesDeSilicona", "decoracion");
 
-actualizarPrecios(1.10);
+actualizarPrecios(1.10,"moldesDeSilicona");
 
 agregarProductoEnProductos("../Images/Productos/Flores/F-09.jpg", "F-09", "1800", "7cm", "moldesDeSilicona", "flor");
 agregarProductoEnProductos("../Images/Productos/Jabones/V-01.jpg", "V-01", "1700", "4cm", "moldesDeSilicona", "jabon");
@@ -338,57 +338,60 @@ agregarProductoEnProductos("../Images/Productos/Cerraduras/C-05.jpg", "C-05", "1
 agregarProductoEnProductos("../Images/Productos/Cerraduras/C-06.jpg", "C-06", "1850", "8,5x5cm", "moldesDeSilicona", "cerradura");
 agregarProductoEnProductos("../Images/Productos/Cerraduras/C-07.jpg", "C-07", "1850", "10,5x4,5cm", "moldesDeSilicona", "cerradura");
 
-actualizarPrecios(1.15);
+actualizarPrecios(1.15,"moldesDeSilicona");
 
 agregarProductoEnProductos("../Images/Productos/Navidad/N-17.jpg", "N-17", "2500", "6,5x2cm", "moldesDeSilicona", "navidad");
 agregarProductoEnProductos("../Images/Productos/Navidad/N-18.jpg", "N-18", "1500", "4,5cm", "moldesDeSilicona", "navidad");
-agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-01.jpg", "CASITA-01", "400", "10x5cm", "moldesDeSilicona", "casita");
-agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-02.jpg", "CASITA-02", "400", "14,5x6cm", "moldesDeSilicona", "casita");
-agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-03.jpg", "CASITA-03", "400", "12,5x6,5cm", "moldesDeSilicona", "casita");
-agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-04.jpg", "CASITA-04", "400", "10x7cm", "moldesDeSilicona", "casita");
-agregarProductoEnProductos("../Images/Productos/Mandalas/MANDALA-01.jpg", "MANDALA-01", "1500", "18,5x9,5cm", "moldesDeSilicona", "mandala");
-agregarProductoEnProductos("../Images/Productos/Mandalas/MANDALA-02.jpg", "MANDALA-02", "1500", "18,5x9,5cm", "moldesDeSilicona", "mandala");
-agregarProductoEnProductos("../Images/Productos/Mandalas/MANDALA-03.jpg", "MANDALA-03", "1500", "18,5x9,5cm", "moldesDeSilicona", "mandala");
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-18.jpg", "PLP-18", "400", "13x8cm", "moldesDeSilicona", "plp");
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-19.jpg", "PLP-19", "450", "15x7cm", "moldesDeSilicona", "plp");
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-20.jpg", "PLP-20", "350", "15x4,5cm", "moldesDeSilicona", "plp");
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-21.jpg", "PLP-21", "450", "15x10cm", "moldesDeSilicona", "plp");
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-22.jpg", "PLP-22", "350", "9x9cm", "moldesDeSilicona", "plp");
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-23.jpg", "PLP-23", "450", "15x8cm", "moldesDeSilicona", "plp");
-agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad07.jpg", "Navidad 07", "400", "13x8cm", "moldesDeSilicona", "navidadpl");
-agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad08.jpg", "Navidad 08", "400", "10x9cm", "moldesDeSilicona", "navidadpl");
-agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad09.jpg", "Navidad 09", "400", "10x9cm", "moldesDeSilicona", "navidadpl");
-agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad10.jpg", "Navidad 10", "400", "12x7cm", "moldesDeSilicona", "navidadpl");
+agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-01.jpg", "CASITA-01", "400", "10x5cm", "articulos3D", "casita");
+agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-02.jpg", "CASITA-02", "400", "14,5x6cm", "articulos3D", "casita");
+agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-03.jpg", "CASITA-03", "400", "12,5x6,5cm", "articulos3D", "casita");
+agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-04.jpg", "CASITA-04", "400", "10x7cm", "articulos3D", "casita");
+agregarProductoEnProductos("../Images/Productos/Mandalas/MANDALA-01.jpg", "MANDALA-01", "1500", "18,5x9,5cm", "articulos3D", "mandala");
+agregarProductoEnProductos("../Images/Productos/Mandalas/MANDALA-02.jpg", "MANDALA-02", "1500", "18,5x9,5cm", "articulos3D", "mandala");
+agregarProductoEnProductos("../Images/Productos/Mandalas/MANDALA-03.jpg", "MANDALA-03", "1500", "18,5x9,5cm", "articulos3D", "mandala");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-18.jpg", "PLP-18", "400", "13x8cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-19.jpg", "PLP-19", "450", "15x7cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-20.jpg", "PLP-20", "350", "15x4,5cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-21.jpg", "PLP-21", "450", "15x10cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-22.jpg", "PLP-22", "350", "9x9cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-23.jpg", "PLP-23", "450", "15x8cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad07.jpg", "Navidad 07", "400", "13x8cm", "articulos3D", "navidadpl");
+agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad08.jpg", "Navidad 08", "400", "10x9cm", "articulos3D", "navidadpl");
+agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad09.jpg", "Navidad 09", "400", "10x9cm", "articulos3D", "navidadpl");
+agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad10.jpg", "Navidad 10", "400", "12x7cm", "articulos3D", "navidadpl");
 
-actualizarPrecios(1.11);
-actualizarPrecios(1.13);
+actualizarPrecios(1.11,"moldesDeSilicona");
+actualizarPrecios(1.13,"moldesDeSilicona");
+actualizarPrecios(1.10,"articulos3D");
 
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-COMPLETA.jpg", "RD-Completa", "13500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-VACIA.jpg", "RD-Vacia", "2500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-MANGO.jpg", "RD-Mango", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-01.jpg", "RD-01", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-02.jpg", "RD-02", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-03.jpg", "RD-03", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-04.jpg", "RD-04", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-05.jpg", "RD-05", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-06.jpg", "RD-06", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-07.jpg", "RD-07", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-08.jpg", "RD-08", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-09.jpg", "RD-09", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-10.jpg", "RD-10", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-11.jpg", "RD-11", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-12.jpg", "RD-12", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-13.jpg", "RD-13", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-14.jpg", "RD-14", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-15.jpg", "RD-15", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-16.jpg", "RD-16", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-17.jpg", "RD-17", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-18.jpg", "RD-18", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-19.jpg", "RD-19", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-20.jpg", "RD-20", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-21.jpg", "RD-21", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-22.jpg", "RD-22", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-23.jpg", "RD-23", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-24.jpg", "RD-24", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-25.jpg", "RD-25", "500", "-", "moldesDeSilicona", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-26.jpg", "RD-26", "500", "-", "moldesDeSilicona", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-COMPLETA.jpg", "RD-Completa", "13500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-VACIA.jpg", "RD-Vacia", "2500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-MANGO.jpg", "RD-Mango", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-01.jpg", "RD-01", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-02.jpg", "RD-02", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-03.jpg", "RD-03", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-04.jpg", "RD-04", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-05.jpg", "RD-05", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-06.jpg", "RD-06", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-07.jpg", "RD-07", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-08.jpg", "RD-08", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-09.jpg", "RD-09", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-10.jpg", "RD-10", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-11.jpg", "RD-11", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-12.jpg", "RD-12", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-13.jpg", "RD-13", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-14.jpg", "RD-14", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-15.jpg", "RD-15", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-16.jpg", "RD-16", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-17.jpg", "RD-17", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-18.jpg", "RD-18", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-19.jpg", "RD-19", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-20.jpg", "RD-20", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-21.jpg", "RD-21", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-22.jpg", "RD-22", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-23.jpg", "RD-23", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-24.jpg", "RD-24", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-25.jpg", "RD-25", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-26.jpg", "RD-26", "500", "-", "articulos3D", "rodillo");
+
+actualizarPrecios(1.13,"moldesDeSilicona");
