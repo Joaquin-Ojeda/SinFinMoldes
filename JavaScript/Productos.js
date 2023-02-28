@@ -346,9 +346,6 @@ agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-01.jpg", "CASITA-
 agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-02.jpg", "CASITA-02", "400", "14,5x6cm", "articulos3D", "casita");
 agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-03.jpg", "CASITA-03", "400", "12,5x6,5cm", "articulos3D", "casita");
 agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-04.jpg", "CASITA-04", "400", "10x7cm", "articulos3D", "casita");
-agregarProductoEnProductos("../Images/Productos/Mandalas/MANDALA-01.jpg", "MANDALA-01", "1500", "18,5x9,5cm", "articulos3D", "mandala");
-agregarProductoEnProductos("../Images/Productos/Mandalas/MANDALA-02.jpg", "MANDALA-02", "1500", "18,5x9,5cm", "articulos3D", "mandala");
-agregarProductoEnProductos("../Images/Productos/Mandalas/MANDALA-03.jpg", "MANDALA-03", "1500", "18,5x9,5cm", "articulos3D", "mandala");
 agregarProductoEnProductos("../Images/Productos/Plp/PLP-18.jpg", "PLP-18", "400", "13x8cm", "articulos3D", "plp");
 agregarProductoEnProductos("../Images/Productos/Plp/PLP-19.jpg", "PLP-19", "450", "15x7cm", "articulos3D", "plp");
 agregarProductoEnProductos("../Images/Productos/Plp/PLP-20.jpg", "PLP-20", "350", "15x4,5cm", "articulos3D", "plp");
@@ -393,5 +390,9 @@ agregarProductoEnProductos("../Images/Productos/Rodillos/RD-23.jpg", "RD-23", "5
 agregarProductoEnProductos("../Images/Productos/Rodillos/RD-24.jpg", "RD-24", "500", "-", "articulos3D", "rodillo");
 agregarProductoEnProductos("../Images/Productos/Rodillos/RD-25.jpg", "RD-25", "500", "-", "articulos3D", "rodillo");
 agregarProductoEnProductos("../Images/Productos/Rodillos/RD-26.jpg", "RD-26", "500", "-", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Mandalas/MANDALA-01.jpg", "MANDALA-01", "2100", "18,5x9,5cm", "articulos3D", "mandala");
+agregarProductoEnProductos("../Images/Productos/Mandalas/MANDALA-02.jpg", "MANDALA-02", "2100", "18,5x9,5cm", "articulos3D", "mandala");
+agregarProductoEnProductos("../Images/Productos/Mandalas/MANDALA-03.jpg", "MANDALA-03", "2100", "18,5x9,5cm", "articulos3D", "mandala");
 
 actualizarPrecios(1.13,"moldesDeSilicona");
+
