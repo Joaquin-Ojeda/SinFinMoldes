@@ -517,7 +517,7 @@ main{
     font-size: 60px;
     text-align: center;
 }
-@media only screen and (min-width:200px) and (max-width:660px){
+@media only screen and (min-width:200px) and (max-width:745px){
     .header{
         height: 90px;
     }
@@ -794,4 +794,57 @@ html{
 .nuevo{
     margin-left: 10px;
     color: red;
+}
+.expo-container{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.expo-card{
+    margin: 30px;
+    width: 17rem;
+    height: 25rem;
+    background-color: #212121;
+    border-radius: 1rem;
+    border: #212121 0.2rem solid;
+    transition: all 0.4s ease-in;
+    box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
+    background-image: url("../Images/Logo.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.expo-card:hover{
+    transform: translateY(-1.5rem);
+    border: #f2295bf0 0.2em solid;
+    border-radius: 2.5rem 0 2.5rem 0;
+}
+.hobby{
+    background-image: url("../Images/Expos/Logos-Expo-AM.jpg");
+}
+.expo-info{
+    width: 50%;
+    height: 2.4rem;
+    margin: 10px 0px;
+    border-radius: 0 0 30px 0;
+}
+.expo-name{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    background-color: #001d3d;
+    color: white;
+    text-align: center;
+}
+.expo-date{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    background-color: #690101;
+    color: white;
+    text-align: center;
 }
