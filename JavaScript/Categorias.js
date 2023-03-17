@@ -18,7 +18,7 @@ const categorias=[
     new Categoria("Jabones","jabon","moldes-silicona"),
     new Categoria("ABC","ab","moldes-silicona"),
 
-    new Categoria("Placas pequeñas","plp","articulos3D"),
+    new Categoria("Placas","plp","articulos3D"),
     new Categoria("Mayolicas","mayolica","articulos3D"),
     new Categoria("Rodillos","rodillo","articulos3D"),
     new Categoria("Manijas","manija","articulos3D"),
