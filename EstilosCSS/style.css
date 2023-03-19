@@ -855,3 +855,21 @@ html{
     color: white;
     text-align: center;
 }
+
+.slideRight{
+    animation-name: slideRight;
+    animation-duration: 1.5s;
+}
+
+@keyframes slideRight{
+    0%{
+        transform: translateX(100%);
+    }
+    90%{
+        transform: translateX(-2%)
+    }
+    100%{
+        visibility: visible;
+        transform: translateX(0%);
+    }
+}

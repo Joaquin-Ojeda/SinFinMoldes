@@ -412,3 +412,28 @@ function categoriaNueva(categoria){
     document.getElementById(categoria+"Boton").innerHTML+=` <span class="nuevo">Nuevo!</span>`;
 }
 
+// ANIMACION ONVIEW
+
+function isInViewport(element){
+    const rect= element.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+}
+
+const titulos= document.querySelectorAll('.invisible');
+titulos.forEach((element)=>element.addEventListener('transitionend', element.classList.remove('invisible')))
+
+window.onscroll=()=>{
+    titulos.forEach((element)=>{
+        if(isInViewport(element)){
+            element.classList.add('slideRight');
+        }
+    })
+}
+
+
+
