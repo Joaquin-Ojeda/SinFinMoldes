@@ -424,12 +424,12 @@ function isInViewport(element){
     );
 }
 
-const titulos= document.querySelectorAll('.invisible');
+const titulos= document.querySelectorAll('.invi');
 
 document.onscroll=()=>{
     titulos.forEach((element)=>{
         if(isInViewport(element)){
-            element.addEventListener('transitionend', element.classList.remove('invisible'));
+            element.addEventListener('transitionend', element.classList.remove('invi'));
             element.classList.add('slideRight');
         }
     })
@@ -437,9 +437,8 @@ document.onscroll=()=>{
 document.ontouchmove=()=>{
     titulos.forEach((element)=>{
         if(isInViewport(element)){
-            element.addEventListener('transitionend', element.classList.remove('invisible'));
+            element.addEventListener('transitionend', element.classList.remove('invi'));
             element.classList.add('slideRight');
         }
     })
 }
-
