@@ -424,16 +424,27 @@ function isInViewport(element){
     );
 }
 
-const titulos= document.querySelectorAll('.invisible');
-titulos.forEach((element)=>element.addEventListener('transitionend', element.classList.remove('invisible')))
+
+/*const titulos= document.querySelectorAll('.invisible');
 
 window.onscroll=()=>{
+
     titulos.forEach((element)=>{
         if(isInViewport(element)){
+            element.addEventListener('transitionend', element.classList.remove('invisible'));
             element.classList.add('slideRight');
         }
     })
 }
+*/
+const titulos= document.querySelectorAll('.invisible');
 
-
+document.onscroll=()=>{
+    titulos.forEach((element)=>{
+        if(isInViewport(element)){
+            element.addEventListener('transitionend', element.classList.remove('invisible'));
+            element.classList.add('slideRight');
+        }
+    })
+}
 
