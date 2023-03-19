@@ -886,6 +886,10 @@ html{
     }
 }
 
+.invi{
+    visibility: hidden;
+}
+
 .relativo{
     position: relative;
 }
