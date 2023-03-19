@@ -424,11 +424,9 @@ function isInViewport(element){
     );
 }
 
+const titulos= document.querySelectorAll('.invisible');
 
-/*const titulos= document.querySelectorAll('.invisible');
-
-window.onscroll=()=>{
-
+document.onscroll=()=>{
     titulos.forEach((element)=>{
         if(isInViewport(element)){
             element.addEventListener('transitionend', element.classList.remove('invisible'));
@@ -436,10 +434,7 @@ window.onscroll=()=>{
         }
     })
 }
-*/
-const titulos= document.querySelectorAll('.invisible');
-
-document.onscroll=()=>{
+document.ontouchmove=()=>{
     titulos.forEach((element)=>{
         if(isInViewport(element)){
             element.addEventListener('transitionend', element.classList.remove('invisible'));
