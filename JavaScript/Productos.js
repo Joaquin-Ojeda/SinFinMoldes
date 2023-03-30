@@ -396,3 +396,4 @@ agregarProductoEnProductos("../Images/Productos/Mandalas/MANDALA-03.jpg", "MANDA
 
 actualizarPrecios(1.13,"moldesDeSilicona");
 
+actualizarPrecios(1.10,"moldesDeSilicona");
