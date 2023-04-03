@@ -22,7 +22,7 @@ const categorias=[
     new Categoria("Placas","plp","articulos3D"),
     new Categoria("Mayolicas","mayolica","articulos3D"),
     new Categoria("Rodillos","rodillo","articulos3D"),
-    new Categoria("Manijas","manija","articulos3D"),
+    new Categoria("Manijas(Por unidad)","manija","articulos3D"),
     new Categoria("Tiradores","tirador","articulos3D"),
     new Categoria("Navidad","navidadpl","articulos3D"),
     new Categoria("Casitas","casita","articulos3D"),
