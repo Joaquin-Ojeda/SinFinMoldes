@@ -27,8 +27,9 @@ const categorias=[
     new Categoria("Navidad","navidadpl","articulos3D"),
     new Categoria("Casitas","casita","articulos3D"),
     new Categoria("Mandalas","mandala","articulos3D"),
-    
+    new Categoria("Etiquetas","etiqueta","articulos3D"),
 ]
 
 cargarCategorias(categorias);
 categoriaNueva("Rodillos");
+categoriaNueva("Etiquetas");
