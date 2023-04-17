@@ -394,6 +394,20 @@ agregarProductoEnProductos("../Images/Productos/Mandalas/MANDALA-01.jpg", "MANDA
 agregarProductoEnProductos("../Images/Productos/Mandalas/MANDALA-02.jpg", "MANDALA-02", "2100", "18,5x9,5cm", "articulos3D", "mandala");
 agregarProductoEnProductos("../Images/Productos/Mandalas/MANDALA-03.jpg", "MANDALA-03", "2100", "18,5x9,5cm", "articulos3D", "mandala");
 
+
 actualizarPrecios(1.13,"moldesDeSilicona");
 
 actualizarPrecios(1.10,"moldesDeSilicona");
+
+agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-01.jpg", "ET-01", "350", "8x5cm", "articulos3D", "etiqueta");
+agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-02.jpg", "ET-02", "350", "8x5cm", "articulos3D", "etiqueta");
+agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-03.jpg", "ET-03", "350", "8x5cm", "articulos3D", "etiqueta");
+agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-04.jpg", "ET-04", "350", "8x5cm", "articulos3D", "etiqueta");
+agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-05.jpg", "ET-05", "350", "8x5cm", "articulos3D", "etiqueta");
+agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-06.jpg", "ET-06", "350", "8x5cm", "articulos3D", "etiqueta");
+agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-07.jpg", "ET-07", "350", "8x5cm", "articulos3D", "etiqueta");
+agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-08.jpg", "ET-08", "350", "8x5cm", "articulos3D", "etiqueta");
+agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-09.jpg", "ET-09", "350", "8x5cm", "articulos3D", "etiqueta");
+agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-10.jpg", "ET-10", "350", "8x5cm", "articulos3D", "etiqueta");
+agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-11.jpg", "ET-11", "350", "8x5cm", "articulos3D", "etiqueta");
+agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-12.jpg", "ET-12", "350", "8x5cm", "articulos3D", "etiqueta");
