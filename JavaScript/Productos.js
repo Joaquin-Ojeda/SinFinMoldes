@@ -411,3 +411,5 @@ agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-09.jpg", "ET-09", "
 agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-10.jpg", "ET-10", "350", "8x5cm", "articulos3D", "etiqueta");
 agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-11.jpg", "ET-11", "350", "8x5cm", "articulos3D", "etiqueta");
 agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-12.jpg", "ET-12", "350", "8x5cm", "articulos3D", "etiqueta");
+agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-13.jpg", "ET-13", "350", "8x5cm", "articulos3D", "etiqueta");
+agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-14.jpg", "ET-14", "350", "8x5cm", "articulos3D", "etiqueta");

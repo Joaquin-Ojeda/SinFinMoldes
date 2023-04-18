@@ -12,5 +12,7 @@ const puntosVenta=[
     new PuntoVenta("Expresarte","-","expresartealmacendearte","9 de Julio 414 San Andres de Giles","/Images/PuntosDeVenta/expresartelogo.jpg"),
     new PuntoVenta("Bianca Art Deco","-","nataliavanrenterghem","Gonzales Catan BS.AS","/Images/PuntosDeVenta/biancaartedecologo.jpg"),
     new PuntoVenta("D&D Laser","11 3485-0306","ddlaser","Banfield","/Images/PuntosDeVenta/d&dlaser.jpg"),
+    new PuntoVenta("Benditas Creaciones","11 3768-2406","benditascreaciones_ok","Martin Coronado - Zona - Oeste","/Images/PuntosDeVenta/benditascreacioneslogo.jpg"),
+   
 ]
 cargarPuntoVenta()
