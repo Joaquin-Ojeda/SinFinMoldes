@@ -415,3 +415,4 @@ agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-13.jpg", "ET-13", "
 agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-14.jpg", "ET-14", "350", "8x5cm", "articulos3D", "etiqueta");
 
 actualizarPrecios(1.10,"articulos3D");
+actualizarPrecios(1.31,"moldesDeSilicona");
