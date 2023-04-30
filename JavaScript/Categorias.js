@@ -1,5 +1,5 @@
 const categorias=[
-    /*new Categoria("Pajaritos","pajarito","moldes-silicona"),
+    new Categoria("Pajaritos","pajarito","moldes-silicona"),
     new Categoria("Flores","flor","moldes-silicona"),
     new Categoria("Esquineros","esquinero","moldes-silicona"),
     new Categoria("Decoración","decoracion","moldes-silicona"),
@@ -16,7 +16,7 @@ const categorias=[
     new Categoria("Especiales","especial","moldes-silicona"),
     new Categoria("Comunión","comunion","moldes-silicona"),
     new Categoria("Jabones","jabon","moldes-silicona"),
-    new Categoria("ABC","ab","moldes-silicona"),*/
+    new Categoria("ABC","ab","moldes-silicona"),
 
     //new Categoria("Placas Grandes","pl","articulos3D"),
     new Categoria("Placas","plp","articulos3D"),
