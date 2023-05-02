@@ -413,6 +413,16 @@ agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-11.jpg", "ET-11", "
 agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-12.jpg", "ET-12", "350", "8x5cm", "articulos3D", "etiqueta");
 agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-13.jpg", "ET-13", "350", "8x5cm", "articulos3D", "etiqueta");
 agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-14.jpg", "ET-14", "350", "8x5cm", "articulos3D", "etiqueta");
+agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-15.jpg", "ET-15", "350", "8x5cm", "articulos3D", "etiqueta");
+agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-16.jpg", "ET-16", "350", "8x5cm", "articulos3D", "etiqueta");
+
 
 actualizarPrecios(1.10,"articulos3D");
 actualizarPrecios(1.31,"moldesDeSilicona");
+
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-24.jpg", "PLP-24", "550", "10x15cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-25.jpg", "PLP-25", "550", "10X15cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-26.jpg", "PLP-26", "550", "10X15cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-27.jpg", "PLP-27", "550", "10X15cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-28.jpg", "PLP-28", "550", "10X15cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-29.jpg", "PLP-29", "430", "10X10cm", "articulos3D", "plp");
