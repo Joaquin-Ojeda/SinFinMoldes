@@ -13,6 +13,7 @@ const puntosVenta=[
     new PuntoVenta("Bianca Art Deco","-","nataliavanrenterghem","Gonzales Catan BS.AS","/Images/PuntosDeVenta/biancaartedecologo.jpg"),
     new PuntoVenta("D&D Laser","11 3485-0306","ddlaser","Banfield","/Images/PuntosDeVenta/d&dlaser.jpg"),
     new PuntoVenta("Benditas Creaciones","11 3768-2406","benditascreaciones_ok","Martin Coronado - Zona Oeste","/Images/PuntosDeVenta/benditascreacioneslogo.jpg"),
-   
+    new PuntoVenta("Artística Berlián","-","artistica_berlian","25 de Mayo 3825 San Martin","/Images/PuntosDeVenta/artisticaberlianlogo.jpg"),
+
 ]
 cargarPuntoVenta()
