@@ -14,6 +14,6 @@ const puntosVenta=[
     new PuntoVenta("D&D Laser","11 3485-0306","ddlaser","Banfield","/Images/PuntosDeVenta/d&dlaser.jpg"),
     new PuntoVenta("Benditas Creaciones","11 3768-2406","benditascreaciones_ok","Martin Coronado - Zona Oeste","/Images/PuntosDeVenta/benditascreacioneslogo.jpg"),
     new PuntoVenta("Artística Berlián","11 6435-0726","artistica_berlian","San Martin Provincia de BS.AS","/Images/PuntosDeVenta/artisticaberlianlogo.jpg"),
-
+    
 ]
 cargarPuntoVenta()
