@@ -426,3 +426,4 @@ agregarProductoEnProductos("../Images/Productos/Plp/PLP-26.jpg", "PLP-26", "550"
 agregarProductoEnProductos("../Images/Productos/Plp/PLP-27.jpg", "PLP-27", "550", "10X15cm", "articulos3D", "plp");
 agregarProductoEnProductos("../Images/Productos/Plp/PLP-28.jpg", "PLP-28", "550", "10X15cm", "articulos3D", "plp");
 agregarProductoEnProductos("../Images/Productos/Plp/PLP-29.jpg", "PLP-29", "430", "10X10cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-30.jpg", "PLP-30", "550", "10X15cm", "articulos3D", "plp");
