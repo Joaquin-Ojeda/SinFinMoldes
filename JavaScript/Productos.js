@@ -427,3 +427,6 @@ agregarProductoEnProductos("../Images/Productos/Plp/PLP-27.jpg", "PLP-27", "550"
 agregarProductoEnProductos("../Images/Productos/Plp/PLP-28.jpg", "PLP-28", "550", "10X15cm", "articulos3D", "plp");
 agregarProductoEnProductos("../Images/Productos/Plp/PLP-29.jpg", "PLP-29", "430", "10X10cm", "articulos3D", "plp");
 agregarProductoEnProductos("../Images/Productos/Plp/PLP-30.jpg", "PLP-30", "550", "10X15cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/LP/LP-01.jpg", "LP-01", "1200", "Abecedario completo Mayúsculas", "articulos3D", "lp");
+agregarProductoEnProductos("../Images/Productos/LP/LP-02.jpg", "LP-02", "1200", "Abecedario completo Minusculas", "articulos3D", "lp");
+agregarProductoEnProductos("../Images/Productos/LP/LP-03.jpg", "LP-03", "450", "Números del 0 al 9", "articulos3D", "lp");
