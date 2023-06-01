@@ -13,33 +13,65 @@ function cargarProductos(tipo){
 
 function crearProductoHTML(producto,par){
     let productoHTML=``;
-    if(par){
-        productoHTML=`
-        <div class="articulo par">
-        <img src="${producto.imagen}">
+    if(producto.tipo=="lp"){
+        if(par){
+            productoHTML=`
+            <div class="articulo par">
+            <img src="${producto.imagen}">
+                <div class="contenido">
+                    <p class="descripcion-producto">${producto.descripcion}</p>
+                    <p class="descripcion-producto">Descripción: <p class="descripcion">${producto.medidas}</p></p>
+                    <p class="descripcion-producto">Precio:<p class="descripcion">$${producto.valor}</p></p>
+                    <br/>
+                    <button class="agregarCarrito" onclick="agregarCarrito('${producto.descripcion}')">Agregar al carrito <ion-icon name="cart-outline"></ion-icon></button>
+                </div>
+            </div>
+            ` 
+        }else{
+            productoHTML=`
+            <div class="articulo impar">
+            <img src="${producto.imagen}">
             <div class="contenido">
                 <p class="descripcion-producto">${producto.descripcion}</p>
-                <p class="descripcion-producto">Medidas: <p class="descripcion">${producto.medidas}</p></p>
+                <p class="descripcion-producto">Descripción:<p class="descripcion">${producto.medidas}</p></p>
                 <p class="descripcion-producto">Precio:<p class="descripcion">$${producto.valor}</p></p>
                 <br/>
-                <button class="agregarCarrito" onclick="agregarCarrito('${producto.descripcion}')">Agregar al carrito <ion-icon name="cart-outline"></ion-icon></button>
+                <button type="button" class="agregarCarrito" onclick="agregarCarrito('${producto.descripcion}')">Agregar al carrito <ion-icon name="cart-outline"></ion-icon></button>
             </div>
-        </div>
-        ` 
-    }else{
-        productoHTML=`
-        <div class="articulo impar">
-        <img src="${producto.imagen}">
-        <div class="contenido">
-            <p class="descripcion-producto">${producto.descripcion}</p>
-            <p class="descripcion-producto">Medidas:<p class="descripcion">${producto.medidas}</p></p>
-            <p class="descripcion-producto">Precio:<p class="descripcion">$${producto.valor}</p></p>
-            <br/>
-            <button type="button" class="agregarCarrito" onclick="agregarCarrito('${producto.descripcion}')">Agregar al carrito <ion-icon name="cart-outline"></ion-icon></button>
-        </div>
-        </div>
-        `
+            </div>
+            `
+        }
     }
+    else{
+        if(par){
+            productoHTML=`
+            <div class="articulo par">
+            <img src="${producto.imagen}">
+                <div class="contenido">
+                    <p class="descripcion-producto">${producto.descripcion}</p>
+                    <p class="descripcion-producto">Medidas: <p class="descripcion">${producto.medidas}</p></p>
+                    <p class="descripcion-producto">Precio:<p class="descripcion">$${producto.valor}</p></p>
+                    <br/>
+                    <button class="agregarCarrito" onclick="agregarCarrito('${producto.descripcion}')">Agregar al carrito <ion-icon name="cart-outline"></ion-icon></button>
+                </div>
+            </div>
+            ` 
+        }else{
+            productoHTML=`
+            <div class="articulo impar">
+            <img src="${producto.imagen}">
+            <div class="contenido">
+                <p class="descripcion-producto">${producto.descripcion}</p>
+                <p class="descripcion-producto">Medidas:<p class="descripcion">${producto.medidas}</p></p>
+                <p class="descripcion-producto">Precio:<p class="descripcion">$${producto.valor}</p></p>
+                <br/>
+                <button type="button" class="agregarCarrito" onclick="agregarCarrito('${producto.descripcion}')">Agregar al carrito <ion-icon name="cart-outline"></ion-icon></button>
+            </div>
+            </div>
+            `
+        }
+    }
+    
     return productoHTML;
 }
 //JS de los Botones del Catalogo
