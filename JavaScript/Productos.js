@@ -430,3 +430,25 @@ agregarProductoEnProductos("../Images/Productos/Plp/PLP-30.jpg", "PLP-30", "550"
 agregarProductoEnProductos("../Images/Productos/LP/LP-01.jpg", "LP-01", "1200", "Abecedario completo Mayúsculas", "articulos3D", "lp");
 agregarProductoEnProductos("../Images/Productos/LP/LP-02.jpg", "LP-02", "1200", "Abecedario completo Minusculas", "articulos3D", "lp");
 agregarProductoEnProductos("../Images/Productos/LP/LP-03.jpg", "LP-03", "450", "Números del 0 al 9", "articulos3D", "lp");
+
+actualizarPrecios(1.1,"moldesDeSilicona");
+
+agregarProductoEnProductos("../Images/Productos/Palabras/PA-01.jpg", "PA-01", "400", "4x1,5cm", "articulos3D", "pa");
+agregarProductoEnProductos("../Images/Productos/Palabras/PA-02.jpg", "PA-02", "400", "4x1,5cm", "articulos3D", "pa");
+agregarProductoEnProductos("../Images/Productos/Palabras/PA-03.jpg", "PA-03", "400", "3,5x1,3cm", "articulos3D", "pa");
+agregarProductoEnProductos("../Images/Productos/Palabras/PA-04.jpg", "PA-04", "400", "4x1cm", "articulos3D", "pa");
+agregarProductoEnProductos("../Images/Productos/Palabras/PA-05.jpg", "PA-05", "400", "5,5x1cm", "articulos3D", "pa");
+agregarProductoEnProductos("../Images/Productos/Palabras/PA-06.jpg", "PA-06", "400", "5,5x1cm", "articulos3D", "pa");
+agregarProductoEnProductos("../Images/Productos/Palabras/PA-07.jpg", "PA-07", "400", "4x0,8cm", "articulos3D", "pa");
+agregarProductoEnProductos("../Images/Productos/Palabras/PA-08.jpg", "PA-08", "400", "1x1,5cm", "articulos3D", "pa");
+agregarProductoEnProductos("../Images/Productos/Palabras/PA-09.jpg", "PA-09", "400", "4,5x1cm", "articulos3D", "pa");
+agregarProductoEnProductos("../Images/Productos/Palabras/PA-10.jpg", "PA-10", "400", "4x1cm", "articulos3D", "pa");
+agregarProductoEnProductos("../Images/Productos/Palabras/PA-11.jpg", "PA-11", "400", "4x1cm", "articulos3D", "pa");
+agregarProductoEnProductos("../Images/Productos/Palabras/PA-12.jpg", "PA-12", "400", "4x1,5cm", "articulos3D", "pa");
+agregarProductoEnProductos("../Images/Productos/Palabras/PA-13.jpg", "PA-13", "400", "2,5x1,5cm", "articulos3D", "pa");
+agregarProductoEnProductos("../Images/Productos/Palabras/PA-14.jpg", "PA-14", "400", "5x1,3cm", "articulos3D", "pa");
+agregarProductoEnProductos("../Images/Productos/Palabras/PA-15.jpg", "PA-15", "400", "4,5x1cm", "articulos3D", "pa");
+agregarProductoEnProductos("../Images/Productos/Palabras/PA-16.jpg", "PA-16", "400", "2,5x1cm", "articulos3D", "pa");
+agregarProductoEnProductos("../Images/Productos/Palabras/PA-17.jpg", "PA-17", "400", "4x1,5cm", "articulos3D", "pa");
+agregarProductoEnProductos("../Images/Productos/Palabras/PA-18.jpg", "PA-18", "400", "3,5x1cm", "articulos3D", "pa");
+agregarProductoEnProductos("../Images/Productos/Palabras/PA-19.jpg", "PA-19", "250", "2,8x2,5cm", "articulos3D", "pa");
