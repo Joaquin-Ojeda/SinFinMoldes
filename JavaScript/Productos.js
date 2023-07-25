@@ -454,3 +454,4 @@ agregarProductoEnProductos("../Images/Productos/Palabras/PA-18.jpg", "PA-18", "4
 agregarProductoEnProductos("../Images/Productos/Palabras/PA-19.jpg", "PA-19", "250", "2,8x2,5cm", "articulos3D", "pa");
 
 actualizarPrecios(1.075,"moldesDeSilicona");
+actualizarPrecios(1.2,"articulos3D");
