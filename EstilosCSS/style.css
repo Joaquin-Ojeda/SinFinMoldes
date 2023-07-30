@@ -613,6 +613,9 @@ main{
 .grid{
     grid-template-columns: repeat(1, 1fr);
 }
+.expo-date{
+    font-size: 0.8rem;
+  }
 }
 
 
@@ -685,6 +688,9 @@ main{
       }
       .shopping-cart-header h6{
         font-size: 20px;
+      }
+      .expo-date{
+        font-size: 0.8rem;
       }
 }
 
@@ -817,6 +823,7 @@ html{
     background-image: url("../Images/Logo.jpg");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -831,7 +838,7 @@ html{
     background-image: url("../Images/Expos/Logos-Expo-AM.jpg");
 }
 .romantica{
-    background-image: url("../Images/Expos/Expo-Romantica.jpg");
+    background-image: url("../Images/Expos/Romantica.jpg");
 }
 .expo-info{
     width: 50%;
@@ -897,4 +904,16 @@ html{
 
 .relativo{
     position: relative;
+}
+
+@media screen and (max-width:400px) {
+    .expo-name{
+        font-size: 1rem;
+    }
+    .expo-date{
+        font-size: 0.8rem;
+    }
+    .expo-stand{
+        font-size: 1rem;
+    }
 }
