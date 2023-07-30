@@ -830,6 +830,9 @@ html{
 .hobby{
     background-image: url("../Images/Expos/Logos-Expo-AM.jpg");
 }
+.romantica{
+    background-image: url("../Images/Expos/Expo-Romantica.jpg");
+}
 .expo-info{
     width: 50%;
     height: 2.4rem;
