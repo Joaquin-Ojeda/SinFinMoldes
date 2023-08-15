@@ -455,3 +455,6 @@ agregarProductoEnProductos("../Images/Productos/Palabras/PA-19.jpg", "PA-19", "2
 
 actualizarPrecios(1.075,"moldesDeSilicona");
 actualizarPrecios(1.2,"articulos3D");
+
+actualizarPrecios(1.25,"articulos3D");
+actualizarPrecios(1.25,"moldesDeSilicona");
