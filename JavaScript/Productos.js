@@ -198,11 +198,8 @@ const productos=[
     new Producto("../Images/Productos/Flores/F-10.jpg", "F-10", "1500", "11cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Flores/F-11.jpg", "F-11", "800", "5cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Flores/F-12.jpg", "F-12", "1500", "6cm", "moldesDeSilicona", "flor"),
-    new Producto("../Images/Productos/Flores/F-13.jpg", "F-13", "1350", "11cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Flores/F-15.jpg", "F-15", "800", "6cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Flores/F-16.jpg", "F-16", "850", "3,5/3/2,5/2/1cm", "moldesDeSilicona", "flor"),
-    new Producto("../Images/Productos/Flores/F-17.jpg", "F-17", "4600", "32x5,5cm", "moldesDeSilicona", "flor"),
-    new Producto("../Images/Productos/Flores/F-18.jpg", "F-18", "5900", "17cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Flores/F-19.jpg", "F-19", "6300", "31cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Flores/F-20.jpg", "F-20", "375", "-cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Flores/F-21.jpg", "F-21", "1900", "8,5/5/4/3cm", "moldesDeSilicona", "flor"),
@@ -300,7 +297,7 @@ agregarProductoEnProductos("../Images/Productos/Decoracion/D-34.jpg", "D-34", "9
 
 actualizarPrecios(1.10,"moldesDeSilicona");
 
-agregarProductoEnProductos("../Images/Productos/Flores/F-09.jpg", "F-09", "1800", "7cm", "moldesDeSilicona", "flor");
+
 agregarProductoEnProductos("../Images/Productos/Jabones/V-01.jpg", "V-01", "1700", "4cm", "moldesDeSilicona", "jabon");
 agregarProductoEnProductos("../Images/Productos/Jabones/V-02.jpg", "V-02", "1700", "4cm", "moldesDeSilicona", "jabon");
 agregarProductoEnProductos("../Images/Productos/Jabones/V-03.jpg", "V-03", "1700", "4cm", "moldesDeSilicona", "jabon");
@@ -466,11 +463,11 @@ agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-19.jpg", "ET-19", "
 agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-20.jpg", "ET-20", "590", "8x5cm", "articulos3D", "etiqueta");
 agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-21.jpg", "ET-21", "590", "8x5cm", "articulos3D", "etiqueta");
 agregarProductoEnProductos("../Images/Productos/TapasPlastico/TP-00.jpg", "TP-00", "450", "6,5cm", "articulos3D", "tapap");
-agregarProductoEnProductos("../Images/Productos/TapasPlastico/TP-01.jpg", "TP-01", "850", "6,5cm", "articulos3D", "tapap");
-agregarProductoEnProductos("../Images/Productos/TapasPlastico/TP-02.jpg", "TP-02", "850", "6,5cm", "articulos3D", "tapap");
-agregarProductoEnProductos("../Images/Productos/TapasPlastico/TP-03.jpg", "TP-03", "850", "6,5cm", "articulos3D", "tapap");
-agregarProductoEnProductos("../Images/Productos/TapasPlastico/TP-04.jpg", "TP-04", "850", "6,5cm", "articulos3D", "tapap");
-agregarProductoEnProductos("../Images/Productos/TapasPlastico/TP-05.jpg", "TP-05", "850", "6,5cm", "articulos3D", "tapap");
+agregarProductoEnProductos("../Images/Productos/TapasPlastico/TP-01.jpg", "TP-01", "2500", "6,5cm", "articulos3D", "tapap");
+agregarProductoEnProductos("../Images/Productos/TapasPlastico/TP-02.jpg", "TP-02", "2500", "6,5cm", "articulos3D", "tapap");
+agregarProductoEnProductos("../Images/Productos/TapasPlastico/TP-03.jpg", "TP-03", "2500", "6,5cm", "articulos3D", "tapap");
+agregarProductoEnProductos("../Images/Productos/TapasPlastico/TP-04.jpg", "TP-04", "2500", "6,5cm", "articulos3D", "tapap");
+agregarProductoEnProductos("../Images/Productos/TapasPlastico/TP-05.jpg", "TP-05", "2500", "6,5cm", "articulos3D", "tapap");
 agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-01.jpg", "MF-01", "850", "-cm", "articulos3D", "marcadoresf");
 agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-02.jpg", "MF-02", "850", "-cm", "articulos3D", "marcadoresf");
 agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-03.jpg", "MF-03", "850", "-cm", "articulos3D", "marcadoresf");
@@ -482,3 +479,13 @@ agregarProductoEnProductos("../Images/Productos/MarcadoresCortantes/MC-04.jpg", 
 agregarProductoEnProductos("../Images/Productos/MarcadoresCortantes/MC-05.jpg", "MC-05", "1200", "6cm", "articulos3D", "marcadoresc");
 agregarProductoEnProductos("../Images/Productos/MarcadoresCortantes/MC-06.jpg", "MC-06", "1200", "6cm", "articulos3D", "marcadoresc");
 agregarProductoEnProductos("../Images/Productos/MarcadoresCortantes/MC-07.jpg", "MC-07", "1200", "6cm", "articulos3D", "marcadoresc");
+
+agregarProductoEnProductos("../Images/Productos/Flores/F-09.jpg", "F-09", "8500", "14,5x5cm", "moldesDeSilicona", "flor");
+agregarProductoEnProductos("../Images/Productos/Flores/F-13.jpg", "F-13", "10500", "11x8,5cm", "moldesDeSilicona", "flor");
+agregarProductoEnProductos("../Images/Productos/Flores/F-17.jpg", "F-17", "15000", "15,5x5cm", "moldesDeSilicona", "flor");
+agregarProductoEnProductos("../Images/Productos/Flores/F-18.jpg", "F-18", "8500", "14,5x4cm", "moldesDeSilicona", "flor");
+agregarProductoEnProductos("../Images/Productos/Flores/F-19.jpg", "F-19", "1800", "-cm", "moldesDeSilicona", "flor");
+agregarProductoEnProductos("../Images/Productos/Guardas/G-01.jpg", "G-01", "3500", "17,5x3cm", "moldesDeSilicona", "flor");
+agregarProductoEnProductos("../Images/Productos/Guardas/G-02.jpg", "G-02", "3500", "17,5x3cm", "moldesDeSilicona", "flor");
+agregarProductoEnProductos("../Images/Productos/Guardas/G-03.jpg", "G-03", "2500", "17,5x1cm", "moldesDeSilicona", "flor");
+agregarProductoEnProductos("../Images/Productos/Guardas/G-04.jpg", "G-04", "2500", "17,5x1cm", "moldesDeSilicona", "flor");
