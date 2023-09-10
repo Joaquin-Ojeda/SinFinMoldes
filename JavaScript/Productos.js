@@ -458,3 +458,27 @@ actualizarPrecios(1.2,"articulos3D");
 
 actualizarPrecios(1.25,"articulos3D");
 actualizarPrecios(1.25,"moldesDeSilicona");
+
+agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-00.jpg", "ET-00", "450", "8x5cm", "articulos3D", "etiqueta");
+agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-17.jpg", "ET-17", "590", "8x5cm", "articulos3D", "etiqueta");
+agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-18.jpg", "ET-18", "590", "8x5cm", "articulos3D", "etiqueta");
+agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-19.jpg", "ET-19", "590", "8x5cm", "articulos3D", "etiqueta");
+agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-20.jpg", "ET-20", "590", "8x5cm", "articulos3D", "etiqueta");
+agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-21.jpg", "ET-21", "590", "8x5cm", "articulos3D", "etiqueta");
+agregarProductoEnProductos("../Images/Productos/TapasPlastico/TP-00.jpg", "TP-00", "450", "6,5cm", "articulos3D", "tapap");
+agregarProductoEnProductos("../Images/Productos/TapasPlastico/TP-01.jpg", "TP-01", "850", "6,5cm", "articulos3D", "tapap");
+agregarProductoEnProductos("../Images/Productos/TapasPlastico/TP-02.jpg", "TP-02", "850", "6,5cm", "articulos3D", "tapap");
+agregarProductoEnProductos("../Images/Productos/TapasPlastico/TP-03.jpg", "TP-03", "850", "6,5cm", "articulos3D", "tapap");
+agregarProductoEnProductos("../Images/Productos/TapasPlastico/TP-04.jpg", "TP-04", "850", "6,5cm", "articulos3D", "tapap");
+agregarProductoEnProductos("../Images/Productos/TapasPlastico/TP-05.jpg", "TP-05", "850", "6,5cm", "articulos3D", "tapap");
+agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-01.jpg", "MF-01", "850", "-cm", "articulos3D", "marcadoresf");
+agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-02.jpg", "MF-02", "850", "-cm", "articulos3D", "marcadoresf");
+agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-03.jpg", "MF-03", "850", "-cm", "articulos3D", "marcadoresf");
+agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-04.jpg", "MF-04", "850", "-cm", "articulos3D", "marcadoresf");
+agregarProductoEnProductos("../Images/Productos/MarcadoresCortantes/MC-01.jpg", "MC-01", "950", "7x8cm", "articulos3D", "marcadoresc");
+agregarProductoEnProductos("../Images/Productos/MarcadoresCortantes/MC-02.jpg", "MC-02", "850", "7cm", "articulos3D", "marcadoresc");
+agregarProductoEnProductos("../Images/Productos/MarcadoresCortantes/MC-03.jpg", "MC-03", "950", "7x8cm", "articulos3D", "marcadoresc");
+agregarProductoEnProductos("../Images/Productos/MarcadoresCortantes/MC-04.jpg", "MC-04", "1200", "6cm", "articulos3D", "marcadoresc");
+agregarProductoEnProductos("../Images/Productos/MarcadoresCortantes/MC-05.jpg", "MC-05", "1200", "6cm", "articulos3D", "marcadoresc");
+agregarProductoEnProductos("../Images/Productos/MarcadoresCortantes/MC-06.jpg", "MC-06", "1200", "6cm", "articulos3D", "marcadoresc");
+agregarProductoEnProductos("../Images/Productos/MarcadoresCortantes/MC-07.jpg", "MC-07", "1200", "6cm", "articulos3D", "marcadoresc");
