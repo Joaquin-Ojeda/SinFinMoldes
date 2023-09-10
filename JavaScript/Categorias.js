@@ -1,4 +1,5 @@
 const categorias=[
+    new Categoria("Guardas","guarda","moldes-silicona"),
     //new Categoria("Pajaritos","pajarito","moldes-silicona"),
     new Categoria("Flores","flor","moldes-silicona"),
     new Categoria("Esquineros","esquinero","moldes-silicona"),
@@ -39,3 +40,4 @@ cargarCategorias(categorias);
 categoriaNueva("Tapas de plastico");
 categoriaNueva("Marcadores de flores");
 categoriaNueva("Marcadores/Cortantes");
+categoriaNueva("Guardas");
