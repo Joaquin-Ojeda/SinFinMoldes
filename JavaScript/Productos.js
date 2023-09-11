@@ -200,12 +200,10 @@ const productos=[
     new Producto("../Images/Productos/Flores/F-12.jpg", "F-12", "1500", "6cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Flores/F-15.jpg", "F-15", "800", "6cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Flores/F-16.jpg", "F-16", "850", "3,5/3/2,5/2/1cm", "moldesDeSilicona", "flor"),
-    new Producto("../Images/Productos/Flores/F-19.jpg", "F-19", "6300", "31cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Flores/F-20.jpg", "F-20", "375", "-cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Flores/F-21.jpg", "F-21", "1900", "8,5/5/4/3cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Flores/F-22.jpg", "N-16", "2100", "8/7,5/6/5,5cm", "moldesDeSilicona", "navidad"),
     new Producto("../Images/Productos/Flores/F-23.jpg", "F-23", "450", "-cm", "moldesDeSilicona", "flor"),
-    new Producto("../Images/Productos/Flores/F-24.jpg", "F-24", "1700", "-cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Medallones/R-01.jpg", "R-01", "1400", "7cm", "moldesDeSilicona", "medallon"),
     new Producto("../Images/Productos/Medallones/R-02.jpg", "R-02", "1400", "7cm", "moldesDeSilicona", "medallon"),
     new Producto("../Images/Productos/Medallones/R-03.jpg", "R-03", "1400", "7cm", "moldesDeSilicona", "medallon"),
@@ -485,7 +483,7 @@ agregarProductoEnProductos("../Images/Productos/Flores/F-13.jpg", "F-13", "10500
 agregarProductoEnProductos("../Images/Productos/Flores/F-17.jpg", "F-17", "15000", "15,5x5cm", "moldesDeSilicona", "flor");
 agregarProductoEnProductos("../Images/Productos/Flores/F-18.jpg", "F-18", "8500", "14,5x4cm", "moldesDeSilicona", "flor");
 agregarProductoEnProductos("../Images/Productos/Flores/F-19.jpg", "F-19", "1800", "-cm", "moldesDeSilicona", "flor");
-agregarProductoEnProductos("../Images/Productos/Guardas/G-01.jpg", "G-01", "3500", "17,5x3cm", "moldesDeSilicona", "flor");
-agregarProductoEnProductos("../Images/Productos/Guardas/G-02.jpg", "G-02", "3500", "17,5x3cm", "moldesDeSilicona", "flor");
-agregarProductoEnProductos("../Images/Productos/Guardas/G-03.jpg", "G-03", "2500", "17,5x1cm", "moldesDeSilicona", "flor");
-agregarProductoEnProductos("../Images/Productos/Guardas/G-04.jpg", "G-04", "2500", "17,5x1cm", "moldesDeSilicona", "flor");
+agregarProductoEnProductos("../Images/Productos/Guardas/G-01.jpg", "G-01", "3500", "17,5x3cm", "moldesDeSilicona", "guarda");
+agregarProductoEnProductos("../Images/Productos/Guardas/G-02.jpg", "G-02", "3500", "17,5x3cm", "moldesDeSilicona", "guarda");
+agregarProductoEnProductos("../Images/Productos/Guardas/G-03.jpg", "G-03", "2500", "17,5x1cm", "moldesDeSilicona", "guarda");
+agregarProductoEnProductos("../Images/Productos/Guardas/G-04.jpg", "G-04", "2500", "17,5x1cm", "moldesDeSilicona", "guarda");
