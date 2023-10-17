@@ -518,3 +518,6 @@ agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-05.jpg", "CASITA-
 agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-06.jpg", "CASITA-06", "2500", "18x7,5cm", "articulos3D", "casita");
 agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-07.jpg", "CASITA-07", "2500", "16x5,5cm", "articulos3D", "casita");
 agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-08.jpg", "CASITA-08", "2500", "16x8cm", "articulos3D", "casita");
+
+actualizarPrecios(1.20,"articulos3D");
+actualizarPrecios(1.20,"moldesDeSilicona");
