@@ -337,10 +337,7 @@ actualizarPrecios(1.15,"moldesDeSilicona");
 
 agregarProductoEnProductos("../Images/Productos/Navidad/N-17.jpg", "N-17", "2500", "6,5x2cm", "moldesDeSilicona", "navidad");
 agregarProductoEnProductos("../Images/Productos/Navidad/N-18.jpg", "N-18", "1500", "4,5cm", "moldesDeSilicona", "navidad");
-agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-01.jpg", "CASITA-01", "400", "10x5cm", "articulos3D", "casita");
-agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-02.jpg", "CASITA-02", "400", "14,5x6cm", "articulos3D", "casita");
-agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-03.jpg", "CASITA-03", "400", "12,5x6,5cm", "articulos3D", "casita");
-agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-04.jpg", "CASITA-04", "400", "10x7cm", "articulos3D", "casita");
+
 agregarProductoEnProductos("../Images/Productos/Plp/PLP-18.jpg", "PLP-18", "400", "13x8cm", "articulos3D", "plp");
 agregarProductoEnProductos("../Images/Productos/Plp/PLP-19.jpg", "PLP-19", "450", "15x7cm", "articulos3D", "plp");
 agregarProductoEnProductos("../Images/Productos/Plp/PLP-20.jpg", "PLP-20", "350", "15x4,5cm", "articulos3D", "plp");
@@ -493,14 +490,7 @@ agregarProductoEnProductos("../Images/Productos/Navidad/N-20.jpg", "N-20", "2000
 agregarProductoEnProductos("../Images/Productos/Navidad/N-21.jpg", "N-21", "1800", "5x3,5cm", "moldesDeSilicona", "navidad");
 agregarProductoEnProductos("../Images/Productos/Navidad/N-22.jpg", "N-22", "600", "3x2cm", "moldesDeSilicona", "navidad");
 
-agregarProductoEnProductos("../Images/Productos/CortantesNavidad/CN-01.jpg", "CN-01", "400", "5cm", "articulos3D", "corn");
-agregarProductoEnProductos("../Images/Productos/CortantesNavidad/CN-02.jpg", "CN-02", "400", "5cm", "articulos3D", "corn");
-agregarProductoEnProductos("../Images/Productos/CortantesNavidad/CN-03.jpg", "CN-03", "400", "5cm", "articulos3D", "corn");
-agregarProductoEnProductos("../Images/Productos/CortantesNavidad/CN-04.jpg", "CN-04", "400", "5cm", "articulos3D", "corn");
-agregarProductoEnProductos("../Images/Productos/CortantesNavidad/CN-05.jpg", "CN-05", "400", "5cm", "articulos3D", "corn");
-agregarProductoEnProductos("../Images/Productos/CortantesNavidad/CN-06.jpg", "CN-06", "400", "5cm", "articulos3D", "corn");
-agregarProductoEnProductos("../Images/Productos/CortantesNavidad/CN-07.jpg", "CN-07", "400", "5cm", "articulos3D", "corn");
-agregarProductoEnProductos("../Images/Productos/CortantesNavidad/CN-08.jpg", "CN-08", "400", "5cm", "articulos3D", "corn");
+
 agregarProductoEnProductos("../Images/Productos/CortantesNavidad/CN-09.jpg", "CN-09", "600", "10cm", "articulos3D", "corn");
 agregarProductoEnProductos("../Images/Productos/CortantesNavidad/CN-10.jpg", "CN-10", "950", "10cm", "articulos3D", "corn");
 agregarProductoEnProductos("../Images/Productos/CortantesNavidad/CN-11.jpg", "CN-11", "950", "10cm", "articulos3D", "corn");
@@ -521,3 +511,17 @@ agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-08.jpg", "CASITA-
 
 actualizarPrecios(1.20,"articulos3D");
 actualizarPrecios(1.20,"moldesDeSilicona");
+
+agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-01.jpg", "CASITA-01", "1000", "10x5cm", "articulos3D", "casita");
+agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-02.jpg", "CASITA-02", "1000", "14,5x6cm", "articulos3D", "casita");
+agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-03.jpg", "CASITA-03", "1000", "12,5x6,5cm", "articulos3D", "casita");
+agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-04.jpg", "CASITA-04", "1000", "10x7cm", "articulos3D", "casita");
+
+agregarProductoEnProductos("../Images/Productos/CortantesNavidad/CN-01.jpg", "CN-01", "500", "5cm", "articulos3D", "corn");
+agregarProductoEnProductos("../Images/Productos/CortantesNavidad/CN-02.jpg", "CN-02", "500", "5cm", "articulos3D", "corn");
+agregarProductoEnProductos("../Images/Productos/CortantesNavidad/CN-03.jpg", "CN-03", "500", "5cm", "articulos3D", "corn");
+agregarProductoEnProductos("../Images/Productos/CortantesNavidad/CN-04.jpg", "CN-04", "500", "5cm", "articulos3D", "corn");
+agregarProductoEnProductos("../Images/Productos/CortantesNavidad/CN-05.jpg", "CN-05", "500", "5cm", "articulos3D", "corn");
+agregarProductoEnProductos("../Images/Productos/CortantesNavidad/CN-06.jpg", "CN-06", "500", "5cm", "articulos3D", "corn");
+agregarProductoEnProductos("../Images/Productos/CortantesNavidad/CN-07.jpg", "CN-07", "500", "5cm", "articulos3D", "corn");
+agregarProductoEnProductos("../Images/Productos/CortantesNavidad/CN-08.jpg", "CN-08", "500", "5cm", "articulos3D", "corn");
