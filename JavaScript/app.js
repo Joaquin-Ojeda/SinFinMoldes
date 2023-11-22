@@ -413,9 +413,9 @@ function crearCategoria(molde,i,par){
     return nuevo;
 
 }
-//function cargarMolde(cat){
-  //  document.getElementById("cajamoldes-silicona").innerHTML+=cat;
-//}
+function cargarMolde(cat){
+    document.getElementById("cajamoldes-silicona").innerHTML+=cat;
+}
 function cargarArt3d(cat){
     document.getElementById("cajaarticulos3D").innerHTML+=cat;
 }
@@ -430,8 +430,8 @@ function cargarCategorias(categorias){
         
         if(categorias[i-1].tipo==="moldes-silicona")
         {
-            cargarMolde(crearCategoria(categorias[i-1],i,parMoldes));
-            parMoldes=!parMoldes;
+            //cargarMolde(crearCategoria(categorias[i-1],i,parMoldes));
+            //parMoldes=!parMoldes;
         }
         else{
             cargarArt3d(crearCategoria(categorias[i-1],i,parArt3d));
