@@ -413,9 +413,9 @@ function crearCategoria(molde,i,par){
     return nuevo;
 
 }
-function cargarMolde(cat){
-    document.getElementById("cajamoldes-silicona").innerHTML+=cat;
-}
+//function cargarMolde(cat){
+  //  document.getElementById("cajamoldes-silicona").innerHTML+=cat;
+//}
 function cargarArt3d(cat){
     document.getElementById("cajaarticulos3D").innerHTML+=cat;
 }
