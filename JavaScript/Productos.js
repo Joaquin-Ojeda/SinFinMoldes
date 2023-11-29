@@ -525,3 +525,6 @@ agregarProductoEnProductos("../Images/Productos/CortantesNavidad/CN-05.jpg", "CN
 agregarProductoEnProductos("../Images/Productos/CortantesNavidad/CN-06.jpg", "CN-06", "500", "5cm", "articulos3D", "corn");
 agregarProductoEnProductos("../Images/Productos/CortantesNavidad/CN-07.jpg", "CN-07", "500", "5cm", "articulos3D", "corn");
 agregarProductoEnProductos("../Images/Productos/CortantesNavidad/CN-08.jpg", "CN-08", "500", "5cm", "articulos3D", "corn");
+
+actualizarPrecios(1.20,"moldesDeSilicona");
+
