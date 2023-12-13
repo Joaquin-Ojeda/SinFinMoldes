@@ -426,7 +426,7 @@ function cargarCategorias(categorias){
     let parArt3d=false;
     
 
-    for(let i=1;i<=categorias.length;i++){
+    /*for(let i=1;i<=categorias.length;i++){
         
         if(categorias[i-1].tipo==="moldes-silicona")
         {
@@ -437,7 +437,7 @@ function cargarCategorias(categorias){
             cargarArt3d(crearCategoria(categorias[i-1],i,parArt3d));
             parArt3d=!parArt3d;
         }
-    }
+    }*/
 }
 
 function categoriaNueva(categoria){
