@@ -528,3 +528,5 @@ agregarProductoEnProductos("../Images/Productos/CortantesNavidad/CN-08.jpg", "CN
 
 actualizarPrecios(1.20,"moldesDeSilicona");
 
+actualizarPrecios(1.30,"articulos3D");
+actualizarPrecios(1.30,"moldesDeSilicona");
