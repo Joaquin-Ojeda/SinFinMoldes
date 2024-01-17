@@ -22,6 +22,7 @@ const categorias=[
 
     //ARTICULOS 3D
     //new Categoria("Placas Grandes","pl","articulos3D"),
+    new Categoria("Rodillos","rodillo","articulos3D"),
     new Categoria("Cortantes/Navidad","corn","articulos3D"),
     new Categoria("Tags","tag","articulos3D"),
     new Categoria("Casitas","casita","articulos3D"),
@@ -32,19 +33,16 @@ const categorias=[
     new Categoria("Placas","plp","articulos3D"),
     new Categoria("Etiquetas","etiqueta","articulos3D"),
     new Categoria("Mayolicas","mayolica","articulos3D"),
-    new Categoria("Rodillos","rodillo","articulos3D"),
     new Categoria("Manijas(Por unidad)","manija","articulos3D"),
     //new Categoria("Tiradores","tirador","articulos3D"),
     new Categoria("Navidad","navidadpl","articulos3D"),
-
     new Categoria("Mandalas","mandala","articulos3D"),
     new Categoria("Letras y Números","lp","articulos3D"),
     new Categoria("Palabras","pa","articulos3D")
 ]
 
 cargarCategorias(categorias);
-categoriaNueva("Cortantes/Navidad");
+categoriaNueva("Rodillos");
 categoriaNueva("Cortantes/Vehículos");
 categoriaNueva("Tags");
 categoriaNueva("Casitas");
-categoriaNueva("Navidad");
