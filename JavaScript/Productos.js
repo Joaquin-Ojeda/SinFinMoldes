@@ -503,9 +503,9 @@ actualizarPrecios(1.20,"moldesDeSilicona");
 actualizarPrecios(1.30,"articulos3D");
 actualizarPrecios(1.30,"moldesDeSilicona");
 
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-01.jpg", "RD-01", "1000", "10cm", "articulos3D", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-02.jpg", "RD-02", "1000", "10cm", "articulos3D", "rodillo");
-agregarProductoEnProductos("../Images/Productos/Rodillos/RD-03.jpg", "RD-03", "1000", "10cm", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-01.jpg", "RD-01", "2500", "10cm", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-02.jpg", "RD-02", "2500", "10cm", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-03.jpg", "RD-03", "2500", "10cm", "articulos3D", "rodillo");
 agregarProductoEnProductos("../Images/Productos/Rodillos/RD-04.jpg", "RD-04", "2500", "10cm", "articulos3D", "rodillo");
 agregarProductoEnProductos("../Images/Productos/Rodillos/RD-05.jpg", "RD-05", "2500", "10cm", "articulos3D", "rodillo");
 agregarProductoEnProductos("../Images/Productos/Rodillos/RD-06.jpg", "RD-06", "2500", "10cm", "articulos3D", "rodillo");
@@ -513,3 +513,13 @@ agregarProductoEnProductos("../Images/Productos/Rodillos/RD-07.jpg", "RD-07", "2
 agregarProductoEnProductos("../Images/Productos/Rodillos/RD-08.jpg", "RD-08", "2500", "10cm", "articulos3D", "rodillo");
 agregarProductoEnProductos("../Images/Productos/Rodillos/RD-09.jpg", "RD-09", "2500", "10cm", "articulos3D", "rodillo");
 agregarProductoEnProductos("../Images/Productos/Rodillos/RD-10.jpg", "RD-10", "2500", "10cm", "articulos3D", "rodillo");
+
+agregarProductoEnProductos("../Images/Productos/Botanica/PLB-01.jpg", "PLB-01", "1800", "10X10cm", "articulos3D", "botanica");
+agregarProductoEnProductos("../Images/Productos/Botanica/PLB-02.jpg", "PLB-02", "1800", "10X10cm", "articulos3D", "botanica");
+agregarProductoEnProductos("../Images/Productos/Botanica/PLB-03.jpg", "PLB-03", "1800", "10X10cm", "articulos3D", "botanica");
+agregarProductoEnProductos("../Images/Productos/Botanica/PLB-04.jpg", "PLB-04", "1800", "10X10cm", "articulos3D", "botanica");
+
+agregarProductoEnProductos("../Images/Productos/CortanteFormas/CF-01.jpg", "CF-01", "1000", "10cm", "articulos3D", "cformas");
+agregarProductoEnProductos("../Images/Productos/CortanteFormas/CF-02.jpg", "CF-02", "1000", "9cm", "articulos3D", "cformas");
+agregarProductoEnProductos("../Images/Productos/CortanteFormas/CF-03.jpg", "CF-03", "1000", "14x7cm", "articulos3D", "cformas");
+agregarProductoEnProductos("../Images/Productos/CortanteFormas/CF-04.jpg", "CF-04", "1000", "12cm", "articulos3D", "cformas");
