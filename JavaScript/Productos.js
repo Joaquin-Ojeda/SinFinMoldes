@@ -523,3 +523,13 @@ agregarProductoEnProductos("../Images/Productos/CortanteFormas/CF-01.jpg", "CF-0
 agregarProductoEnProductos("../Images/Productos/CortanteFormas/CF-02.jpg", "CF-02", "1000", "9cm", "articulos3D", "cformas");
 agregarProductoEnProductos("../Images/Productos/CortanteFormas/CF-03.jpg", "CF-03", "1000", "14x7cm", "articulos3D", "cformas");
 agregarProductoEnProductos("../Images/Productos/CortanteFormas/CF-04.jpg", "CF-04", "1000", "12cm", "articulos3D", "cformas");
+
+agregarProductoEnProductos("../Images/Productos/Pascua3D/PS-01.jpg", "PS-01", "1000", "8x7cm", "articulos3D", "pascua3d");
+agregarProductoEnProductos("../Images/Productos/Pascua3D/PS-02.jpg", "PS-02", "1000", "6,5x6cm", "articulos3D", "pascua3d");
+agregarProductoEnProductos("../Images/Productos/Pascua3D/PS-03.jpg", "PS-03", "500", "5cm", "articulos3D", "pascua3d");
+agregarProductoEnProductos("../Images/Productos/Pascua3D/PS-04.jpg", "PS-04", "500", "5cm", "articulos3D", "pascua3d");
+agregarProductoEnProductos("../Images/Productos/Pascua3D/PS-05.jpg", "PS-05", "500", "5cm", "articulos3D", "pascua3d");
+agregarProductoEnProductos("../Images/Productos/Pascua3D/PS-06.jpg", "PS-06", "500", "5cm", "articulos3D", "pascua3d");
+agregarProductoEnProductos("../Images/Productos/Pascua3D/PS-07.jpg", "PS-07", "500", "5cm", "articulos3D", "pascua3d");
+agregarProductoEnProductos("../Images/Productos/Pascua3D/PS-08.jpg", "PS-08", "500", "5cm", "articulos3D", "pascua3d");
+agregarProductoEnProductos("../Images/Productos/Pascua3D/PS-09.jpg", "PS-09", "500", "5cm", "articulos3D", "pascua3d");
