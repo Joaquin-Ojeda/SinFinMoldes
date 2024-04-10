@@ -270,26 +270,11 @@ const productos=[
     new Producto("../Images/Productos/NavidadPL/Navidad04.jpg", "Navidad 04", "450", "13x13cm", "articulos3D", "navidadpl"),
     new Producto("../Images/Productos/NavidadPL/Navidad05.jpg", "Navidad 05", "450", "13x13cm", "articulos3D", "navidadpl"),
     new Producto("../Images/Productos/NavidadPL/Navidad06.jpg", "Navidad 06", "400", "10x10cm", "articulos3D", "navidadpl"),   
-    new Producto("../Images/Productos/Plp/PLP-01.jpg", "PLP-01", "450", "13x10cm", "articulos3D", "plp"),
-    new Producto("../Images/Productos/Plp/PLP-02.jpg", "PLP-02", "450", "13x10cm", "articulos3D", "plp"),   
-    new Producto("../Images/Productos/Plp/PLP-03.jpg", "PLP-03", "450", "10x13cm", "articulos3D", "plp"),   
-    new Producto("../Images/Productos/Plp/PLP-04.jpg", "PLP-04", "450", "10x13cm", "articulos3D", "plp"),   
-    new Producto("../Images/Productos/Plp/PLP-05.jpg", "PLP-05", "450", "13x10cm", "articulos3D", "plp"),   
-    new Producto("../Images/Productos/Plp/PLP-06.jpg", "PLP-06", "450", "10x13cm", "articulos3D", "plp"),   
-    new Producto("../Images/Productos/Plp/PLP-07.jpg", "PLP-07", "450", "10x13cm", "articulos3D", "plp"),   
-    new Producto("../Images/Productos/Plp/PLP-08.jpg", "PLP-08", "450", "10x13cm", "articulos3D", "plp"),   
-    new Producto("../Images/Productos/Plp/PLP-09.jpg", "PLP-09", "450", "13x10cm", "articulos3D", "plp"),   
-    new Producto("../Images/Productos/Plp/PLP-10.jpg", "PLP-10", "450", "13x13cm", "articulos3D", "plp"),   
-    new Producto("../Images/Productos/Plp/PLP-11.jpg", "PLP-11", "450", "13x13cm", "articulos3D", "plp"),   
-    new Producto("../Images/Productos/Plp/PLP-12.jpg", "PLP-12", "400", "13x8cm", "articulos3D", "plp"),   
-    new Producto("../Images/Productos/Plp/PLP-13.jpg", "PLP-13", "450", "13x13cm", "articulos3D", "plp"),   
-    new Producto("../Images/Productos/Plp/PLP-14.jpg", "PLP-14", "450", "13x10cm", "articulos3D", "plp"),   
-    new Producto("../Images/Productos/Plp/PLP-15.jpg", "PLP-15", "450", "12cm", "articulos3D", "plp"),   
-    new Producto("../Images/Productos/Plp/PLP-16.jpg", "PLP-16", "400", "13x8cm", "articulos3D", "plp"),   
+
 ]
 actualizarPrecios(1.10,"moldesDeSilicona");
 
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-17.jpg", "PLP-17", "400", "13x8cm", "articulos3D", "plp");
+
 agregarProductoEnProductos("../Images/Productos/Decoracion/D-31.jpg", "D-31", "6500", "11,5x7,5cm", "moldesDeSilicona", "decoracion");
 agregarProductoEnProductos("../Images/Productos/Decoracion/D-34.jpg", "D-34", "940", "4/3cm", "moldesDeSilicona", "decoracion");
 
@@ -338,12 +323,6 @@ actualizarPrecios(1.15,"moldesDeSilicona");
 agregarProductoEnProductos("../Images/Productos/Navidad/N-17.jpg", "N-17", "2500", "6,5x2cm", "moldesDeSilicona", "navidad");
 agregarProductoEnProductos("../Images/Productos/Navidad/N-18.jpg", "N-18", "1500", "4,5cm", "moldesDeSilicona", "navidad");
 
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-18.jpg", "PLP-18", "400", "13x8cm", "articulos3D", "plp");
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-19.jpg", "PLP-19", "450", "15x7cm", "articulos3D", "plp");
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-20.jpg", "PLP-20", "350", "15x4,5cm", "articulos3D", "plp");
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-21.jpg", "PLP-21", "450", "15x10cm", "articulos3D", "plp");
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-22.jpg", "PLP-22", "350", "9x9cm", "articulos3D", "plp");
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-23.jpg", "PLP-23", "450", "15x8cm", "articulos3D", "plp");
 agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad07.jpg", "Navidad 07", "400", "13x8cm", "articulos3D", "navidadpl");
 agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad08.jpg", "Navidad 08", "400", "10x9cm", "articulos3D", "navidadpl");
 agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad09.jpg", "Navidad 09", "400", "10x9cm", "articulos3D", "navidadpl");
@@ -384,13 +363,6 @@ agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-16.jpg", "ET-16", "
 actualizarPrecios(1.10,"articulos3D");
 actualizarPrecios(1.31,"moldesDeSilicona");
 
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-24.jpg", "PLP-24", "550", "10x15cm", "articulos3D", "plp");
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-25.jpg", "PLP-25", "550", "10X15cm", "articulos3D", "plp");
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-26.jpg", "PLP-26", "550", "10X15cm", "articulos3D", "plp");
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-27.jpg", "PLP-27", "550", "10X15cm", "articulos3D", "plp");
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-28.jpg", "PLP-28", "550", "10X15cm", "articulos3D", "plp");
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-29.jpg", "PLP-29", "430", "10X10cm", "articulos3D", "plp");
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-30.jpg", "PLP-30", "550", "10X15cm", "articulos3D", "plp");
 agregarProductoEnProductos("../Images/Productos/LP/LP-01.jpg", "LP-01", "1200", "Abecedario completo Mayúsculas", "articulos3D", "lp");
 agregarProductoEnProductos("../Images/Productos/LP/LP-02.jpg", "LP-02", "1200", "Abecedario completo Minusculas", "articulos3D", "lp");
 agregarProductoEnProductos("../Images/Productos/LP/LP-03.jpg", "LP-03", "450", "Números del 0 al 9", "articulos3D", "lp");
@@ -533,3 +505,36 @@ agregarProductoEnProductos("../Images/Productos/Pascua3D/PS-06.jpg", "PS-06", "5
 agregarProductoEnProductos("../Images/Productos/Pascua3D/PS-07.jpg", "PS-07", "500", "5cm", "articulos3D", "pascua3d");
 agregarProductoEnProductos("../Images/Productos/Pascua3D/PS-08.jpg", "PS-08", "500", "5cm", "articulos3D", "pascua3d");
 agregarProductoEnProductos("../Images/Productos/Pascua3D/PS-09.jpg", "PS-09", "500", "5cm", "articulos3D", "pascua3d");
+
+new Producto("../Images/Productos/Plp/PLP-01.jpg", "PLP-01", "2500", "13x10cm", "articulos3D", "plp"),
+new Producto("../Images/Productos/Plp/PLP-02.jpg", "PLP-02", "2500", "13x10cm", "articulos3D", "plp"),   
+new Producto("../Images/Productos/Plp/PLP-03.jpg", "PLP-03", "2500", "10x13cm", "articulos3D", "plp"),   
+new Producto("../Images/Productos/Plp/PLP-04.jpg", "PLP-04", "2500", "10x13cm", "articulos3D", "plp"),   
+new Producto("../Images/Productos/Plp/PLP-05.jpg", "PLP-05", "2500", "13x10cm", "articulos3D", "plp"),   
+new Producto("../Images/Productos/Plp/PLP-06.jpg", "PLP-06", "2500", "10x13cm", "articulos3D", "plp"),   
+new Producto("../Images/Productos/Plp/PLP-07.jpg", "PLP-07", "2500", "10x13cm", "articulos3D", "plp"),   
+new Producto("../Images/Productos/Plp/PLP-08.jpg", "PLP-08", "2500", "10x13cm", "articulos3D", "plp"),   
+new Producto("../Images/Productos/Plp/PLP-09.jpg", "PLP-09", "2500", "13x10cm", "articulos3D", "plp"),   
+new Producto("../Images/Productos/Plp/PLP-10.jpg", "PLP-10", "2500", "13x13cm", "articulos3D", "plp"),   
+new Producto("../Images/Productos/Plp/PLP-11.jpg", "PLP-11", "2500", "13x13cm", "articulos3D", "plp"),   
+new Producto("../Images/Productos/Plp/PLP-12.jpg", "PLP-12", "2500", "13x8cm", "articulos3D", "plp"),   
+new Producto("../Images/Productos/Plp/PLP-13.jpg", "PLP-13", "2500", "13x13cm", "articulos3D", "plp"),   
+new Producto("../Images/Productos/Plp/PLP-14.jpg", "PLP-14", "2500", "13x10cm", "articulos3D", "plp"),   
+new Producto("../Images/Productos/Plp/PLP-15.jpg", "PLP-15", "2500", "12cm", "articulos3D", "plp"),   
+new Producto("../Images/Productos/Plp/PLP-16.jpg", "PLP-16", "2500", "13x8cm", "articulos3D", "plp")   
+
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-17.jpg", "PLP-17", "2500", "13x8cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-18.jpg", "PLP-18", "2500", "13x8cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-19.jpg", "PLP-19", "2500", "15x7cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-20.jpg", "PLP-20", "2500", "15x4,5cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-21.jpg", "PLP-21", "2500", "15x10cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-22.jpg", "PLP-22", "2500", "9x9cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-23.jpg", "PLP-23", "2500", "15x8cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-24.jpg", "PLP-24", "2500", "10x15cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-25.jpg", "PLP-25", "2500", "10X15cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-26.jpg", "PLP-26", "2500", "10X15cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-27.jpg", "PLP-27", "2500", "10X15cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-28.jpg", "PLP-28", "2500", "10X15cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-29.jpg", "PLP-29", "2500", "10X10cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-30.jpg", "PLP-30", "2500", "10X15cm", "articulos3D", "plp");
+
