@@ -551,3 +551,15 @@ agregarProductoEnProductos("../Images/Productos/Botanica/PLB-01.jpg", "PLB-01", 
 agregarProductoEnProductos("../Images/Productos/Botanica/PLB-02.jpg", "PLB-02", "2500", "10X10cm", "articulos3D", "botanica");
 agregarProductoEnProductos("../Images/Productos/Botanica/PLB-03.jpg", "PLB-03", "2500", "10X10cm", "articulos3D", "botanica");
 agregarProductoEnProductos("../Images/Productos/Botanica/PLB-04.jpg", "PLB-04", "2500", "10X10cm", "articulos3D", "botanica");
+
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-31.jpg", "PLP-31", "2500", "20x5,5cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-32.jpg", "PLP-32", "2500", "20x5,5cm", "articulos3D", "plp");
+
+agregarProductoEnProductos("../Images/Productos/Flores/F-24.jpg", "F-24", "11000", "6cm", "moldesDeSilicona", "flor"),
+agregarProductoEnProductos("../Images/Productos/Flores/F-25.jpg", "F-25", "11000", "6cm", "moldesDeSilicona", "flor"),
+agregarProductoEnProductos("../Images/Productos/Flores/F-26.jpg", "F-26", "11000", "6cm", "moldesDeSilicona", "flor"),
+agregarProductoEnProductos("../Images/Productos/Flores/F-27.jpg", "F-27", "11000", "6cm", "moldesDeSilicona", "flor"),
+agregarProductoEnProductos("../Images/Productos/Flores/F-28.jpg", "F-28", "11000", "6cm", "moldesDeSilicona", "flor"),
+agregarProductoEnProductos("../Images/Productos/Flores/F-29.jpg", "F-29", "11000", "6cm", "moldesDeSilicona", "flor"),
+agregarProductoEnProductos("../Images/Productos/Flores/F-30.jpg", "F-30", "11000", "6cm", "moldesDeSilicona", "flor")
+
