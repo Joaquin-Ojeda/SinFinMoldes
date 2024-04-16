@@ -47,5 +47,5 @@ const categorias=[
 cargarCategorias(categorias);
 categoriaNueva("Rodillos");
 categoriaNueva("Placas línea botánica");
-categoriaNueva("Pascuas");
+categoriaNueva("Flores");
 categoriaNueva("Cortante formas");
