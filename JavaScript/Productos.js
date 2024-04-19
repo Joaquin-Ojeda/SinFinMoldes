@@ -336,10 +336,6 @@ actualizarPrecios(1.10,"moldesDeSilicona");
 actualizarPrecios(1.10,"articulos3D");
 actualizarPrecios(1.31,"moldesDeSilicona");
 
-agregarProductoEnProductos("../Images/Productos/LP/LP-01.jpg", "LP-01", "1200", "Abecedario completo Mayúsculas", "articulos3D", "lp");
-agregarProductoEnProductos("../Images/Productos/LP/LP-02.jpg", "LP-02", "1200", "Abecedario completo Minusculas", "articulos3D", "lp");
-agregarProductoEnProductos("../Images/Productos/LP/LP-03.jpg", "LP-03", "450", "Números del 0 al 9", "articulos3D", "lp");
-
 actualizarPrecios(1.1,"moldesDeSilicona");
 
 agregarProductoEnProductos("../Images/Productos/Palabras/PA-01.jpg", "PA-01", "400", "4x1,5cm", "articulos3D", "pa");
@@ -423,12 +419,6 @@ agregarProductoEnProductos("../Images/Productos/Rodillos/RD-07.jpg", "RD-07", "2
 agregarProductoEnProductos("../Images/Productos/Rodillos/RD-08.jpg", "RD-08", "2500", "10cm", "articulos3D", "rodillo");
 agregarProductoEnProductos("../Images/Productos/Rodillos/RD-09.jpg", "RD-09", "2500", "10cm", "articulos3D", "rodillo");
 agregarProductoEnProductos("../Images/Productos/Rodillos/RD-10.jpg", "RD-10", "2500", "10cm", "articulos3D", "rodillo");
-
-
-agregarProductoEnProductos("../Images/Productos/CortanteFormas/CF-01.jpg", "CF-01", "1000", "10cm", "articulos3D", "cformas");
-agregarProductoEnProductos("../Images/Productos/CortanteFormas/CF-02.jpg", "CF-02", "1000", "9cm", "articulos3D", "cformas");
-agregarProductoEnProductos("../Images/Productos/CortanteFormas/CF-03.jpg", "CF-03", "1000", "14x7cm", "articulos3D", "cformas");
-agregarProductoEnProductos("../Images/Productos/CortanteFormas/CF-04.jpg", "CF-04", "1000", "12cm", "articulos3D", "cformas");
 
 agregarProductoEnProductos("../Images/Productos/Pascua3D/PS-01.jpg", "PS-01", "1000", "8x7cm", "articulos3D", "pascua3d");
 agregarProductoEnProductos("../Images/Productos/Pascua3D/PS-02.jpg", "PS-02", "1000", "6,5x6cm", "articulos3D", "pascua3d");
@@ -563,3 +553,11 @@ agregarProductoEnProductos("../Images/Productos/Flores/F-28.jpg", "F-28", "11000
 agregarProductoEnProductos("../Images/Productos/Flores/F-29.jpg", "F-29", "11000", "6cm", "moldesDeSilicona", "flor"),
 agregarProductoEnProductos("../Images/Productos/Flores/F-30.jpg", "F-30", "11000", "6cm", "moldesDeSilicona", "flor")
 
+agregarProductoEnProductos("../Images/Productos/LP/LP-01.jpg", "LP-01", "4000", "Abecedario completo Mayúsculas", "articulos3D", "lp");
+agregarProductoEnProductos("../Images/Productos/LP/LP-02.jpg", "LP-02", "4000", "Abecedario completo Minusculas", "articulos3D", "lp");
+agregarProductoEnProductos("../Images/Productos/LP/LP-03.jpg", "LP-03", "1500", "Números del 0 al 9", "articulos3D", "lp");
+
+agregarProductoEnProductos("../Images/Productos/CortanteFormas/CF-01.jpg", "CF-01", "1500", "10cm", "articulos3D", "cformas");
+agregarProductoEnProductos("../Images/Productos/CortanteFormas/CF-02.jpg", "CF-02", "1500", "9cm", "articulos3D", "cformas");
+agregarProductoEnProductos("../Images/Productos/CortanteFormas/CF-03.jpg", "CF-03", "1500", "14x7cm", "articulos3D", "cformas");
+agregarProductoEnProductos("../Images/Productos/CortanteFormas/CF-04.jpg", "CF-04", "1500", "12cm", "articulos3D", "cformas");
