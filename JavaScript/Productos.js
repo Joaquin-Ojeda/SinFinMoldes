@@ -565,3 +565,9 @@ agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad05.jpg", "Navid
 agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad06.jpg", "Navidad 06", "2000", "10x10cm", "articulos3D", "navidadpl")
 
 agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-00.jpg", "ET-00", "1000", "8x5cm", "articulos3D", "etiqueta");
+
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-33.jpg", "PLP-33", "2500", "20x5,5cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-34.jpg", "PLP-34", "2500", "20x5,5cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-35.jpg", "PLP-35", "2500", "20x5,5cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-36.jpg", "PLP-36", "2500", "20x5,5cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-37.jpg", "PLP-37", "2500", "20x5,5cm", "articulos3D", "plp");
