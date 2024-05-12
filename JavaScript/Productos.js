@@ -407,6 +407,13 @@ agregarProductoEnProductos("../Images/Productos/Rodillos/RD-07.jpg", "RD-07", "2
 agregarProductoEnProductos("../Images/Productos/Rodillos/RD-08.jpg", "RD-08", "2500", "10cm", "articulos3D", "rodillo");
 agregarProductoEnProductos("../Images/Productos/Rodillos/RD-09.jpg", "RD-09", "2500", "10cm", "articulos3D", "rodillo");
 agregarProductoEnProductos("../Images/Productos/Rodillos/RD-10.jpg", "RD-10", "2500", "10cm", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-11.jpg", "RD-11", "2500", "10cm", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-12.jpg", "RD-12", "2500", "10cm", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-13.jpg", "RD-13", "2500", "10cm", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-14.jpg", "RD-14", "2500", "10cm", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-15.jpg", "RD-15", "2500", "10cm", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-16.jpg", "RD-16", "2500", "10cm", "articulos3D", "rodillo");
+agregarProductoEnProductos("../Images/Productos/Rodillos/RD-17.jpg", "RD-17", "2500", "10cm", "articulos3D", "rodillo");
 
 
 
