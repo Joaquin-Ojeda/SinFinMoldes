@@ -2,7 +2,7 @@ const categorias=[
     //MOLDES DE SILICONA
     new Categoria("Navidad","navidad","moldes-silicona"),
     new Categoria("Guardas","guarda","moldes-silicona"),
-    //new Categoria("Pajaritos","pajarito","moldes-silicona"),
+    new Categoria("Pajaritos","pajarito","moldes-silicona"),
     new Categoria("Flores","flor","moldes-silicona"),
     new Categoria("Esquineros","esquinero","moldes-silicona"),
     new Categoria("Decoración","decoracion","moldes-silicona"),
