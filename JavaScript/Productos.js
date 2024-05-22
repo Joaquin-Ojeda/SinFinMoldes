@@ -202,7 +202,7 @@ const productos=[
     new Producto("../Images/Productos/Flores/F-16.jpg", "F-16", "850", "3,5/3/2,5/2/1cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Flores/F-20.jpg", "F-20", "375", "-cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Flores/F-21.jpg", "F-21", "1900", "8,5/5/4/3cm", "moldesDeSilicona", "flor"),
-    new Producto("../Images/Productos/Flores/F-22.jpg", "N-16", "2100", "8/7,5/6/5,5cm", "moldesDeSilicona", "navidad"),
+    new Producto("../Images/Productos/Flores/F-22.jpg", "N-16", "2100", "8/7,5/6/5,5cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Flores/F-23.jpg", "F-23", "450", "-cm", "moldesDeSilicona", "flor"),
     new Producto("../Images/Productos/Medallones/R-01.jpg", "R-01", "1400", "7cm", "moldesDeSilicona", "medallon"),
     new Producto("../Images/Productos/Medallones/R-02.jpg", "R-02", "1400", "7cm", "moldesDeSilicona", "medallon"),
@@ -502,6 +502,9 @@ agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-01.jpg", "CASITA-
 agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-02.jpg", "CASITA-02", "2500", "14,5x6cm", "articulos3D", "casita");
 agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-03.jpg", "CASITA-03", "2500", "12,5x6,5cm", "articulos3D", "casita");
 agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-04.jpg", "CASITA-04", "2500", "10x7cm", "articulos3D", "casita");
+agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-09.jpg", "CASITA-09", "2500", "10x7cm", "articulos3D", "casita");
+agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-10.jpg", "CASITA-10", "2500", "10x7cm", "articulos3D", "casita");
+
 
 agregarProductoEnProductos("../Images/Productos/Tags/TA-01.jpg", "TA-01", "1000", "5cm", "articulos3D", "tag");
 agregarProductoEnProductos("../Images/Productos/Tags/TA-02.jpg", "TA-02", "1000", "5cm", "articulos3D", "tag");
@@ -565,12 +568,12 @@ agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-02.jpg", "MF-0
 agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-03.jpg", "MF-03", "2000", "-cm", "articulos3D", "marcadoresf");
 agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-04.jpg", "MF-04", "2000", "-cm", "articulos3D", "marcadoresf");
 
-agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad01.jpg", "Navidad 01", "2000", "10x10cm", "articulos3D", "navidadpl"),
-agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad02.jpg", "Navidad 02", "2000", "13x13cm", "articulos3D", "navidadpl"),
-agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad03.jpg", "Navidad 03", "2000", "19,5x13,5cm", "articulos3D", "navidadpl"),
-agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad04.jpg", "Navidad 04", "2000", "13x13cm", "articulos3D", "navidadpl"),
-agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad05.jpg", "Navidad 05", "2000", "13x13cm", "articulos3D", "navidadpl"),
-agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad06.jpg", "Navidad 06", "2000", "10x10cm", "articulos3D", "navidadpl")
+agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad01.jpg", "Navidad 01", "2500", "10x10cm", "articulos3D", "navidadpl"),
+agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad02.jpg", "Navidad 02", "2500", "13x13cm", "articulos3D", "navidadpl"),
+agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad03.jpg", "Navidad 03", "2500", "19,5x13,5cm", "articulos3D", "navidadpl"),
+agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad04.jpg", "Navidad 04", "2500", "13x13cm", "articulos3D", "navidadpl"),
+agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad05.jpg", "Navidad 05", "2500", "13x13cm", "articulos3D", "navidadpl"),
+agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad06.jpg", "Navidad 06", "2500", "10x10cm", "articulos3D", "navidadpl")
 
 agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-00.jpg", "ET-00", "1000", "8x5cm", "articulos3D", "etiqueta");
 
