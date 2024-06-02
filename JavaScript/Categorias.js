@@ -22,6 +22,7 @@ const categorias=[
 
     //ARTICULOS 3D
     //new Categoria("Placas Grandes","pl","articulos3D"),
+    new Categoria("Cortantes/Bandejas", "cbandeja", "articulos3D"),
     new Categoria("Pascuas","pascua3d","articulos3D"),
     new Categoria("Placas línea botánica","botanica","articulos3D"),
     new Categoria("Rodillos","rodillo","articulos3D"),
@@ -48,4 +49,4 @@ cargarCategorias(categorias);
 categoriaNueva("Rodillos");
 categoriaNueva("Placas línea botánica");
 categoriaNueva("Flores");
-categoriaNueva("Cortante formas");
+categoriaNueva("Cortantes/Bandejas");
