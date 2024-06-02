@@ -584,3 +584,7 @@ agregarProductoEnProductos("../Images/Productos/Plp/PLP-36.jpg", "PLP-36", "2500
 agregarProductoEnProductos("../Images/Productos/Plp/PLP-37.jpg", "PLP-37", "2500", "20x5,5cm", "articulos3D", "plp");
 
 actualizarPrecios(1.15,"moldesDeSilicona");
+
+agregarProductoEnProductos("../Images/Productos/CortantesBandejas/CB-01.jpg", "CB-01", "4500", "16x14,5cm", "articulos3D", "cbandeja");
+agregarProductoEnProductos("../Images/Productos/CortantesBandejas/CB-02.jpg", "CB-02", "4500", "20x9,5cm", "articulos3D", "cbandeja");
+agregarProductoEnProductos("../Images/Productos/CortantesBandejas/CB-03.jpg", "CB-03", "4500", "21x11cm", "articulos3D", "cbandeja");
