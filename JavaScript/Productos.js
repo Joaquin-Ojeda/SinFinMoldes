@@ -588,3 +588,10 @@ actualizarPrecios(1.15,"moldesDeSilicona");
 agregarProductoEnProductos("../Images/Productos/CortantesBandejas/CB-01.jpg", "CB-01", "4500", "16x14,5cm", "articulos3D", "cbandeja");
 agregarProductoEnProductos("../Images/Productos/CortantesBandejas/CB-02.jpg", "CB-02", "4500", "20x9,5cm", "articulos3D", "cbandeja");
 agregarProductoEnProductos("../Images/Productos/CortantesBandejas/CB-03.jpg", "CB-03", "4500", "21x11cm", "articulos3D", "cbandeja");
+
+agregarProductoEnProductos("../Images/Productos/CortantesBandejas/CB-04.jpg", "CB-04", "4500", "20,5x15cm", "articulos3D", "cbandeja");
+agregarProductoEnProductos("../Images/Productos/CortantesBandejas/CB-05.jpg", "CB-05", "4500", "18,5x20cm", "articulos3D", "cbandeja");
+agregarProductoEnProductos("../Images/Productos/CortantesBandejas/CB-06.jpg", "CB-06", "4500", "20x16cm", "articulos3D", "cbandeja");
+agregarProductoEnProductos("../Images/Productos/CortantesBandejas/CB-07.jpg", "CB-07", "4500", "20x17cm", "articulos3D", "cbandeja");
+agregarProductoEnProductos("../Images/Productos/CortantesBandejas/CB-08.jpg", "CB-08", "4500", "19x21cm", "articulos3D", "cbandeja");
+agregarProductoEnProductos("../Images/Productos/CortantesBandejas/CB-09.jpg", "CB-09", "4500", "19x18cm", "articulos3D", "cbandeja");
