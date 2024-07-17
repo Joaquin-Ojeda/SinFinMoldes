@@ -593,9 +593,22 @@ agregarProductoEnProductos("../Images/Productos/CortantesBandejas/CB-01.jpg", "C
 agregarProductoEnProductos("../Images/Productos/CortantesBandejas/CB-02.jpg", "CB-02", "4500", "20x9,5cm", "articulos3D", "cbandeja");
 agregarProductoEnProductos("../Images/Productos/CortantesBandejas/CB-03.jpg", "CB-03", "4500", "21x11cm", "articulos3D", "cbandeja");
 
+
 agregarProductoEnProductos("../Images/Productos/CortantesBandejas/CB-04.jpg", "CB-04", "4500", "20,5x15cm", "articulos3D", "cbandeja");
 agregarProductoEnProductos("../Images/Productos/CortantesBandejas/CB-05.jpg", "CB-05", "4500", "18,5x20cm", "articulos3D", "cbandeja");
 agregarProductoEnProductos("../Images/Productos/CortantesBandejas/CB-06.jpg", "CB-06", "4500", "20x16cm", "articulos3D", "cbandeja");
 agregarProductoEnProductos("../Images/Productos/CortantesBandejas/CB-07.jpg", "CB-07", "4500", "20x17cm", "articulos3D", "cbandeja");
 agregarProductoEnProductos("../Images/Productos/CortantesBandejas/CB-08.jpg", "CB-08", "4500", "19x21cm", "articulos3D", "cbandeja");
 agregarProductoEnProductos("../Images/Productos/CortantesBandejas/CB-09.jpg", "CB-09", "4500", "19x18cm", "articulos3D", "cbandeja");
+agregarProductoEnProductos("../Images/Productos/CortantesBandejas/CB-10.jpg", "CB-10", "4500", "20cm", "articulos3D", "cbandeja");
+agregarProductoEnProductos("../Images/Productos/CortantesBandejas/CB-11.jpg", "CB-11", "4500", "20x14cm", "articulos3D", "cbandeja");
+
+agregarProductoEnProductos("../Images/Productos/Mandalas/MANDALA-04.jpg", "MANDALA-04", "2500", "6cm", "articulos3D", "mandala");
+agregarProductoEnProductos("../Images/Productos/Mandalas/MANDALA-05.jpg", "MANDALA-05", "2500", "6cm", "articulos3D", "mandala");
+agregarProductoEnProductos("../Images/Productos/Mandalas/MANDALA-06.jpg", "MANDALA-06", "2500", "6cm", "articulos3D", "mandala");
+
+agregarProductoEnProductos("../Images/Productos/Tags/TA-03.jpg", "TA-03", "1500", "7X3,5cm", "articulos3D", "tag");
+agregarProductoEnProductos("../Images/Productos/Tags/TA-04.jpg", "TA-04", "1500", "7X3,5cm", "articulos3D", "tag");
+agregarProductoEnProductos("../Images/Productos/Tags/TA-05.jpg", "TA-05", "3500", "11,5/8,5/6cm", "articulos3D", "tag");
+agregarProductoEnProductos("../Images/Productos/Tags/TA-06.jpg", "TA-06", "1000", "6cm", "articulos3D", "tag");
+agregarProductoEnProductos("../Images/Productos/Tags/TA-07.jpg", "TA-07", "1500", "8,5cm", "articulos3D", "tag");
