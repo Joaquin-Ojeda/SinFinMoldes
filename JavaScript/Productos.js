@@ -633,5 +633,5 @@ agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-16.jpg", "MF-1
 agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-17.jpg", "MF-17", "2000", "6,5cm", "articulos3D", "marcadoresf");
 
 agregarProductoEnProductos("../Images/Productos/LP/LP-04.jpg", "LP-04", "12000", "Abecedario grande Mayúsculas 2cm", "articulos3D", "lp");
-agregarProductoEnProductos("../Images/Productos/LP/LP-05.jpg", "LP-05", "4000", "Abecedario grande Mayúsculas 3,5cm", "articulos3D", "lp");
-agregarProductoEnProductos("../Images/Productos/LP/LP-06.jpg", "LP-06", "1500", "Números grandes del 0 al 9 3,5cm", "articulos3D", "lp");
+agregarProductoEnProductos("../Images/Productos/LP/LP-05.jpg", "LP-05", "7500", "Abecedario grande Mayúsculas 3,5cm", "articulos3D", "lp");
+agregarProductoEnProductos("../Images/Productos/LP/LP-06.jpg", "LP-06", "3000", "Números grandes del 0 al 9 3,5cm", "articulos3D", "lp");
