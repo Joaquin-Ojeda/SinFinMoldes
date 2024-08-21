@@ -612,3 +612,26 @@ agregarProductoEnProductos("../Images/Productos/Tags/TA-04.jpg", "TA-04", "1500"
 agregarProductoEnProductos("../Images/Productos/Tags/TA-05.jpg", "TA-05", "3500", "11,5/8,5/6cm", "articulos3D", "tag");
 agregarProductoEnProductos("../Images/Productos/Tags/TA-06.jpg", "TA-06", "1000", "6cm", "articulos3D", "tag");
 agregarProductoEnProductos("../Images/Productos/Tags/TA-07.jpg", "TA-07", "1500", "8,5cm", "articulos3D", "tag");
+
+agregarProductoEnProductos("../Images/Productos/Mariposas3D/MA-01.jpg", "MA-01", "1500", "4cm", "articulos3D", "mariposa3d");
+agregarProductoEnProductos("../Images/Productos/Mariposas3D/MA-02.jpg", "MA-02", "1500", "4cm", "articulos3D", "mariposa3d");
+agregarProductoEnProductos("../Images/Productos/Mariposas3D/MA-03.jpg", "MA-03", "1500", "4cm", "articulos3D", "mariposa3d");
+agregarProductoEnProductos("../Images/Productos/Mariposas3D/MA-04.jpg", "MA-04", "2500", "9x6cm", "articulos3D", "mariposa3d");
+
+agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-05.jpg", "MF-05", "2000", "6X4,5cm", "articulos3D", "marcadoresf");
+agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-06.jpg", "MF-06", "2000", "5,5cm", "articulos3D", "marcadoresf");
+agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-07.jpg", "MF-07", "2000", "8X2,5cm", "articulos3D", "marcadoresf");
+agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-08.jpg", "MF-08", "2000", "6X5cm", "articulos3D", "marcadoresf");
+agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-09.jpg", "MF-09", "2000", "6,5cm", "articulos3D", "marcadoresf");
+agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-10.jpg", "MF-10", "2000", "6,5cm", "articulos3D", "marcadoresf");
+agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-11.jpg", "MF-11", "2000", "6,5cm", "articulos3D", "marcadoresf");
+agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-12.jpg", "MF-12", "2000", "4,5cm", "articulos3D", "marcadoresf");
+agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-13.jpg", "MF-13", "2000", "4,5cm", "articulos3D", "marcadoresf");
+agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-14.jpg", "MF-14", "2000", "4,5cm", "articulos3D", "marcadoresf");
+agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-15.jpg", "MF-15", "2000", "4,5cm", "articulos3D", "marcadoresf");
+agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-16.jpg", "MF-16", "2000", "7,5cm", "articulos3D", "marcadoresf");
+agregarProductoEnProductos("../Images/Productos/MarcadoresFlor/MF-17.jpg", "MF-17", "2000", "6,5cm", "articulos3D", "marcadoresf");
+
+agregarProductoEnProductos("../Images/Productos/LP/LP-04.jpg", "LP-04", "12000", "Abecedario grande Mayúsculas 2cm", "articulos3D", "lp");
+agregarProductoEnProductos("../Images/Productos/LP/LP-05.jpg", "LP-05", "4000", "Abecedario grande Mayúsculas 3,5cm", "articulos3D", "lp");
+agregarProductoEnProductos("../Images/Productos/LP/LP-06.jpg", "LP-06", "1500", "Números grandes del 0 al 9 3,5cm", "articulos3D", "lp");

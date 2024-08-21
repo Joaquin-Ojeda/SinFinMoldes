@@ -22,6 +22,9 @@ const categorias=[
 
     //ARTICULOS 3D
     //new Categoria("Placas Grandes","pl","articulos3D"),
+    new Categoria("Mariposa","mariposa3d","articulos3D"),
+    new Categoria("Letras y Números","lp","articulos3D"),
+    new Categoria("Marcadores de flores","marcadoresf","articulos3D"),
     new Categoria("Cortantes/Bandejas", "cbandeja", "articulos3D"),
     new Categoria("Pascuas","pascua3d","articulos3D"),
     new Categoria("Placas línea botánica","botanica","articulos3D"),
@@ -32,7 +35,6 @@ const categorias=[
     new Categoria("Casitas","casita","articulos3D"),
     new Categoria("Cortantes/Vehículos","corv","articulos3D"),
     new Categoria("Tapas de plastico","tapap","articulos3D"),
-    new Categoria("Marcadores de flores","marcadoresf","articulos3D"),
     new Categoria("Marcadores/Cortantes","marcadoresc","articulos3D"),
     new Categoria("Placas","plp","articulos3D"),
     new Categoria("Etiquetas","etiqueta","articulos3D"),
@@ -41,12 +43,10 @@ const categorias=[
     //new Categoria("Tiradores","tirador","articulos3D"),
     new Categoria("Navidad","navidadpl","articulos3D"),
     new Categoria("Mandalas","mandala","articulos3D"),
-    new Categoria("Letras y Números","lp","articulos3D"),
     new Categoria("Palabras","pa","articulos3D")
 ]
 
 cargarCategorias(categorias);
-categoriaNueva("Rodillos");
-categoriaNueva("Placas línea botánica");
-categoriaNueva("Flores");
-categoriaNueva("Cortantes/Bandejas");
+categoriaNueva("Mariposa");
+categoriaNueva("Letras y Números");
+categoriaNueva("Marcadores de flores");
