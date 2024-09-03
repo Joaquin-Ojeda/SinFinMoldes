@@ -18,13 +18,14 @@ const categorias=[
     //new Categoria("Especiales","especial","moldes-silicona"),
     new Categoria("Comunión","comunion","moldes-silicona"),
     new Categoria("Jabones","jabon","moldes-silicona"),
-    new Categoria("ABC","ab","moldes-silicona"),
+    //new Categoria("ABC","ab","moldes-silicona"),
 
     //ARTICULOS 3D
     //new Categoria("Placas Grandes","pl","articulos3D"),
     new Categoria("Mariposa","mariposa3d","articulos3D"),
     new Categoria("Letras y Números","lp","articulos3D"),
     new Categoria("Marcadores de flores","marcadoresf","articulos3D"),
+    new Categoria("Marcadores/Cortantes","marcadoresc","articulos3D"),
     new Categoria("Cortantes/Bandejas", "cbandeja", "articulos3D"),
     new Categoria("Pascuas","pascua3d","articulos3D"),
     new Categoria("Placas línea botánica","botanica","articulos3D"),
@@ -35,7 +36,6 @@ const categorias=[
     new Categoria("Casitas","casita","articulos3D"),
     new Categoria("Cortantes/Vehículos","corv","articulos3D"),
     new Categoria("Tapas de plastico","tapap","articulos3D"),
-    new Categoria("Marcadores/Cortantes","marcadoresc","articulos3D"),
     new Categoria("Placas","plp","articulos3D"),
     new Categoria("Etiquetas","etiqueta","articulos3D"),
     new Categoria("Mayolicas","mayolica","articulos3D"),
@@ -50,3 +50,4 @@ cargarCategorias(categorias);
 categoriaNueva("Mariposa");
 categoriaNueva("Letras y Números");
 categoriaNueva("Marcadores de flores");
+categoriaNueva("Marcadores/Cortantes");
