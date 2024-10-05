@@ -513,8 +513,8 @@ agregarProductoEnProductos("../Images/Productos/Botanica/PLB-02.jpg", "PLB-02", 
 agregarProductoEnProductos("../Images/Productos/Botanica/PLB-03.jpg", "PLB-03", "2500", "10X10cm", "articulos3D", "botanica");
 agregarProductoEnProductos("../Images/Productos/Botanica/PLB-04.jpg", "PLB-04", "2500", "10X10cm", "articulos3D", "botanica");
 
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-31.jpg", "PLP-31", "2500", "20x5,5cm", "articulos3D", "plp");
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-32.jpg", "PLP-32", "2500", "20x5,5cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-31.jpg", "PLP-31", "3500", "20x5,5cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-32.jpg", "PLP-32", "3500", "20x5,5cm", "articulos3D", "plp");
 
 agregarProductoEnProductos("../Images/Productos/Flores/F-24.jpg", "F-24", "11000", "6cm", "moldesDeSilicona", "flor"),
 agregarProductoEnProductos("../Images/Productos/Flores/F-25.jpg", "F-25", "11000", "6cm", "moldesDeSilicona", "flor"),
@@ -561,11 +561,11 @@ agregarProductoEnProductos("../Images/Productos/NavidadPL/Navidad10.jpg", "Navid
 
 agregarProductoEnProductos("../Images/Productos/Etiquetas/ET-00.jpg", "ET-00", "1500", "8x5cm", "articulos3D", "etiqueta");
 
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-33.jpg", "PLP-33", "2500", "10x15cm", "articulos3D", "plp");
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-34.jpg", "PLP-34", "2500", "10x15cm", "articulos3D", "plp");
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-35.jpg", "PLP-35", "2500", "10x15cm", "articulos3D", "plp");
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-36.jpg", "PLP-36", "2500", "10x15cm", "articulos3D", "plp");
-agregarProductoEnProductos("../Images/Productos/Plp/PLP-37.jpg", "PLP-37", "2500", "10x15cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-33.jpg", "PLP-33", "3500", "10x15cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-34.jpg", "PLP-34", "3500", "10x15cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-35.jpg", "PLP-35", "3500", "10x15cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-36.jpg", "PLP-36", "3500", "10x15cm", "articulos3D", "plp");
+agregarProductoEnProductos("../Images/Productos/Plp/PLP-37.jpg", "PLP-37", "3500", "10x15cm", "articulos3D", "plp");
 
 actualizarPrecios(1.15,"moldesDeSilicona");
 
@@ -630,10 +630,28 @@ agregarProductoEnProductos("../Images/Productos/Palabras/PA-17.jpg", "PA-17", "1
 agregarProductoEnProductos("../Images/Productos/Palabras/PA-18.jpg", "PA-18", "1500", "3,5x1cm", "articulos3D", "pa");
 agregarProductoEnProductos("../Images/Productos/Palabras/PA-19.jpg", "PA-19", "1500", "2,8x2,5cm", "articulos3D", "pa");
 
-agregarProductoEnProductos("../Images/Productos/MarcadoresCortantes/MC-08.jpg", "MC-08", "2000", "8X2,5cm", "articulos3D", "marcadoresc");
-agregarProductoEnProductos("../Images/Productos/MarcadoresCortantes/MC-09.jpg", "MC-09", "2000", "6X5cm", "articulos3D", "marcadoresc");
+agregarProductoEnProductos("../Images/Productos/MarcadoresCortantes/MC-08.jpg", "MC-08", "2000", "8x2,5cm", "articulos3D", "marcadoresc");
+agregarProductoEnProductos("../Images/Productos/MarcadoresCortantes/MC-09.jpg", "MC-09", "2000", "6x5cm", "articulos3D", "marcadoresc");
 agregarProductoEnProductos("../Images/Productos/MarcadoresCortantes/MC-10.jpg", "MC-10", "2000", "6,5cm", "articulos3D", "marcadoresc");
 agregarProductoEnProductos("../Images/Productos/MarcadoresCortantes/MC-11.jpg", "MC-11", "2000", "6,5cm", "articulos3D", "marcadoresc");
 agregarProductoEnProductos("../Images/Productos/MarcadoresCortantes/MC-12.jpg", "MC-12", "2000", "6,5cm", "articulos3D", "marcadoresc");
 agregarProductoEnProductos("../Images/Productos/MarcadoresCortantes/MC-13.jpg", "MC-13", "2000", "4,5cm", "articulos3D", "marcadoresc");
 
+agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-14.jpg", "CASITA-14", "4500", "14,5x7,5cm", "articulos3D", "casita");
+agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-15.jpg", "CASITA-15", "4500", "1,5X4x3cm", "articulos3D", "casita");
+agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-16.jpg", "CASITA-16", "2000", "8X10cm", "articulos3D", "casita");
+
+agregarProductoEnProductos("../Images/Productos/Navidad2024/NAV-01.jpg", "NAV-01", "2000", "6x5cm", "articulos3D", "navidad2024");
+agregarProductoEnProductos("../Images/Productos/Navidad2024/NAV-02.jpg", "NAV-02", "2000", "5x5cm", "articulos3D", "navidad2024");
+agregarProductoEnProductos("../Images/Productos/Navidad2024/NAV-03.jpg", "NAV-03", "2000", "6x3cm", "articulos3D", "navidad2024");
+agregarProductoEnProductos("../Images/Productos/Navidad2024/NAV-04.jpg", "NAV-04", "2000", "6cm", "articulos3D", "navidad2024");
+agregarProductoEnProductos("../Images/Productos/Navidad2024/NAV-05.jpg", "NAV-05", "2000", "6x5cm", "articulos3D", "navidad2024");
+agregarProductoEnProductos("../Images/Productos/Navidad2024/NAV-06.jpg", "NAV-06", "2000", "6x5cm", "articulos3D", "navidad2024");
+agregarProductoEnProductos("../Images/Productos/Navidad2024/NAV-07.jpg", "NAV-07", "500", "2,5x1,5cm", "articulos3D", "navidad2024");
+agregarProductoEnProductos("../Images/Productos/Navidad2024/NAV-08.jpg", "NAV-08", "500", "2x1,5cm", "articulos3D", "navidad2024");
+agregarProductoEnProductos("../Images/Productos/Navidad2024/NAV-09.jpg", "NAV-09", "1500", "1,5cm", "articulos3D", "navidad2024");
+agregarProductoEnProductos("../Images/Productos/Navidad2024/NAV-10.jpg", "NAV-10", "3000", "6x4cm", "articulos3D", "navidad2024");
+agregarProductoEnProductos("../Images/Productos/Navidad2024/NAV-11.jpg", "NAV-11", "2000", "4x5cm", "articulos3D", "navidad2024");
+agregarProductoEnProductos("../Images/Productos/Navidad2024/NAV-12.jpg", "NAV-12", "500", "3x3cm", "articulos3D", "navidad2024");
+agregarProductoEnProductos("../Images/Productos/Navidad2024/NAV-13.jpg", "NAV-13", "2500", "3,5cm", "articulos3D", "navidad2024");
+agregarProductoEnProductos("../Images/Productos/Navidad2024/NAV-14.jpg", "NAV-14", "2500", "3,5cm", "articulos3D", "navidad2024");
