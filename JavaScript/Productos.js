@@ -638,7 +638,7 @@ agregarProductoEnProductos("../Images/Productos/MarcadoresCortantes/MC-12.jpg", 
 agregarProductoEnProductos("../Images/Productos/MarcadoresCortantes/MC-13.jpg", "MC-13", "2000", "4,5cm", "articulos3D", "marcadoresc");
 
 agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-14.jpg", "CASITA-14", "4500", "14,5x7,5cm", "articulos3D", "casita");
-agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-15.jpg", "CASITA-15", "4500", "1,5X4x3cm", "articulos3D", "casita");
+agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-15.jpg", "CASITA-15", "2500", "1,5X4x3cm", "articulos3D", "casita");
 agregarProductoEnProductos("../Images/Productos/Casitas/CASITA-16.jpg", "CASITA-16", "2000", "8X10cm", "articulos3D", "casita");
 
 agregarProductoEnProductos("../Images/Productos/Navidad2024/NAV-01.jpg", "NAV-01", "2000", "6x5cm", "articulos3D", "navidad2024");
