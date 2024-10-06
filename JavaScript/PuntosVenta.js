@@ -1,8 +1,9 @@
 const puntosVenta=[
-    new PuntoVenta("Artistica Las Dos Fridas","2346 553241","artisticalasdosfridas","Coronel Suarez 476 Chivilcoy","/Images/PuntosDeVenta/lasdosfridaslogo.jpg"),
+    new PuntoVenta("Artistica Las Dos Fridas","2346 553241","artisticalasdosfridas","Coronel Suarez 476, Chivilcoy","/Images/PuntosDeVenta/lasdosfridaslogo.jpg"),
     new PuntoVenta("Graciela Gomez Art and Deco","-","gracielagomezartanddeco","Lomas de Zamora","/Images/PuntosDeVenta/gracielagomez.jpg"),
     new PuntoVenta("Artistica Sienna y taller","-","artistica_sienna","Congreso","/Images/PuntosDeVenta/siennq.jpg"),
     new PuntoVenta("Artistica Cuenca 2500","-","artisticacuenca2500","Villa del Parque","/Images/PuntosDeVenta/Artistica-cuenca.jpg"),
+    new PuntoVenta("Artistica la Luna","3624 012926","artisticalaluna","Calle Córdoba 125, Provincia del Chaco","/Images/PuntosDeVenta/artisticalaluna.jpg"),
     //new PuntoVenta("Artistica Catalina","-","artisticacatalina","Carlos Casarez 877 Castelar BS.AS","/Images/PuntosDeVenta/artisticacatalinalogo.jpg"),
     //new PuntoVenta("Pincelando Ideas","-","pincelandoideas","La Prensa 880 Comodoro Rivadavia Chubut","/Images/PuntosDeVenta/pincelandoideaslogo.jpg"),
     //new PuntoVenta("Reyna Rana","3487322140","reynaranatallerdearte","Zarate BS.AS","/Images/PuntosDeVenta/reynaranalogo.jpg"),
