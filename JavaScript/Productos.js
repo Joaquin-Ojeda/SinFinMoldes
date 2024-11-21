@@ -655,3 +655,12 @@ agregarProductoEnProductos("../Images/Productos/Navidad2024/NAV-11.jpg", "NAV-11
 agregarProductoEnProductos("../Images/Productos/Navidad2024/NAV-12.jpg", "NAV-12", "500", "3x3cm", "articulos3D", "navidad2024");
 agregarProductoEnProductos("../Images/Productos/Navidad2024/NAV-13.jpg", "NAV-13", "2500", "3,5cm", "articulos3D", "navidad2024");
 agregarProductoEnProductos("../Images/Productos/Navidad2024/NAV-14.jpg", "NAV-14", "2500", "3,5cm", "articulos3D", "navidad2024");
+
+
+agregarProductoEnProductos("../Images/Productos/ArticulosPintar/AP-01.jpg", "AP-01", "2500", "10cm", "articulos3D", "ap");
+agregarProductoEnProductos("../Images/Productos/ArticulosPintar/AP-02.jpg", "AP-02", "3500", "15cm", "articulos3D", "ap");
+agregarProductoEnProductos("../Images/Productos/ArticulosPintar/AP-03.jpg", "AP-03", "5400", "15cm", "articulos3D", "ap");
+agregarProductoEnProductos("../Images/Productos/ArticulosPintar/AP-04.jpg", "AP-04", "18000", "28cm", "articulos3D", "ap");
+agregarProductoEnProductos("../Images/Productos/ArticulosPintar/AP-05.jpg", "AP-05", "28000", "38cm", "articulos3D", "ap");
+agregarProductoEnProductos("../Images/Productos/ArticulosPintar/AP-06.jpg", "AP-06", "5000", "18x13cm", "articulos3D", "ap");
+agregarProductoEnProductos("../Images/Productos/ArticulosPintar/AP-07.jpg", "AP-07", "4200", "19x11cm", "articulos3D", "ap");

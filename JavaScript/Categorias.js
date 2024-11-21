@@ -22,6 +22,7 @@ const categorias=[
 
     //ARTICULOS 3D
     //new Categoria("Placas Grandes","pl","articulos3D"),
+    new Categoria("Articulos para pintar","ap","articulos3D"),
     new Categoria("Navidad 2024","navidad2024","articulos3D"),
     new Categoria("Casitas","casita","articulos3D"),
     new Categoria("Mariposa","mariposa3d","articulos3D"),
@@ -49,5 +50,5 @@ const categorias=[
 
 cargarCategorias(categorias);
 categoriaNueva("Navidad 2024");
-categoriaNueva("Casitas");
+categoriaNueva("Articulos para pintar");
 
